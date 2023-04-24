@@ -57,7 +57,7 @@ source_encoding = 'utf-8-sig'
 master_doc = 'index'
 
 # Project information. Label goes into left nav title block
-project = 'Excel Work Book (EWB) Documentation'
+project = 'Sphinx Catalog'
 copyright = '2023, Ontomatica'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -81,8 +81,6 @@ today_fmt = '%d %B %Y'
 
 exclude_patterns = [
    '__notes',
-   '_build',
-   '_ext',
    'link-generic.rst',
 ]
 
@@ -146,7 +144,7 @@ html_title = ""
 
 # A shorter title for the navigation bar. Default is the same as html_title.
 
-html_short_title = 'EWB Documentation'
+html_short_title = 'Sphinx Catalog'
 
 # The name of an image file (relative to this directory) to place at the top of the sidebar.
 #html_logo = 'Ontomatica.png'
@@ -161,6 +159,7 @@ html_short_title = 'EWB Documentation'
 html_static_path = [
     '_static',
     '_content',
+    '_images',
 ]
 
 # These paths are either relative to html_static_path or fully qualified paths (eg. https://...)
