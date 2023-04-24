@@ -275,6 +275,8 @@ YouTube-iFrame
 Tabs contentui
 ^^^^^^^^^^^^^^
 
+Example 1
+
 .. toggle-header::
     :header: Example 1 **Show/Hide Code**
 
@@ -285,6 +287,9 @@ Tabs contentui
     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id est laborum
 
+------
+
+Example 2
 
 .. content-tabs::
 
