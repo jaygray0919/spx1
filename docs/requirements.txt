@@ -3,6 +3,7 @@ sphinx-rtd-theme==1.2.0rc4
 sphinxcontrib-bibtex
 sphinxcontrib-contentui
 sphinxcontrib-images==0.9.4
+sphinxcontrib-plantuml==0.25 
 sphinx-tabs
 sphinx-copybutton
 sphinx_collapse

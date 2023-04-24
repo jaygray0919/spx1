@@ -19,6 +19,9 @@ CURDIR = os.path.abspath(os.path.dirname(__file__))
 # add custom extensions directory to python path
 #sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '_extensions'))
 
+local_plantuml_path = os.path.join(os.path.dirname(__file__), "utils", "plantuml-1.2023.6.jar")
+plantuml = f"java -Djava.awt.headless=true -jar {local_plantuml_path}"
+
 # -- General configuration -----------------------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings.
@@ -29,6 +32,7 @@ extensions = [
     'sphinxcontrib.bibtex',
     'sphinxcontrib.contentui',
     'sphinxcontrib.images',
+    'sphinxcontrib.plantuml',
     'sphinx.ext.graphviz',
     'sphinx_tabs.tabs',
     'sphinx_copybutton',
