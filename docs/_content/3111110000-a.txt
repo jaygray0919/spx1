@@ -2,8 +2,8 @@
    * Each section opens with a sentence about using the page example. |br| In some cases there is a second sentence.
 
 
-PlantUML diagram
-----------------
+PlantUML diagram 1
+------------------
 
 .. uml::
 
@@ -13,6 +13,48 @@ PlantUML diagram
    Alice -> Bob: Another authentication Request
    Alice <-- Bob: Another authentication Response
 
+
+PlantUML diagram 2
+------------------
+
+.. uml::
+
+   Alice -> Bob: Authentication Request
+   Bob -> RequestHandler: validated Authenticated Request
+   RequestHandler --> Bob: Authenticated Response (OK)
+   Bob --> Alice: Authentication Response (OK)
+
+
+PlantUML diagram 3
+------------------
+
+.. uml::
+
+   skinparam Shadowing false
+   
+   skinparam ArrowFontStyle normal
+   skinparam ArrowFontName Courier
+   skinparam ArrowFontSize 10
+   
+   title Arrows in Use Case diagrams\n
+   
+   
+   (Manage Users) -up-|> (Management): This arrow is -up-|>
+   
+   :All Users:      as allUsers #violet
+   :Main Admin:     as Admin    #saddleBrown
+   :User:           as U        #tan
+   :System Manager: as manager
+   
+   Admin   -up-|>    allUsers: This arrow is -up->
+   manager -right-|> allUsers: This arrow is -right-|>
+   U       -|>       allUsers: This arrow is -|>
+   
+   Admin --> U:    This arrow is -->
+   Admin <.....> U: This arrow is <.....>
+   
+   Admin   -[#blue]->    (Manage Users): This arrow is -[#blue]->
+   manager -[#blue]->> (Manage Users): This arrow is -[#blue]->>
 
 
 List Table and ``thumbnail``
