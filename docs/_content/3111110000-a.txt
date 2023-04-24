@@ -1,6 +1,128 @@
+
+Examples
+########
+
 .. note::
    * Each section opens with a sentence about using the page example. |br| In some cases there is a second sentence.
 
+Images
+******
+
+List Table and ``thumbnail``
+============================
+
+.. list-table::
+   :stub-columns: 1
+
+   * - Far far away, behind the word mountains, there live the blind texts.
+     - .. thumbnail:: _static/3111110000-a.png
+          :width: 70%
+   * - They live at the coast of the Semantics, a large language ocean.
+     - .. thumbnail:: _static/3111110000-b.png
+          :width: 70%
+   * - A small river named Duden supplies the necessary regelialia.
+     - .. thumbnail:: _static/3111110000-c.png
+          :width: 70%
+
+
+Thumbnail ``clearfix + align``
+==============================
+
+.. container:: clearfix
+
+   .. describe:: Image A
+
+      .. thumbnail:: _static/3111110000-a.png
+         :width: 60%
+         :class: framed
+         :align: left
+
+.. container:: clearfix
+
+   .. describe:: Image B
+
+      .. thumbnail:: _static/3111110000-b.png
+         :width: 60%
+         :class: framed
+         :align: center
+
+.. container:: clearfix
+
+   .. describe:: Image C
+
+      .. thumbnail:: _static/3111110000-c.png
+         :width: 60%
+         :class: framed
+         :align: right
+
+|br|
+
+Admonitions
+***********
+
+.. tip::
+   * Advice specific to the page.
+
+.. warning::
+   * Alert about techniques that will cause problems and errors.
+
+.. seealso::
+   * `my link 101`_
+   * `my link 201`_
+   * `my link 301`_
+   * `my link 401`_
+
+Directives
+**********
+
+Directive |emd| Describe
+========================
+
+.. describe:: Vocabulary
+
+   Definition-1 of controlled vocabulary.
+
+   Definition-2 of controlled vocabulary.
+
+   **X** :class:`usedToMake` **Y**
+
+Columns and Tables
+******************
+
+Columns
+=======
+
+Two |end| column list
+---------------------
+
+:async: Indicate the function is an async function.
+:type: JSON-LD
+:value: 42
+:canonical: https://ontomatica.io
+:final: Indicate the class is a final class.
+:platform: Windows, Linux
+:synopsis: Consist of one sentence describing the module’s purpose – it is currently only used in the Global Module Index.
+:deprecated: Mark a module as deprecated; it will be designated as such in various locations then.
+:abstractmethod: Indicate the property is abstract.
+:classmethod: Indicate the property is a classmethod.
+:staticmethod: Text here
+:decorator: Text here
+
+
+Lists
+-----
+
+:List of Things: these are 'field lists' not bulleted lists
+:thing-1: single item
+:thing-2: single item
+:thing-3: single item
+
+
+Visualization
+*************
+
+PlantUML
+========
 
 PlantUML diagram 1
 ------------------
@@ -57,99 +179,12 @@ PlantUML diagram 3
    manager -[#blue]->> (Manage Users): This arrow is -[#blue]->>
 
 
-List Table and ``thumbnail``
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. list-table::
-   :stub-columns: 1
-
-   * - Far far away, behind the word mountains, there live the blind texts.
-     - .. thumbnail:: _static/3111110000-a.png
-          :width: 70%
-   * - They live at the coast of the Semantics, a large language ocean.
-     - .. thumbnail:: _static/3111110000-b.png
-          :width: 70%
-   * - A small river named Duden supplies the necessary regelialia.
-     - .. thumbnail:: _static/3111110000-c.png
-          :width: 70%
-
-
-Thumbnail ``clearfix + align``
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. container:: clearfix
-
-   .. describe:: Image A
-
-      .. thumbnail:: _static/3111110000-a.png
-         :width: 60%
-         :class: framed
-         :align: left
-
-.. container:: clearfix
-
-   .. describe:: Image B
-
-      .. thumbnail:: _static/3111110000-b.png
-         :width: 60%
-         :class: framed
-         :align: center
-
-.. container:: clearfix
-
-   .. describe:: Image C
-
-      .. thumbnail:: _static/3111110000-c.png
-         :width: 60%
-         :class: framed
-         :align: right
-
-|br|
-
-.. tip::
-   * Advice specific to the page.
-
-.. warning::
-   * Alert about techniques that will cause problems and errors.
-
-.. seealso::
-   * `my link 101`_
-   * `my link 201`_
-   * `my link 301`_
-   * `my link 401`_
-
-
-Directive |emd| Describe
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. describe:: Vocabulary
-
-   Definition-1 of controlled vocabulary.
-
-   Definition-2 of controlled vocabulary.
-
-   **X** :class:`usedToMake` **Y**
-
-
-Two |end| column list
-^^^^^^^^^^^^^^^^^^^^^
-
-:async: Indicate the function is an async function.
-:type: JSON-LD
-:value: 42
-:canonical: https://ontomatica.io
-:final: Indicate the class is a final class.
-:platform: Windows, Linux
-:synopsis: Consist of one sentence describing the module’s purpose – it is currently only used in the Global Module Index.
-:deprecated: Mark a module as deprecated; it will be designated as such in various locations then.
-:abstractmethod: Indicate the property is abstract.
-:classmethod: Indicate the property is a classmethod.
-:staticmethod: Text here
-:decorator: Text here
-
 
 GraphViz
-^^^^^^^^
+========
+
+GraphViz diagram 1
+------------------
 
 .. graphviz::
    :name: sphinx.ext.graphviz
@@ -179,15 +214,20 @@ GraphViz
 
 
 Terms and Glossary
-^^^^^^^^^^^^^^^^^^
+******************
 
 A **term** that is defined in the glossary is formatted as follows: :term:`grammar<Grammar>`
 
 A bibliographic **references** is formatted as follows: See :cite:`4001` for more information about ...
 
+Code Documentation
+******************
 
 Code Block
-^^^^^^^^^^
+==========
+
+PowerShell
+----------
 
 PowerShell command to convert a Windows file to a Unix file
 
@@ -197,13 +237,6 @@ PowerShell command to convert a Windows file to a Unix file
         -join "`n") + "`n" | 
      Set-Content -NoNewline E:directory\31111100000000000061.rst;
 
-Lists
-^^^^^
-
-:List of Things: these are 'field lists' not bulleted lists
-:thing-1: single item
-:thing-2: single item
-:thing-3: single item
 
 
 Rubric
@@ -349,6 +382,7 @@ sphinx-collapse
     .. code-block:: python
 
         print("Not really")
+
 
 
 .. include:: substitution.txt
