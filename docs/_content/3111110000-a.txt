@@ -2,6 +2,19 @@
    * Each section opens with a sentence about using the page example. |br| In some cases there is a second sentence.
 
 
+PlantUML diagram
+----------------
+
+.. uml::
+
+   Alice -> Bob: Authentication Request
+   Bob --> Alice: Authentication Response
+
+   Alice -> Bob: Another authentication Request
+   Alice <-- Bob: Another authentication Response
+
+
+
 List Table and ``thumbnail``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
