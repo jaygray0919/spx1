@@ -22,14 +22,14 @@ Sphinx Catalogue
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
    :caption: 🚀 Group 1
 
    3111000000.rst
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
    :caption: 🚀 Math
 
