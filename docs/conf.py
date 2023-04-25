@@ -28,12 +28,14 @@ plantuml = f"java -Djava.awt.headless=true -jar {local_plantuml_path}"
 # They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 
 extensions = [
+    'hoverxref.extension',
     'sphinx_rtd_theme',
     'sphinxcontrib.bibtex',
     'sphinxcontrib.contentui',
     'sphinxcontrib.images',
     'sphinxcontrib.plantuml',
     'sphinx.ext.graphviz',
+    'sphinx.ext.mathjax',
     'sphinx_tabs.tabs',
     'sphinx_copybutton',
     'sphinx_collapse',
@@ -42,6 +44,27 @@ extensions = [
 bibtex_bibfiles = [
     'reference-8-article-technology.bib',
 ]
+
+hoverxref_auto_ref = True
+hoverxref_domains = ["py"]
+hoverxref_roles = [
+    "option",
+    # Documentation pages
+    # Not supported yet: https://github.com/readthedocs/sphinx-hoverxref/issues/18
+    "doc",
+    # Glossary terms
+    "term",
+]
+hoverxref_role_types = {
+    "mod": "modal",  # for Python Sphinx Domain
+    "doc": "modal",  # for whole docs
+    "class": "tooltip",  # for Python Sphinx Domain
+    "ref": "tooltip",  # for hoverxref_auto_ref config
+    "confval": "tooltip",  # for custom object
+    "term": "tooltip",  # for glossaries
+}
+
+mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 
 # -- GraphViz configuration ----------------------------------
 graphviz_output_format = 'svg'
@@ -74,6 +97,18 @@ release = 'a'
 
 # Turns on numbered figures for HTML output
 number_figures = True
+
+
+# configures bibliography
+# see https://wnielson.bitbucket.org/projects/sphinx-natbib/
+natbib = {
+   'file': 'reference-8-article-technology.bib',
+   'brackets': '[]',
+   'separator': ',',
+   'style': 'numbers',
+   'sort': True,
+}
+
 
 # There are two options for replacing |today|: either, you set today to some non-false value, then it is used:
 #today = ''
