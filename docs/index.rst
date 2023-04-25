@@ -11,7 +11,7 @@
 Sphinx Catalogue
 ----------------
 
-:Project: `Excel Work Book Documentation <https://example.com/index.html>`_
+:Project: `Sphinx Catalogue for EWB Documentation <https://example.com/index.html>`_
 :Author: `Jay Gray <https://example.com/index.html>`_
 :Organization: `Ontomatica <https://dailyfood.io>`_
 :Date: 23 April 2023
@@ -22,15 +22,30 @@ Sphinx Catalogue
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
    :caption: 🚀 Group 1
 
    3111000000.rst
 
-   term-project.rst
-   bibliography.rst
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: 🚀 Math
+
+   math-generic.rst
+   math-amino-acids.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: 📚 Reference
+
    glossary.rst
+   bibliography.rst
+   term-project.rst
+   term-ontology.rst
+
 
 |br|
 

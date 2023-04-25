@@ -42,6 +42,13 @@ extensions = [
     ]
 
 bibtex_bibfiles = [
+    'reference-1-book-food-method.bib',
+    'reference-2-article-food-method.bib',
+    'reference-3-book-food-ref.bib',
+    'reference-4-article-food-ref.bib',
+    'reference-5-misc-ontology.bib',
+    'reference-6-misc-data.bib',
+    'reference-7-misc-web.bib',
     'reference-8-article-technology.bib',
 ]
 
@@ -102,7 +109,7 @@ number_figures = True
 # configures bibliography
 # see https://wnielson.bitbucket.org/projects/sphinx-natbib/
 natbib = {
-   'file': 'reference-8-article-technology.bib',
+   'file': 'reference-1-book-food-method.bib,reference-2-article-food-method.bib,reference-3-book-food-ref.bib,reference-4-article-food-ref.bib,reference-5-misc-ontology.bib,reference-6-misc-data.bib,reference-7-misc-web.bib,reference-8-article-technology.bib',
    'brackets': '[]',
    'separator': ',',
    'style': 'numbers',
@@ -120,7 +127,15 @@ today_fmt = '%d %B %Y'
 
 exclude_patterns = [
    '__notes',
+   '_build',
+   'link-aq-cf.rst',
+   'link-aq-cr.rst',
+   'link-aq-mo.rst',
+   'link-aq-rf.rst',
    'link-generic.rst',
+   'link-ontology.rst',
+   'link-ss.rst',
+   'link-wedge.rst',
 ]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
@@ -144,8 +159,28 @@ default_role = None
 rst_epilog =""
 
 # Read link all targets from file
+with open('link-aq-cf.rst') as f:
+     rst_epilog += f.read()
+
+with open('link-aq-cr.rst') as f:
+     rst_epilog += f.read()
+
+with open('link-aq-mo.rst') as f:
+     rst_epilog += f.read()
+
+with open('link-aq-rf.rst') as f:
+     rst_epilog += f.read()
 
 with open('link-generic.rst') as f:
+     rst_epilog += f.read()
+
+with open('link-ontology.rst') as f:
+     rst_epilog += f.read()
+
+with open('link-ss.rst') as f:
+     rst_epilog += f.read()
+
+with open('link-wedge.rst') as f:
      rst_epilog += f.read()
 
 # The name of the Pygments (syntax highlighting) style to use.

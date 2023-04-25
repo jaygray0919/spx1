@@ -1,0 +1,86 @@
+
+.. math-amino-acids:
+
+=========================
+Calculation - Amino Acids
+=========================
+
+
+The UN FAO INFOODS tag for the calculation "amino acids, total essential" is AAE8. There are eight basic essential amino acids. AAE8 is represented as follows:
+
+.. math:: \begin{align}AAE8=\sum_{1}^8(essential-amino-acids)\end{align}
+
+Which reduces to:
+
+.. math::
+   \begin{align}
+   AAE8=[isoleucine]\\
+   +[leucine]\\
+   +[lysine]\\
+   +[methionine]\\
+   +[phenylalanine]\\
+   +[threonine]\\
+   +[tryptophan]\\
+   +[valine]
+   \end{align}
+
+Introducing semantic syntax in the form of a `CURIE`_ where the :ref:`authority <terms-Authority>` is "infoods" and the `Universal Resource Identifier`_ is the unique INFOODS "tag":
+
+.. math::
+   \begin{align}[infoods:AAE8]=[infoods:ILE]\\
+   +[infoods:LEU]\\
+   +[infoods:LYS]\\
+   +[infoods:MET]\\
+   +[infoods:PHE]\\
+   +[infoods:THR]\\
+   +[infoods:TRP]\\
+   +[infoods:VAL]
+   \end{align}
+
+Now replace the operator symbol "+" with its equivalent semantic operator :class:`[ncit:C64911]`.
+
+.. math::
+   \begin{align}
+   [infoods:AAE8]=[infoods:ILE]\\
+   [ncit:C64911][infoods:LEU]\\
+   [ncit:C64911][infoods:LYS]\\
+   [ncit:C64911][infoods:MET]\\
+   [ncit:C64911][infoods:PHE]\\
+   [ncit:C64911][infoods:THR]\\
+   [ncit:C64911][infoods:TRP]\\
+   [ncit:C64911][infoods:VAL]
+   \end{align}
+
+.. raw:: html
+
+   To be absolutely clear, the <font color="red">unit</font> to express a value for an amino acid is:
+   
+"grams per 100 grams per edible portion" :class:`[vocal:v62177]`:
+
+.. math::
+   \begin{align}
+   [infoods:AAE8]_{g-100-g-EP}=\\
+   ([infoods:ILE][vocal:v62177])\\
+   [ncit:C64911]([infoods:LEU][vocal:v62177])\\
+   [ncit:C64911]([infoods:LYS][vocal:v62177])\\
+   [ncit:C64911]([infoods:MET][vocal:v62177])\\
+   [ncit:C64911]([infoods:PHE][vocal:v62177])\\
+   [ncit:C64911]([infoods:THR][vocal:v62177])\\
+   [ncit:C64911]([infoods:TRP][vocal:v62177])\\
+   [ncit:C64911]([infoods:VAL][vocal:v62177])
+   \end{align}
+
+Each amino acid in a sample will have a <value> in the form of a floating point number :class:`[xsd:float]`:
+
+.. math::
+   \begin{align}
+   [infoods:AAE8]_{[vocal:v62177]}=\\
+   ([infoods:ILE][vocal:v62177][xsd:float]<value>)\\
+   [ncit:C64911]([infoods:LEU][vocal:v62177][xsd:float]<value>)\\
+   [ncit:C64911]([infoods:LYS][vocal:v62177][xsd:float]<value>)\\
+   [ncit:C64911]([infoods:MET][vocal:v62177][xsd:float]<value>)\\
+   [ncit:C64911]([infoods:PHE][vocal:v62177][xsd:float]<value>)\\
+   [ncit:C64911]([infoods:THR][vocal:v62177][xsd:float]<value>)\\
+   [ncit:C64911]([infoods:TRP][vocal:v62177][xsd:float]<value>)\\
+   [ncit:C64911]([infoods:VAL][vocal:v62177][xsd:float]<value>)
+   \end{align}
