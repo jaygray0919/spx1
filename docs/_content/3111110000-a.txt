@@ -627,6 +627,9 @@ Example 1
     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id est laborum
 
+|br|
+|br|
+
 Example 2
 ^^^^^^^^^
 
@@ -728,6 +731,8 @@ sphinx-collapse
 
         print("Not really")
 
+|br|
+|br|
 
 JavaScript
 **********
