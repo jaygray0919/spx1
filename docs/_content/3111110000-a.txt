@@ -67,10 +67,9 @@ Admonitions
    * Alert about techniques that will cause problems and errors.
 
 .. seealso::
-   * `my link 101`_
-   * `my link 201`_
-   * `my link 301`_
-   * `my link 401`_
+   * `Holonymy/meronymy`_
+   * `Structured Product Labeling`_
+   * `Web Ontology Language`_
 
 Directives
 **********

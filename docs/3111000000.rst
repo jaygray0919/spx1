@@ -9,6 +9,4 @@ Summary
    :maxdepth: 1
 
    3111110000.rst
-   math-generic.rst
-   math-amino-acids.rst
 
