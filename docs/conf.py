@@ -52,6 +52,7 @@ bibtex_bibfiles = [
     'reference-8-article-technology.bib',
 ]
 
+# -- hoverxref.extension configuration ----------------------------------
 hoverxref_auto_ref = True
 hoverxref_domains = ["py"]
 hoverxref_roles = [
@@ -71,6 +72,7 @@ hoverxref_role_types = {
     "term": "tooltip",  # for glossaries
 }
 
+# -- MathJax configuration ----------------------------------
 # current path is shutting down
 # new fails
 #mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/latest.min.js'
@@ -110,7 +112,7 @@ release = 'a'
 number_figures = True
 
 
-# configures bibliography
+# -- Bibliography configuration ----------------------------------
 # see https://wnielson.bitbucket.org/projects/sphinx-natbib/
 natbib = {
    'file': 'reference-1-book-food-method.bib,reference-2-article-food-method.bib,reference-3-book-food-ref.bib,reference-4-article-food-ref.bib,reference-5-misc-ontology.bib,reference-6-misc-data.bib,reference-7-misc-web.bib,reference-8-article-technology.bib',
@@ -126,6 +128,7 @@ natbib = {
 # Else, today_fmt is used as the format for a strftime call.
 
 today_fmt = '%d %B %Y'
+
 
 # List of patterns, relative to source directory, that match files and directories to ignore when looking for source files.
 
@@ -191,7 +194,7 @@ with open('link-wedge.rst') as f:
 
 pygments_style = 'sphinx'
 
-# -- Options for HTML output ---------------------------------------------------------------
+# -- Options for HTML output ----------------------------------------
 
 # The theme to use for HTML and HTML Help pages. See the documentation for a list of built-in themes.
 
