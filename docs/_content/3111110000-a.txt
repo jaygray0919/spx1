@@ -74,8 +74,8 @@ Admonitions
 Directives
 **********
 
-Directive |emd| Describe
-========================
+Directive |emd| `Describe`
+==========================
 
 .. describe:: Vocabulary
 
@@ -124,8 +124,8 @@ Tables
 Example 1
 ---------
 
-Data source |end| CSV (inline)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Data source |end| `CSV` (inline)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Method |end| Simple Summation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -209,8 +209,8 @@ Method |end| Simple Summation
 Example 2
 ---------
 
-Data source |end| CSV (inline)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Data source |end| `CSV` (inline)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Aquatic Food - Finned Fish
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -417,8 +417,8 @@ Visualization
 PlantUML
 ========
 
-PlantUML diagram 1
-------------------
+PlantUML `diagram 1`
+--------------------
 
 .. uml::
 
@@ -429,8 +429,8 @@ PlantUML diagram 1
    Alice <-- Bob: Another authentication Response
 
 
-PlantUML diagram 2
-------------------
+PlantUML `diagram 2`
+--------------------
 
 .. uml::
 
@@ -440,8 +440,8 @@ PlantUML diagram 2
    Bob --> Alice: Authentication Response (OK)
 
 
-PlantUML diagram 3
-------------------
+PlantUML `diagram 3`
+--------------------
 
 .. uml::
 
@@ -475,8 +475,8 @@ PlantUML diagram 3
 GraphViz
 ========
 
-GraphViz diagram 1
-------------------
+GraphViz `diagram 1`
+--------------------
 
 .. graphviz::
    :name: sphinx.ext.graphviz
@@ -593,8 +593,8 @@ Outline of existing Sphinx instances
 Video
 *****
 
-YouTube-iFrame
-==============
+YouTube via iFrame
+==================
 
 .. admonition:: YouTube
 
