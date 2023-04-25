@@ -85,6 +85,7 @@ Directive |emd| Describe
 
    **X** :class:`usedToMake` **Y**
 
+
 Columns and Tables
 ******************
 
@@ -108,13 +109,303 @@ Two |end| column list
 :decorator: Text here
 
 
-Lists
------
+Another two |end| column list
+-----------------------------
 
 :List of Things: these are 'field lists' not bulleted lists
 :thing-1: single item
 :thing-2: single item
 :thing-3: single item
+
+
+Tables
+======
+
+Example 1
+---------
+
+Data source |end| CSV (inline)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :header-rows: 1
+   :widths: 10 60
+
+   "Abbreviation","Authority or Data Structure"
+   "INFOODS","United Nations Food and Agriculture Organization (UN FAO) Tags"
+   "NT","United States Department of Agriculture (USDA) National Agricultural Library Thesaurus (NALT)"
+   "UN","United Nations Food and Agriculture Organization (UN FAO) AgroVoc"
+   "PW","United States National Institutes of Health (US NIH) PubChem web format"
+   "NC","US NIH National Cancer Institute Thesaurus (NCIT)"
+   "FD","United States Food and Drug Administration (US FDA) Unique Ingredient Identifier (UNII)"
+   "SY","Synonyms"
+   "CF","Chemical Entities of Food Significance (ChEFS)"
+   "CM","Chemical Entities with Medical Applications, Therapeutic Indications and Consequences (ChEMATIC)"
+   "ST","3D chemical structure"
+   "RD","Resource Description Framework in Attributes (RDFa) format"
+   "PR","US NIH PubChem Resource Description Framework (RDF) format"
+   "GR","Directed Acyclic Graph (DAG) format"
+   "GL","Google Knowledge Graph"
+   "WP","Wikipedia"
+
+.. csv-table:: Simple Summation
+   :header-rows: 1
+   :class: table
+
+   "facet-term","INFOODS","NT","UN","PW","NC","FD","SY","CF","CM","ST","RD","PR","GR","GL"
+   "alanine","ALA","`NT-SS-47`_","`UN-SS-47`_","`PW-SS-47`_","`NC-SS-47`_","`FD-SS-47`_","`SY-SS-47`_","`CF-SS-47`_","`CM-SS-47`_","`ST-SS-47`_","`RD-SS-47`_","`PR-SS-47`_","`GR-SS-47`_","`GL-SS-47`_"
+   "arginine","ARG","`NT-SS-39`_","`UN-SS-39`_","`PW-SS-39`_","`NC-SS-39`_","`FD-SS-39`_","`SY-SS-39`_","`CF-SS-39`_","`CM-SS-39`_","`ST-SS-39`_","`RD-SS-39`_","`PR-SS-39`_","`GR-SS-39`_","`GL-SS-39`_"
+   "asparagine","ASN","`NT-SS-20`_","`UN-SS-20`_","`PW-SS-20`_","`NC-SS-20`_","`FD-SS-20`_","`SY-SS-20`_","`CF-SS-20`_","`CM-SS-20`_","`ST-SS-20`_","`RD-SS-20`_","`PR-SS-20`_","`GR-SS-20`_","`GL-SS-20`_"
+   "asparticacid","ASP","`NT-SS-17`_","`UN-SS-17`_","`PW-SS-17`_","`NC-SS-17`_","`FD-SS-17`_","`SY-SS-17`_","`CF-SS-17`_","`CM-SS-17`_","`ST-SS-17`_","`RD-SS-17`_","`PR-SS-17`_","`GR-SS-17`_","`GL-SS-17`_"
+   "cystine","CYS","`NT-SS-33`_","`UN-SS-33`_","`PW-SS-33`_","`NC-SS-33`_","`FD-SS-33`_","`SY-SS-33`_","`CF-SS-33`_","`CM-SS-33`_","`ST-SS-33`_","`RD-SS-33`_","`PR-SS-33`_","`GR-SS-33`_","`GL-SS-33`_"
+   "cysteine","CYSTE","`NT-SS-55`_","`UN-SS-55`_","`PW-SS-55`_","`NC-SS-55`_","`FD-SS-55`_","`SY-SS-55`_","`CF-SS-55`_","`CM-SS-55`_","`ST-SS-55`_","`RD-SS-55`_","`PR-SS-55`_","`GR-SS-55`_","`GL-SS-55`_"
+   "glutamine","GLN","`NT-SS-59`_","`UN-SS-59`_","`PW-SS-59`_","`NC-SS-59`_","`FD-SS-59`_","`SY-SS-59`_","`CF-SS-59`_","`CM-SS-59`_","`ST-SS-59`_","`RD-SS-59`_","`PR-SS-59`_","`GR-SS-59`_","`GL-SS-59`_"
+   "glutamicacid","GLU","`NT-SS-53`_","`UN-SS-53`_","`PW-SS-53`_","`NC-SS-53`_","`FD-SS-53`_","`SY-SS-53`_","`CF-SS-53`_","`CM-SS-53`_","`ST-SS-53`_","`RD-SS-53`_","`PR-SS-53`_","`GR-SS-53`_","`GL-SS-53`_"
+   "glycine","GLY","`NT-SS-22`_","`UN-SS-22`_","`PW-SS-22`_","`NC-SS-22`_","`FD-SS-22`_","`SY-SS-22`_","`CF-SS-22`_","`CM-SS-22`_","`ST-SS-22`_","`RD-SS-22`_","`PR-SS-22`_","`GR-SS-22`_","`GL-SS-22`_"
+   "histidine","HIS","`NT-SS-26`_","`UN-SS-26`_","`PW-SS-26`_","`NC-SS-26`_","`FD-SS-26`_","`SY-SS-26`_","`CF-SS-26`_","`CM-SS-26`_","`ST-SS-26`_","`RD-SS-26`_","`PR-SS-26`_","`GR-SS-26`_","`GL-SS-26`_"
+   "hydroxylysine","HYL","`NT-SS-58`_","`UN-SS-58`_","`PW-SS-58`_","`NC-SS-58`_","`FD-SS-58`_","`SY-SS-58`_","`CF-SS-58`_","`CM-SS-58`_","`ST-SS-58`_","`RD-SS-58`_","`PR-SS-58`_","`GR-SS-58`_","`GL-SS-58`_"
+   "hydroxyproline","HYP","`NT-SS-44`_","`UN-SS-44`_","`PW-SS-44`_","`NC-SS-44`_","`FD-SS-44`_","`SY-SS-44`_","`CF-SS-44`_","`CM-SS-44`_","`ST-SS-44`_","`RD-SS-44`_","`PR-SS-44`_","`GR-SS-44`_","`GL-SS-44`_"
+   "isoleucine","ILE","`NT-SS-11`_","`UN-SS-11`_","`PW-SS-11`_","`NC-SS-11`_","`FD-SS-11`_","`SY-SS-11`_","`CF-SS-11`_","`CM-SS-11`_","`ST-SS-11`_","`RD-SS-11`_","`PR-SS-11`_","`GR-SS-11`_","`GL-SS-11`_"
+   "leucine","LEU","`NT-SS-49`_","`UN-SS-49`_","`PW-SS-49`_","`NC-SS-49`_","`FD-SS-49`_","`SY-SS-49`_","`CF-SS-49`_","`CM-SS-49`_","`ST-SS-49`_","`RD-SS-49`_","`PR-SS-49`_","`GR-SS-49`_","`GL-SS-49`_"
+   "lysine","LYS","`NT-SS-29`_","`UN-SS-29`_","`PW-SS-29`_","`NC-SS-29`_","`FD-SS-29`_","`SY-SS-29`_","`CF-SS-29`_","`CM-SS-29`_","`ST-SS-29`_","`RD-SS-29`_","`PR-SS-29`_","`GR-SS-29`_","`GL-SS-29`_"
+   "methionine","MET","`NT-SS-24`_","`UN-SS-24`_","`PW-SS-24`_","`NC-SS-24`_","`FD-SS-24`_","`SY-SS-24`_","`CF-SS-24`_","`CM-SS-24`_","`ST-SS-24`_","`RD-SS-24`_","`PR-SS-24`_","`GR-SS-24`_","`GL-SS-24`_"
+   "ornithine","ORN","`NT-SS-12`_","`UN-SS-12`_","`PW-SS-12`_","`NC-SS-12`_","`FD-SS-12`_","`SY-SS-12`_","`CF-SS-12`_","`CM-SS-12`_","`ST-SS-12`_","`RD-SS-12`_","`PR-SS-12`_","`GR-SS-12`_","`GL-SS-12`_"
+   "phenylalanine","PHE","`NT-SS-18`_","`UN-SS-18`_","`PW-SS-18`_","`NC-SS-18`_","`FD-SS-18`_","`SY-SS-18`_","`CF-SS-18`_","`CM-SS-18`_","`ST-SS-18`_","`RD-SS-18`_","`PR-SS-18`_","`GR-SS-18`_","`GL-SS-18`_"
+   "proline","PRO","`NT-SS-41`_","`UN-SS-41`_","`PW-SS-41`_","`NC-SS-41`_","`FD-SS-41`_","`SY-SS-41`_","`CF-SS-41`_","`CM-SS-41`_","`ST-SS-41`_","`RD-SS-41`_","`PR-SS-41`_","`GR-SS-41`_","`GL-SS-41`_"
+   "pyroglutamicacid","PYROGAC","`NT-SS-38`_","`UN-SS-38`_","`PW-SS-38`_","`NC-SS-38`_","`FD-SS-38`_","`SY-SS-38`_","`CF-SS-38`_","`CM-SS-38`_","`ST-SS-38`_","`RD-SS-38`_","`PR-SS-38`_","`GR-SS-38`_","`GL-SS-38`_"
+   "serine","SER","`NT-SS-34`_","`UN-SS-34`_","`PW-SS-34`_","`NC-SS-34`_","`FD-SS-34`_","`SY-SS-34`_","`CF-SS-34`_","`CM-SS-34`_","`ST-SS-34`_","`RD-SS-34`_","`PR-SS-34`_","`GR-SS-34`_","`GL-SS-34`_"
+   "taurine","TAU","`NT-SS-54`_","`UN-SS-54`_","`PW-SS-54`_","`NC-SS-54`_","`FD-SS-54`_","`SY-SS-54`_","`CF-SS-54`_","`CM-SS-54`_","`ST-SS-54`_","`RD-SS-54`_","`PR-SS-54`_","`GR-SS-54`_","`GL-SS-54`_"
+   "threonine","THR","`NT-SS-15`_","`UN-SS-15`_","`PW-SS-15`_","`NC-SS-15`_","`FD-SS-15`_","`SY-SS-15`_","`CF-SS-15`_","`CM-SS-15`_","`ST-SS-15`_","`RD-SS-15`_","`PR-SS-15`_","`GR-SS-15`_","`GL-SS-15`_"
+   "tryptophan","TRP","`NT-SS-46`_","`UN-SS-46`_","`PW-SS-46`_","`NC-SS-46`_","`FD-SS-46`_","`SY-SS-46`_","`CF-SS-46`_","`CM-SS-46`_","`ST-SS-46`_","`RD-SS-46`_","`PR-SS-46`_","`GR-SS-46`_","`GL-SS-46`_"
+   "tyrosine","TYR","`NT-SS-42`_","`UN-SS-42`_","`PW-SS-42`_","`NC-SS-42`_","`FD-SS-42`_","`SY-SS-42`_","`CF-SS-42`_","`CM-SS-42`_","`ST-SS-42`_","`RD-SS-42`_","`PR-SS-42`_","`GR-SS-42`_","`GL-SS-42`_"
+   "valine","VAL","`NT-SS-31`_","`UN-SS-31`_","`PW-SS-31`_","`NC-SS-31`_","`FD-SS-31`_","`SY-SS-31`_","`CF-SS-31`_","`CM-SS-31`_","`ST-SS-31`_","`RD-SS-31`_","`PR-SS-31`_","`GR-SS-31`_","`GL-SS-31`_"
+   "cadaverine","CADAVT","`NT-SS-51`_","`UN-SS-51`_","`PW-SS-51`_","`NC-SS-51`_","`FD-SS-51`_","`SY-SS-51`_","`CF-SS-51`_","`CM-SS-51`_","`ST-SS-51`_","`RD-SS-51`_","`PR-SS-51`_","`GR-SS-51`_","`GL-SS-51`_"
+   "choline","CHOLN","`NT-SS-40`_","`UN-SS-40`_","`PW-SS-40`_","`NC-SS-40`_","`FD-SS-40`_","`SY-SS-40`_","`CF-SS-40`_","`CM-SS-40`_","`ST-SS-40`_","`RD-SS-40`_","`PR-SS-40`_","`GR-SS-40`_","`GL-SS-40`_"
+   "creatine","CREATN","`NT-SS-19`_","`UN-SS-19`_","`PW-SS-19`_","`NC-SS-19`_","`FD-SS-19`_","`SY-SS-19`_","`CF-SS-19`_","`CM-SS-19`_","`ST-SS-19`_","`RD-SS-19`_","`PR-SS-19`_","`GR-SS-19`_","`GL-SS-19`_"
+   "creatinine","CREATN","`NT-SS-21`_","`UN-SS-21`_","`PW-SS-21`_","`NC-SS-21`_","`FD-SS-21`_","`SY-SS-21`_","`CF-SS-21`_","`CM-SS-21`_","`ST-SS-21`_","`RD-SS-21`_","`PR-SS-21`_","`GR-SS-21`_","`GL-SS-21`_"
+   "dopamine","DOPN","`NT-SS-52`_","`UN-SS-52`_","`PW-SS-52`_","`NC-SS-52`_","`FD-SS-52`_","`SY-SS-52`_","`CF-SS-52`_","`CM-SS-52`_","`ST-SS-52`_","`RD-SS-52`_","`PR-SS-52`_","`GR-SS-52`_","`GL-SS-52`_"
+   "histamine","HISTN","`NT-SS-37`_","`UN-SS-37`_","`PW-SS-37`_","`NC-SS-37`_","`FD-SS-37`_","`SY-SS-37`_","`CF-SS-37`_","`CM-SS-37`_","`ST-SS-37`_","`RD-SS-37`_","`PR-SS-37`_","`GR-SS-37`_","`GL-SS-37`_"
+   "phenylethylamine","PHETN","`NT-SS-16`_","`UN-SS-16`_","`PW-SS-16`_","`NC-SS-16`_","`FD-SS-16`_","`SY-SS-16`_","`CF-SS-16`_","`CM-SS-16`_","`ST-SS-16`_","`RD-SS-16`_","`PR-SS-16`_","`GR-SS-16`_","`GL-SS-16`_"
+   "putrescine","PUTRSC","`NT-SS-30`_","`UN-SS-30`_","`PW-SS-30`_","`NC-SS-30`_","`FD-SS-30`_","`SY-SS-30`_","`CF-SS-30`_","`CM-SS-30`_","`ST-SS-30`_","`RD-SS-30`_","`PR-SS-30`_","`GR-SS-30`_","`GL-SS-30`_"
+   "serotonin","SEROTN","`NT-SS-48`_","`UN-SS-48`_","`PW-SS-48`_","`NC-SS-48`_","`FD-SS-48`_","`SY-SS-48`_","`CF-SS-48`_","`CM-SS-48`_","`ST-SS-48`_","`RD-SS-48`_","`PR-SS-48`_","`GR-SS-48`_","`GL-SS-48`_"
+   "spermidine","SPERDN","`NT-SS-14`_","`UN-SS-14`_","`PW-SS-14`_","`NC-SS-14`_","`FD-SS-14`_","`SY-SS-14`_","`CF-SS-14`_","`CM-SS-14`_","`ST-SS-14`_","`RD-SS-14`_","`PR-SS-14`_","`GR-SS-14`_","`GL-SS-14`_"
+   "spermine","SPERN","`NT-SS-43`_","`UN-SS-43`_","`PW-SS-43`_","`NC-SS-43`_","`FD-SS-43`_","`SY-SS-43`_","`CF-SS-43`_","`CM-SS-43`_","`ST-SS-43`_","`RD-SS-43`_","`PR-SS-43`_","`GR-SS-43`_","`GL-SS-43`_"
+   "tryptamine","TRYPN","`NT-SS-13`_","`UN-SS-13`_","`PW-SS-13`_","`NC-SS-13`_","`FD-SS-13`_","`SY-SS-13`_","`CF-SS-13`_","`CM-SS-13`_","`ST-SS-13`_","`RD-SS-13`_","`PR-SS-13`_","`GR-SS-13`_","`GL-SS-13`_"
+   "tyramine","TYRA","`NT-SS-23`_","`UN-SS-23`_","`PW-SS-23`_","`NC-SS-23`_","`FD-SS-23`_","`SY-SS-23`_","`CF-SS-23`_","`CM-SS-23`_","`ST-SS-23`_","`RD-SS-23`_","`PR-SS-23`_","`GR-SS-23`_","`GL-SS-23`_"
+   "piperine","PIPN","`NT-SS-35`_","`UN-SS-35`_","`PW-SS-35`_","`NC-SS-35`_","`FD-SS-35`_","`SY-SS-35`_","`CF-SS-35`_","`CM-SS-35`_","`ST-SS-35`_","`RD-SS-35`_","`PR-SS-35`_","`GR-SS-35`_","`GL-SS-35`_"
+   "theobromine","THEBRN","`NT-SS-56`_","`UN-SS-56`_","`PW-SS-56`_","`NC-SS-56`_","`FD-SS-56`_","`SY-SS-56`_","`CF-SS-56`_","`CM-SS-56`_","`ST-SS-56`_","`RD-SS-56`_","`PR-SS-56`_","`GR-SS-56`_","`GL-SS-56`_"
+   "uricacid","URAC","`NT-SS-32`_","`UN-SS-32`_","`PW-SS-32`_","`NC-SS-32`_","`FD-SS-32`_","`SY-SS-32`_","`CF-SS-32`_","`CM-SS-32`_","`ST-SS-32`_","`RD-SS-32`_","`PR-SS-32`_","`GR-SS-32`_","`GL-SS-32`_"
+   "purine","PURN","`NT-SS-28`_","`UN-SS-28`_","`PW-SS-28`_","`NC-SS-28`_","`FD-SS-28`_","`SY-SS-28`_","`CF-SS-28`_","`CM-SS-28`_","`ST-SS-28`_","`RD-SS-28`_","`PR-SS-28`_","`GR-SS-28`_","`GL-SS-28`_"
+   "adenine","ADEN","`NT-SS-25`_","`UN-SS-25`_","`PW-SS-25`_","`NC-SS-25`_","`FD-SS-25`_","`SY-SS-25`_","`CF-SS-25`_","`CM-SS-25`_","`ST-SS-25`_","`RD-SS-25`_","`PR-SS-25`_","`GR-SS-25`_","`GL-SS-25`_"
+   "caffeine","CAFFN","`NT-SS-50`_","`UN-SS-50`_","`PW-SS-50`_","`NC-SS-50`_","`FD-SS-50`_","`SY-SS-50`_","`CF-SS-50`_","`CM-SS-50`_","`ST-SS-50`_","`RD-SS-50`_","`PR-SS-50`_","`GR-SS-50`_","`GL-SS-50`_"
+   "nitrate","NITRA","`NT-SS-36`_","`UN-SS-36`_","`PW-SS-36`_","`NC-SS-36`_","`FD-SS-36`_","`SY-SS-36`_","`CF-SS-36`_","`CM-SS-36`_","`ST-SS-36`_","`RD-SS-36`_","`PR-SS-36`_","`GR-SS-36`_","`GL-SS-36`_"
+   "nitrite","NITRI","`NT-SS-27`_","`UN-SS-27`_","`PW-SS-27`_","`NC-SS-27`_","`FD-SS-27`_","`SY-SS-27`_","`CF-SS-27`_","`CM-SS-27`_","`ST-SS-27`_","`RD-SS-27`_","`PR-SS-27`_","`GR-SS-27`_","`GL-SS-27`_"
+   "ammonia","AMMON","`NT-SS-45`_","`UN-SS-45`_","`PW-SS-45`_","`NC-SS-45`_","`FD-SS-45`_","`SY-SS-45`_","`CF-SS-45`_","`CM-SS-45`_","`ST-SS-45`_","`RD-SS-45`_","`PR-SS-45`_","`GR-SS-45`_","`GL-SS-45`_"
+
+
+Example 2
+---------
+
+Data source |end| CSV (inline)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Aquatic Food - Finned Fish
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header-rows: 1
+   :widths: 10 60
+
+   "Abbreviation","Authority or Data Structure"
+   "FS","Fish Source"
+   "KG","Google Knowledge Graph"
+   "WP","Wikipedia"
+   "DP","DBpedia"
+   "GR","Directed Acyclic Graph (DAG) format"
+   "IT","Integrated Taxonomic Information System (ITIS)"
+   "FN","US Food and Drug Administration (US FDA) Unique Ingredient Identifier (UNII)"
+   "PT","Phylogenic tree"
+   "UN","United Nations Food and Agriculture Organization (UN FAO) Monograph"
+
+.. csv-table::
+   :header-rows: 1
+   :class: table
+
+   "Common Name by Region-of-Origin","Taxon Name","Taxon Class","UN FAO Identifier","FS","KG","WP","DP","GR","IT","FN"
+   "Sheepshead from Gulf of Mexico","Archosargus probatocephalus","Percoidei","1703910201","`FS-AQ-100`_","`KG-AQ-100`_","`WP-AQ-100`_","`DP-AQ-100`_","`GR-AQ-100`_","`IT-AQ-100`_","`FN-AQ-100`_"
+   "Black Seabass from Northern Stock","Centropristis striata","Percoidei","1700208102","`FS-AQ-101`_","`KG-AQ-101`_","`WP-AQ-101`_","`DP-AQ-101`_","`GR-AQ-101`_","`IT-AQ-101`_","`FN-AQ-101`_"
+   "Common Dolphinfish from Atlantic","Coryphaena hippurus","Percoidei","1702807101","`FS-AQ-102`_","`KG-AQ-102`_","`WP-AQ-102`_","`DP-AQ-102`_","`GR-AQ-102`_","`IT-AQ-102`_","`FN-AQ-102`_"
+   "Mahi-Mahi from Western and Central Pacific","Coryphaena hippurus","Percoidei","1702807101","`FS-AQ-103`_","`KG-AQ-103`_","`WP-AQ-103`_","`DP-AQ-103`_","`GR-AQ-103`_","`IT-AQ-103`_","`FN-AQ-103`_"
+   "Spotted Weakfish from NE Florida","Cynoscion nebulosus","Percoidei","1703701609","`FS-AQ-104`_","`KG-AQ-104`_","`WP-AQ-104`_","`DP-AQ-104`_","`GR-AQ-104`_","`IT-AQ-104`_","`FN-AQ-104`_"
+   "Spotted Weakfish from North Carolina; Virginia","Cynoscion nebulosus","Percoidei","1703701609","`FS-AQ-105`_","`KG-AQ-105`_","`WP-AQ-105`_","`DP-AQ-105`_","`GR-AQ-105`_","`IT-AQ-105`_","`FN-AQ-105`_"
+   "Spotted Weakfish from SE Florida","Cynoscion nebulosus","Percoidei","1703701609","`FS-AQ-106`_","`KG-AQ-106`_","`WP-AQ-106`_","`DP-AQ-106`_","`GR-AQ-106`_","`IT-AQ-106`_","`FN-AQ-106`_"
+   "Spotted Weakfish from US Georgia","Cynoscion nebulosus","Percoidei","1703701609","`FS-AQ-107`_","`KG-AQ-107`_","`WP-AQ-107`_","`DP-AQ-107`_","`GR-AQ-107`_","`IT-AQ-107`_","`FN-AQ-107`_"
+   "Red Grouper from Gulf of Mexico; NW Atlantic","Epinephelus morio","Percoidei","1700204228","`FS-AQ-108`_","`KG-AQ-108`_","`WP-AQ-108`_","`DP-AQ-108`_","`GR-AQ-108`_","`IT-AQ-108`_","`FN-AQ-108`_"
+   "Snowy Grouper from Gulf of Mexico","Epinephelus niveatus","Percoidei","1700204230","`FS-AQ-109`_","`KG-AQ-109`_","`WP-AQ-109`_","`DP-AQ-109`_","`GR-AQ-109`_","`IT-AQ-109`_","`FN-AQ-109`_"
+   "Spot Croaker from US Atlantic","Leiostomus xanthurus","Percoidei","1706301201","`FS-AQ-110`_","`KG-AQ-110`_","`WP-AQ-110`_","`DP-AQ-110`_","`GR-AQ-110`_","`IT-AQ-110`_","`FN-AQ-110`_"
+   "Mutton Snapper from US South Atlantic; Gulf of Mexico","Lutjanus analis","Percoidei","1703202717","`FS-AQ-111`_","`KG-AQ-111`_","`WP-AQ-111`_","`DP-AQ-111`_","`GR-AQ-111`_","`IT-AQ-111`_","`FN-AQ-111`_"
+   "Northern Red Snapper from Gulf of Mexico","Lutjanus campechanus","Percoidei","1703202725","`FS-AQ-112`_","`KG-AQ-112`_","`WP-AQ-112`_","`DP-AQ-112`_","`GR-AQ-112`_","`IT-AQ-112`_","`FN-AQ-112`_"
+   "Grey Snapper from Gulf of Mexico","Lutjanus griseus","Percoidei","1703202728","`FS-AQ-113`_","`KG-AQ-113`_","`WP-AQ-113`_","`DP-AQ-113`_","`GR-AQ-113`_","`IT-AQ-113`_","`FN-AQ-113`_"
+   "Black Grouper from Gulf of Mexico","Mycteroperca bonaci","Percoidei","1700204001","`FS-AQ-114`_","`KG-AQ-114`_","`WP-AQ-114`_","`DP-AQ-114`_","`GR-AQ-114`_","`IT-AQ-114`_","`FN-AQ-114`_"
+   "Gag Grouper from Gulf of Mexico","Mycteroperca microlepis","Percoidei","1700204004","`FS-AQ-115`_","`KG-AQ-115`_","`WP-AQ-115`_","`DP-AQ-115`_","`GR-AQ-115`_","`IT-AQ-115`_","`FN-AQ-115`_"
+   "Yellowtail Snapper from Gulf of Mexico","Ocyurus chrysurus","Percoidei","1703202801","`FS-AQ-116`_","`KG-AQ-116`_","`WP-AQ-116`_","`DP-AQ-116`_","`GR-AQ-116`_","`IT-AQ-116`_","`FN-AQ-116`_"
+   "Yellowtail Snapper from N. Gulf of Mexico; W. Central Atlantic","Ocyurus chrysurus","Percoidei","1703202801","`FS-AQ-117`_","`KG-AQ-117`_","`WP-AQ-117`_","`DP-AQ-117`_","`GR-AQ-117`_","`IT-AQ-117`_","`FN-AQ-117`_"
+   "American Yellow Perch from Lake Erie Western Basin","Perca flavescens","Percoidei","1701400202","`FS-AQ-118`_","`KG-AQ-118`_","`WP-AQ-118`_","`DP-AQ-118`_","`GR-AQ-118`_","`IT-AQ-118`_","`FN-AQ-118`_"
+   "Bluefish from US Atlantic","Pomatomus saltatrix","Percoidei","1702021301","`FS-AQ-119`_","`KG-AQ-119`_","`WP-AQ-119`_","`DP-AQ-119`_","`GR-AQ-119`_","`IT-AQ-119`_","`FN-AQ-119`_"
+   "Cobia from US South Atlantic","Rachycentron canadum","Percoidei","1702222101","`FS-AQ-120`_","`KG-AQ-120`_","`WP-AQ-120`_","`DP-AQ-120`_","`GR-AQ-120`_","`IT-AQ-120`_","`FN-AQ-120`_"
+   "Vermilion Snapper from Gulf of Mexico","Rhomboplites aurorubens","Percoidei","1703222501","`FS-AQ-121`_","`KG-AQ-121`_","`WP-AQ-121`_","`DP-AQ-121`_","`GR-AQ-121`_","`IT-AQ-121`_","`FN-AQ-121`_"
+   "Walleye from Lake Erie Western and Central","Sander vitreus","Percoidei","1701436101","`FS-AQ-122`_","`KG-AQ-122`_","`WP-AQ-122`_","`DP-AQ-122`_","`GR-AQ-122`_","`IT-AQ-122`_","`FN-AQ-122`_"
+   "Peruvian Moonfish from Colombia","Selene peruviana","Percoidei","1702304609","`FS-AQ-123`_","`KG-AQ-123`_","`WP-AQ-123`_","`DP-AQ-123`_","`GR-AQ-123`_","`IT-AQ-123`_","`FN-AQ-123`_"
+   "Greater Amberjack from Atlantic","Seriola dumerili","Percoidei","1702304801","`FS-AQ-124`_","`KG-AQ-124`_","`WP-AQ-124`_","`DP-AQ-124`_","`GR-AQ-124`_","`IT-AQ-124`_","`FN-AQ-124`_"
+   "Scup from US Atlantic","Stenotomus chrysops","Percoidei","1703935301","`FS-AQ-125`_","`KG-AQ-125`_","`WP-AQ-125`_","`DP-AQ-125`_","`GR-AQ-125`_","`IT-AQ-125`_","`FN-AQ-125`_"
+   "Florida Pompano from Atlantic Coast of Florida","Trachinotus carolinus","Percoidei","1702304703","`FS-AQ-126`_","`KG-AQ-126`_","`WP-AQ-126`_","`DP-AQ-126`_","`GR-AQ-126`_","`IT-AQ-126`_","`FN-AQ-126`_"
+   "Florida Pompano from Gulf of Mexico Coast of Florida","Trachinotus carolinus","Percoidei","1702304703","`FS-AQ-127`_","`KG-AQ-127`_","`WP-AQ-127`_","`DP-AQ-127`_","`GR-AQ-127`_","`IT-AQ-127`_","`FN-AQ-127`_"
+   "Kamchatka Flounder from Bering Sea; Aleutian Islands","Atheresthes evermanni","Pleuronectiformes","1830200802","`FS-AQ-128`_","`KG-AQ-128`_","`WP-AQ-128`_","`DP-AQ-128`_","`GR-AQ-128`_","`IT-AQ-128`_","`FN-AQ-128`_"
+   "Arrowtooth Flounder from Gulf of Alaska","Atheresthes stomias","Pleuronectiformes","1830200801","`FS-AQ-129`_","`KG-AQ-129`_","`WP-AQ-129`_","`DP-AQ-129`_","`GR-AQ-129`_","`IT-AQ-129`_","`FN-AQ-129`_"
+   "Petrale Sole from Northeast Pacific","Eopsetta jordani","Pleuronectiformes","1830201001","`FS-AQ-130`_","`KG-AQ-130`_","`WP-AQ-130`_","`DP-AQ-130`_","`GR-AQ-130`_","`IT-AQ-130`_","`FN-AQ-130`_"
+   "Rex Sole from Gulf of Alaska","Glyptocephalus zachirus","Pleuronectiformes","1830201103","`FS-AQ-131`_","`KG-AQ-131`_","`WP-AQ-131`_","`DP-AQ-131`_","`GR-AQ-131`_","`IT-AQ-131`_","`FN-AQ-131`_"
+   "Flathead Sole from Bering Sea; Aleutian Islands","Hippoglossoides elassodon","Pleuronectiformes","1830201404","`FS-AQ-132`_","`KG-AQ-132`_","`WP-AQ-132`_","`DP-AQ-132`_","`GR-AQ-132`_","`IT-AQ-132`_","`FN-AQ-132`_"
+   "Flathead Sole from Gulf of Alaska","Hippoglossoides elassodon","Pleuronectiformes","1830201404","`FS-AQ-133`_","`KG-AQ-133`_","`WP-AQ-133`_","`DP-AQ-133`_","`GR-AQ-133`_","`IT-AQ-133`_","`FN-AQ-133`_"
+   "Pacific Halibut from Alaska","Hippoglossus stenolepis","Pleuronectiformes","1830200202","`FS-AQ-134`_","`KG-AQ-134`_","`WP-AQ-134`_","`DP-AQ-134`_","`GR-AQ-134`_","`IT-AQ-134`_","`FN-AQ-134`_"
+   "Pacific Halibut from Northeast Pacific","Hippoglossus stenolepis","Pleuronectiformes","1830200202","`FS-AQ-135`_","`KG-AQ-135`_","`WP-AQ-135`_","`DP-AQ-135`_","`GR-AQ-135`_","`IT-AQ-135`_","`FN-AQ-135`_"
+   "Rock Sole from Gulf of Alaska","Lepidopsetta bilineata","Pleuronectiformes","1830204301","`FS-AQ-136`_","`KG-AQ-136`_","`WP-AQ-136`_","`DP-AQ-136`_","`GR-AQ-136`_","`IT-AQ-136`_","`FN-AQ-136`_"
+   "Northern Rock Sole from Gulf of Alaska","Lepidopsetta polyxystra","Pleuronectiformes","1830204303","`FS-AQ-137`_","`KG-AQ-137`_","`WP-AQ-137`_","`DP-AQ-137`_","`GR-AQ-137`_","`IT-AQ-137`_","`FN-AQ-137`_"
+   "Yellowfin Sole from Bering Sea; Aleutian Islands","Limanda aspera","Pleuronectiformes","1830202402","`FS-AQ-138`_","`KG-AQ-138`_","`WP-AQ-138`_","`DP-AQ-138`_","`GR-AQ-138`_","`IT-AQ-138`_","`FN-AQ-138`_"
+   "Yellowfin Sole from Gulf of Alaska","Limanda aspera","Pleuronectiformes","1830202402","`FS-AQ-139`_","`KG-AQ-139`_","`WP-AQ-139`_","`DP-AQ-139`_","`GR-AQ-139`_","`IT-AQ-139`_","`FN-AQ-139`_"
+   "Yellowtail Flounder from Newfoundland Grand Banks","Limanda ferruginea","Pleuronectiformes","1830202404","`FS-AQ-140`_","`KG-AQ-140`_","`WP-AQ-140`_","`DP-AQ-140`_","`GR-AQ-140`_","`IT-AQ-140`_","`FN-AQ-140`_"
+   "Dover Sole from US Pacific Coast","Microstomus pacificus","Pleuronectiformes","1830204503","`FS-AQ-141`_","`KG-AQ-141`_","`WP-AQ-141`_","`DP-AQ-141`_","`GR-AQ-141`_","`IT-AQ-141`_","`FN-AQ-141`_"
+   "Southern Flounder from Western Central Atlantic","Paralichthys lethostigma","Pleuronectiformes","1830804609","`FS-AQ-142`_","`KG-AQ-142`_","`WP-AQ-142`_","`DP-AQ-142`_","`GR-AQ-142`_","`IT-AQ-142`_","`FN-AQ-142`_"
+   "English Sole from NE Pacific","Parophrys vetulus","Pleuronectiformes","NotSpecified","`FS-AQ-143`_","`KG-AQ-143`_","`WP-AQ-143`_","`DP-AQ-143`_","`GR-AQ-143`_","`IT-AQ-143`_","`FN-AQ-143`_"
+   "Starry Flounder from Northern US Pacific Coast","Platichthys stellatus","Pleuronectiformes","1830204804","`FS-AQ-144`_","`KG-AQ-144`_","`WP-AQ-144`_","`DP-AQ-144`_","`GR-AQ-144`_","`IT-AQ-144`_","`FN-AQ-144`_"
+   "Starry Flounder from Southern US Pacific Coast","Platichthys stellatus","Pleuronectiformes","1830204804","`FS-AQ-145`_","`KG-AQ-145`_","`WP-AQ-145`_","`DP-AQ-145`_","`GR-AQ-145`_","`IT-AQ-145`_","`FN-AQ-145`_"
+   "Alaska Plaice from Bering Sea; Aleutian Islands","Pleuronectes quadrituberculatus","Pleuronectiformes","NotSpecified","`FS-AQ-146`_","`KG-AQ-146`_","`WP-AQ-146`_","`DP-AQ-146`_","`GR-AQ-146`_","`IT-AQ-146`_","`FN-AQ-146`_"
+   "Winter Flounder from Southern New England; Mid Atlantic","Pseudopleuronectes americanus","Pleuronectiformes","1830205003","`FS-AQ-147`_","`KG-AQ-147`_","`WP-AQ-147`_","`DP-AQ-147`_","`GR-AQ-147`_","`IT-AQ-147`_","`FN-AQ-147`_"
+   "Greenland Halibut from E Bering Sea","Reinhardtius hippoglossoides","Pleuronectiformes","1830200501","`FS-AQ-148`_","`KG-AQ-148`_","`WP-AQ-148`_","`DP-AQ-148`_","`GR-AQ-148`_","`IT-AQ-148`_","`FN-AQ-148`_"
+   "Wahoo from Gulf of Mexico","Acanthocybium solandri","Scombroidei","1750101001","`FS-AQ-149`_","`KG-AQ-149`_","`WP-AQ-149`_","`DP-AQ-149`_","`GR-AQ-149`_","`IT-AQ-149`_","`FN-AQ-149`_"
+   "Wahoo from Pacific","Acanthocybium solandri","Scombroidei","1750101001","`FS-AQ-150`_","`KG-AQ-150`_","`WP-AQ-150`_","`DP-AQ-150`_","`GR-AQ-150`_","`IT-AQ-150`_","`FN-AQ-150`_"
+   "Finescale Triggerfish from Mexican Pacific","Balistes polylepis","Tetraodontiformes","1901000204","`FS-AQ-151`_","`KG-AQ-151`_","`WP-AQ-151`_","`DP-AQ-151`_","`GR-AQ-151`_","`IT-AQ-151`_","`FN-AQ-151`_"
+   "Gulf Menhaden from Gulf of Mexico","Brevoortia patronus","Clupeiformes","1210502404","`FS-AQ-152`_","`KG-AQ-152`_","`WP-AQ-152`_","`DP-AQ-152`_","`GR-AQ-152`_","`IT-AQ-152`_","`FN-AQ-152`_"
+   "Atlantic Menhaden from NW Atlantic","Brevoortia tyrannus","Clupeiformes","1210502403","`FS-AQ-153`_","`KG-AQ-153`_","`WP-AQ-153`_","`DP-AQ-153`_","`GR-AQ-153`_","`IT-AQ-153`_","`FN-AQ-153`_"
+   "South American Pilchard from Northeast Pacific","Sardinops sagax","Clupeiformes","1210501303","`FS-AQ-154`_","`KG-AQ-154`_","`WP-AQ-154`_","`DP-AQ-154`_","`GR-AQ-154`_","`IT-AQ-154`_","`FN-AQ-154`_"
+   "Pacific Cod from Aleutian Islands","Gadus macrocephalus","Gadiformes","1480400211","`FS-AQ-155`_","`KG-AQ-155`_","`WP-AQ-155`_","`DP-AQ-155`_","`GR-AQ-155`_","`IT-AQ-155`_","`FN-AQ-155`_"
+   "Pacific Cod from Gulf of Alaska","Gadus macrocephalus","Gadiformes","1480400211","`FS-AQ-156`_","`KG-AQ-156`_","`WP-AQ-156`_","`DP-AQ-156`_","`GR-AQ-156`_","`IT-AQ-156`_","`FN-AQ-156`_"
+   "Atlantic Cod from Georges Bank","Gadus morhua","Gadiformes","1480400202","`FS-AQ-157`_","`KG-AQ-157`_","`WP-AQ-157`_","`DP-AQ-157`_","`GR-AQ-157`_","`IT-AQ-157`_","`FN-AQ-157`_"
+   "Atlantic Cod from Gulf of Maine","Gadus morhua","Gadiformes","1480400202","`FS-AQ-158`_","`KG-AQ-158`_","`WP-AQ-158`_","`DP-AQ-158`_","`GR-AQ-158`_","`IT-AQ-158`_","`FN-AQ-158`_"
+   "Haddock from Georges Bank","Melanogrammus aeglefinus","Gadiformes","1480401001","`FS-AQ-159`_","`KG-AQ-159`_","`WP-AQ-159`_","`DP-AQ-159`_","`GR-AQ-159`_","`IT-AQ-159`_","`FN-AQ-159`_"
+   "Haddock from Gulf of Maine","Melanogrammus aeglefinus","Gadiformes","1480401001","`FS-AQ-160`_","`KG-AQ-160`_","`WP-AQ-160`_","`DP-AQ-160`_","`GR-AQ-160`_","`IT-AQ-160`_","`FN-AQ-160`_"
+   "North Pacific Hake from West Coast USA; Canada","Merluccius productus","Gadiformes","1480500407","`FS-AQ-161`_","`KG-AQ-161`_","`WP-AQ-161`_","`DP-AQ-161`_","`GR-AQ-161`_","`IT-AQ-161`_","`FN-AQ-161`_"
+   "Saithe from Gulf of Maine; Georges Bank","Pollachius virens","Gadiformes","1480401501","`FS-AQ-162`_","`KG-AQ-162`_","`WP-AQ-162`_","`DP-AQ-162`_","`GR-AQ-162`_","`IT-AQ-162`_","`FN-AQ-162`_"
+   "Alaska Pollock from Aleutian Islands","Theragra chalcogramma","Gadiformes","1480401601","`FS-AQ-163`_","`KG-AQ-163`_","`WP-AQ-163`_","`DP-AQ-163`_","`GR-AQ-163`_","`IT-AQ-163`_","`FN-AQ-163`_"
+   "Alaska Pollock from E Bering Sea","Theragra chalcogramma","Gadiformes","1480401601","`FS-AQ-164`_","`KG-AQ-164`_","`WP-AQ-164`_","`DP-AQ-164`_","`GR-AQ-164`_","`IT-AQ-164`_","`FN-AQ-164`_"
+   "Alaska Pollock from Gulf of Alaska","Theragra chalcogramma","Gadiformes","1480401601","`FS-AQ-165`_","`KG-AQ-165`_","`WP-AQ-165`_","`DP-AQ-165`_","`GR-AQ-165`_","`IT-AQ-165`_","`FN-AQ-165`_"
+   "Atlantic White Hake from Gulf of Maine; Georges Bank","Urophycis tenuis","Gadiformes","1480400803","`FS-AQ-166`_","`KG-AQ-166`_","`WP-AQ-166`_","`DP-AQ-166`_","`GR-AQ-166`_","`IT-AQ-166`_","`FN-AQ-166`_"
+   "American Angler from Northern Stock","Lophius americanus","Lophiiformes","1950100103","`FS-AQ-167`_","`KG-AQ-167`_","`WP-AQ-167`_","`DP-AQ-167`_","`GR-AQ-167`_","`IT-AQ-167`_","`FN-AQ-167`_"
+   "American Angler from Southern Stock","Lophius americanus","Lophiiformes","1950100103","`FS-AQ-168`_","`KG-AQ-168`_","`WP-AQ-168`_","`DP-AQ-168`_","`GR-AQ-168`_","`IT-AQ-168`_","`FN-AQ-168`_"
+   "Lake Whitefish from Lake Erie","Coregonus clupeaformis","Salmoniformes","1231200112","`FS-AQ-169`_","`KG-AQ-169`_","`WP-AQ-169`_","`DP-AQ-169`_","`GR-AQ-169`_","`IT-AQ-169`_","`FN-AQ-169`_"
+   "Chum Salmon from Alaska","Oncorhynchus keta","Salmoniformes","1230100903","`FS-AQ-170`_","`KG-AQ-170`_","`WP-AQ-170`_","`DP-AQ-170`_","`GR-AQ-170`_","`IT-AQ-170`_","`FN-AQ-170`_"
+   "Pink Salmon from East Pacific from Alaska","Oncorhynchus gorbuscha","Salmoniformes","1230100902","`FS-AQ-171`_","`KG-AQ-171`_","`WP-AQ-171`_","`DP-AQ-171`_","`GR-AQ-171`_","`IT-AQ-171`_","`FN-AQ-171`_"
+   "Pink Salmon from East Pacific from Norton Sound Alaska","Oncorhynchus gorbuscha","Salmoniformes","1230100902","`FS-AQ-172`_","`KG-AQ-172`_","`WP-AQ-172`_","`DP-AQ-172`_","`GR-AQ-172`_","`IT-AQ-172`_","`FN-AQ-172`_"
+   "Coho Salmon from Alaska","Oncorhynchus kisutch","Salmoniformes","1230100908","`FS-AQ-173`_","`KG-AQ-173`_","`WP-AQ-173`_","`DP-AQ-173`_","`GR-AQ-173`_","`IT-AQ-173`_","`FN-AQ-173`_"
+   "Sockeye Salmon from Alaska","Oncorhynchus nerka","Salmoniformes","1230100906","`FS-AQ-174`_","`KG-AQ-174`_","`WP-AQ-174`_","`DP-AQ-174`_","`GR-AQ-174`_","`IT-AQ-174`_","`FN-AQ-174`_"
+   "Sockeye Salmon from E. Pacific; Alaska","Oncorhynchus nerka","Salmoniformes","1230100906","`FS-AQ-175`_","`KG-AQ-175`_","`WP-AQ-175`_","`DP-AQ-175`_","`GR-AQ-175`_","`IT-AQ-175`_","`FN-AQ-175`_"
+   "Sockeye Salmon from E. Pacific; Prince Wm. Sound Alaska","Oncorhynchus nerka","Salmoniformes","1230100906","`FS-AQ-176`_","`KG-AQ-176`_","`WP-AQ-176`_","`DP-AQ-176`_","`GR-AQ-176`_","`IT-AQ-176`_","`FN-AQ-176`_"
+   "Chinook Salmon from E. Pacific; Alaska","Oncorhynchus tshawytscha","Salmoniformes","1230100907","`FS-AQ-177`_","`KG-AQ-177`_","`WP-AQ-177`_","`DP-AQ-177`_","`GR-AQ-177`_","`IT-AQ-177`_","`FN-AQ-177`_"
+   "Lake Trout from Lake Huron","Salvelinus namaycush","Salmoniformes","1230101007","`FS-AQ-178`_","`KG-AQ-178`_","`WP-AQ-178`_","`DP-AQ-178`_","`GR-AQ-178`_","`IT-AQ-178`_","`FN-AQ-178`_"
+   "Skipjack Tuna from Western and Central Pacific","Katsuwonus pelamis","Scombroidei","1750102501","`FS-AQ-179`_","`KG-AQ-179`_","`WP-AQ-179`_","`DP-AQ-179`_","`GR-AQ-179`_","`IT-AQ-179`_","`FN-AQ-179`_"
+   "Blue Marlin from Pacific","Makaira mazara","Scombroidei","NotSpecified","`FS-AQ-180`_","`KG-AQ-180`_","`WP-AQ-180`_","`DP-AQ-180`_","`GR-AQ-180`_","`IT-AQ-180`_","`FN-AQ-180`_"
+   "Atlantic Mackerel from NW Atlantic","Scomber scombrus","Scombroidei","1750100205","`FS-AQ-181`_","`KG-AQ-181`_","`WP-AQ-181`_","`DP-AQ-181`_","`GR-AQ-181`_","`IT-AQ-181`_","`FN-AQ-181`_"
+   "King Mackerel from Gulf of Mexico","Scomberomorus cavalla","Scombroidei","1750101506","`FS-AQ-182`_","`KG-AQ-182`_","`WP-AQ-182`_","`DP-AQ-182`_","`GR-AQ-182`_","`IT-AQ-182`_","`FN-AQ-182`_"
+   "King Mackerel from US South Atlantic","Scomberomorus cavalla","Scombroidei","1750101506","`FS-AQ-183`_","`KG-AQ-183`_","`WP-AQ-183`_","`DP-AQ-183`_","`GR-AQ-183`_","`IT-AQ-183`_","`FN-AQ-183`_"
+   "Atlantic Spanish Mackerel from Western Atlantic","Scomberomorus maculatus","Scombroidei","1750101507","`FS-AQ-184`_","`KG-AQ-184`_","`WP-AQ-184`_","`DP-AQ-184`_","`GR-AQ-184`_","`IT-AQ-184`_","`FN-AQ-184`_"
+   "Spanish Mackerel from Gulf of Mexico","Scomberomorus tritor","Scombroidei","1750101511","`FS-AQ-185`_","`KG-AQ-185`_","`WP-AQ-185`_","`DP-AQ-185`_","`GR-AQ-185`_","`IT-AQ-185`_","`FN-AQ-185`_"
+   "Albacore from North Pacific","Thunnus alalunga","Scombroidei","1750102605","`FS-AQ-186`_","`KG-AQ-186`_","`WP-AQ-186`_","`DP-AQ-186`_","`GR-AQ-186`_","`IT-AQ-186`_","`FN-AQ-186`_"
+   "Albacore from South Pacific","Thunnus alalunga","Scombroidei","1750102605","`FS-AQ-187`_","`KG-AQ-187`_","`WP-AQ-187`_","`DP-AQ-187`_","`GR-AQ-187`_","`IT-AQ-187`_","`FN-AQ-187`_"
+   "Yellowfin Tuna from Atlantic","Thunnus albacares","Scombroidei","1750102605","`FS-AQ-188`_","`KG-AQ-188`_","`WP-AQ-188`_","`DP-AQ-188`_","`GR-AQ-188`_","`IT-AQ-188`_","`FN-AQ-188`_"
+   "Yellowfin Tuna from Western and Central Pacific","Thunnus albacares","Scombroidei","1750102605","`FS-AQ-189`_","`KG-AQ-189`_","`WP-AQ-189`_","`DP-AQ-189`_","`GR-AQ-189`_","`IT-AQ-189`_","`FN-AQ-189`_"
+   "Bigeye Tuna from Atlantic","Thunnus obesus","Scombroidei","1750102612","`FS-AQ-190`_","`KG-AQ-190`_","`WP-AQ-190`_","`DP-AQ-190`_","`GR-AQ-190`_","`IT-AQ-190`_","`FN-AQ-190`_"
+   "Bigeye Tuna from Western and Central Pacific","Thunnus obesus","Scombroidei","1750102612","`FS-AQ-191`_","`KG-AQ-191`_","`WP-AQ-191`_","`DP-AQ-191`_","`GR-AQ-191`_","`IT-AQ-191`_","`FN-AQ-191`_"
+   "Swordfish from North Atlantic","Xiphias gladius","Scombroidei","1750400301","`FS-AQ-192`_","`KG-AQ-192`_","`WP-AQ-192`_","`DP-AQ-192`_","`GR-AQ-192`_","`IT-AQ-192`_","`FN-AQ-192`_"
+   "Swordfish from Northwest Pacific","Xiphias gladius","Scombroidei","1750400301","`FS-AQ-193`_","`KG-AQ-193`_","`WP-AQ-193`_","`DP-AQ-193`_","`GR-AQ-193`_","`IT-AQ-193`_","`FN-AQ-193`_"
+   "Sablefish from Alaska; British Columbia","Anoplopoma fimbria","Scorpaeniformes","1780800401","`FS-AQ-194`_","`KG-AQ-194`_","`WP-AQ-194`_","`DP-AQ-194`_","`GR-AQ-194`_","`IT-AQ-194`_","`FN-AQ-194`_"
+   "Sablefish from US West Coast","Anoplopoma fimbria","Scorpaeniformes","1780800401","`FS-AQ-195`_","`KG-AQ-195`_","`WP-AQ-195`_","`DP-AQ-195`_","`GR-AQ-195`_","`IT-AQ-195`_","`FN-AQ-195`_"
+   "Pacific Ocean Perch from Bering Sea; Aleutian Islands","Sebastes alutus","Scorpaeniformes","1780100109","`FS-AQ-196`_","`KG-AQ-196`_","`WP-AQ-196`_","`DP-AQ-196`_","`GR-AQ-196`_","`IT-AQ-196`_","`FN-AQ-196`_"
+   "Pacific Ocean Perch from Gulf of Alaska","Sebastes alutus","Scorpaeniformes","1780100109","`FS-AQ-197`_","`KG-AQ-197`_","`WP-AQ-197`_","`DP-AQ-197`_","`GR-AQ-197`_","`IT-AQ-197`_","`FN-AQ-197`_"
+   "Acadian Redfish from Gulf of Maine; Georges Bank","Sebastes fasciatus","Scorpaeniformes","1780100114","`FS-AQ-198`_","`KG-AQ-198`_","`WP-AQ-198`_","`DP-AQ-198`_","`GR-AQ-198`_","`IT-AQ-198`_","`FN-AQ-198`_"
+   "Chilipepper Rockfish from US West Coast","Sebastes goodei","Scorpaeniformes","1780100116","`FS-AQ-199`_","`KG-AQ-199`_","`WP-AQ-199`_","`DP-AQ-199`_","`GR-AQ-199`_","`IT-AQ-199`_","`FN-AQ-199`_"
+   "Shortspine Thornyhead from US West Coast","Sebastolobus alascanus","Scorpaeniformes","1780107901","`FS-AQ-200`_","`KG-AQ-200`_","`WP-AQ-200`_","`DP-AQ-200`_","`GR-AQ-200`_","`IT-AQ-200`_","`FN-AQ-200`_"
+   "Longspine Thornyhead from US West Coast","Sebastolobus altivelis","Scorpaeniformes","1780107902","`FS-AQ-201`_","`KG-AQ-201`_","`WP-AQ-201`_","`DP-AQ-201`_","`GR-AQ-201`_","`IT-AQ-201`_","`FN-AQ-201`_"
+
+
+Aquatic Food - Cartilaginous fishes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header-rows: 1
+   :widths: 10 60
+
+   "Abbreviation","Authority or Data Structure"
+   "FS","Fish Source"
+   "KG","Google Knowledge Graph"
+   "WP","Wikipedia"
+   "DP","DBpedia"
+   "GR","Directed Acyclic Graph (DAG) format"
+   "IT","Integrated Taxonomic Information System (ITIS)"
+   "FN","US Food and Drug Administration (US FDA) Unique Ingredient Identifier (UNII)"
+   "PT","Phylogenic tree"
+   "UN","United Nations Food and Agriculture Organization (UN FAO) Monograph"
+
+.. csv-table::
+   :header-rows: 1
+   :class: table
+
+   "Common Name by Region-of-Origin","Taxon Name","Taxon Class","UN FAO Identifier","FS","KG","WP","DP","GR","IT","FN"
+   "Sandbar Shark from Gulf of Mexico; NW Atlantic","Carcharhinus plumbeus","Chondrichthyes","1080201001","`FS-AQ-300`_","`KG-AQ-300`_","`WP-AQ-300`_","`DP-AQ-300`_","`GR-AQ-300`_","`IT-AQ-300`_","`FN-AQ-300`_"
+   "Shortfin Mako from Gulf of Mexico","Isurus oxyrinchus","Chondrichthyes","1060800201","`FS-AQ-301`_","`KG-AQ-301`_","`WP-AQ-301`_","`DP-AQ-301`_","`GR-AQ-301`_","`IT-AQ-301`_","`FN-AQ-301`_"
+   "Longnose Skate from US West Coast","Dentiraja confusa","Chondrichthyes","","`FS-AQ-302`_","`KG-AQ-302`_","`WP-AQ-302`_","`DP-AQ-302`_","`GR-AQ-302`_","`IT-AQ-302`_","`FN-AQ-302`_"
+   "Winter Skate from NE Atlantic","Leucoraja ocellata","Chondrichthyes","","`FS-AQ-303`_","`KG-AQ-303`_","`WP-AQ-303`_","`DP-AQ-303`_","`GR-AQ-303`_","`IT-AQ-303`_","`FN-AQ-303`_"
+   "Picked Dogfish from US Atlantic","Squalus acanthias","Chondrichthyes","","`FS-AQ-304`_","`KG-AQ-304`_","`WP-AQ-304`_","`DP-AQ-304`_","`GR-AQ-304`_","`IT-AQ-304`_","`FN-AQ-304`_"
+
+
+Aquatic Food - Crustaceans
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header-rows: 1
+   :widths: 10 60
+
+   "Abbreviation","Authority or Data Structure"
+   "FS","Fish Source"
+   "KG","Google Knowledge Graph"
+   "WP","Wikipedia"
+   "DP","DBpedia"
+   "GR","Directed Acyclic Graph (DAG) format"
+   "IT","Integrated Taxonomic Information System (ITIS)"
+   "FN","US Food and Drug Administration (US FDA) Unique Ingredient Identifier (UNII)"
+   "PT","Phylogenic tree"
+   "UN","United Nations Food and Agriculture Organization (UN FAO) Monograph"
+
+.. csv-table::
+   :header-rows: 1
+   :class: table
+
+   "Common Name by Region-of-Origin","Taxon Name","Taxon Class","UN FAO Identifier","FS","KG","WP","DP","GR","IT","FN"
+   "Red King Crab from Bristol Bay","Paralithodes camtschaticus","Crustacea","2302001801","`FS-AQ-400`_","`KG-AQ-400`_","`WP-AQ-400`_","`DP-AQ-400`_","`GR-AQ-400`_","`IT-AQ-400`_","`FN-AQ-400`_"
+   "Blue Crab from Chesapeake Bay","Callinectes sapidus","Crustacea","2311101202","`FS-AQ-401`_","`KG-AQ-401`_","`WP-AQ-401`_","`DP-AQ-401`_","`GR-AQ-401`_","`IT-AQ-401`_","`FN-AQ-401`_"
+   "Blue Crab from Eastern Gulf of Mexico","Callinectes sapidus","Crustacea","2311101202","`FS-AQ-402`_","`KG-AQ-402`_","`WP-AQ-402`_","`DP-AQ-402`_","`GR-AQ-402`_","`IT-AQ-402`_","`FN-AQ-402`_"
+   "Blue Crab from Gulf of Mexico","Callinectes sapidus","Crustacea","2311101202","`FS-AQ-403`_","`KG-AQ-403`_","`WP-AQ-403`_","`DP-AQ-403`_","`GR-AQ-403`_","`IT-AQ-403`_","`FN-AQ-403`_"
+   "Jonah Crab from Stock Units Undefined","Cancer borealis","Crustacea","2310901007","`FS-AQ-404`_","`KG-AQ-404`_","`WP-AQ-404`_","`DP-AQ-404`_","`GR-AQ-404`_","`IT-AQ-404`_","`FN-AQ-404`_"
+   "Red Crab from Southern New England/Mid Atlantic","Chaceon quinquedens","Crustacea","2314300112","`FS-AQ-405`_","`KG-AQ-405`_","`WP-AQ-405`_","`DP-AQ-405`_","`GR-AQ-405`_","`IT-AQ-405`_","`FN-AQ-405`_"
+   "Queen Crab from Alaska","Chionoecetes opilio","Crustacea","2312114501","`FS-AQ-406`_","`KG-AQ-406`_","`WP-AQ-406`_","`DP-AQ-406`_","`GR-AQ-406`_","`IT-AQ-406`_","`FN-AQ-406`_"
+   "Golden King Crab from Aleutian Islands","Lithodes aequispinus","Crustacea","","`FS-AQ-407`_","`KG-AQ-407`_","`WP-AQ-407`_","`DP-AQ-407`_","`GR-AQ-407`_","`IT-AQ-407`_","`FN-AQ-407`_"
+   "Golden King Crab from Pribilof Islands","Lithodes aequispinus","Crustacea","","`FS-AQ-408`_","`KG-AQ-408`_","`WP-AQ-408`_","`DP-AQ-408`_","`GR-AQ-408`_","`IT-AQ-408`_","`FN-AQ-408`_"
+   "Dungeness Crab from Alaska","Metacarcinus magister","Crustacea","","`FS-AQ-409`_","`KG-AQ-409`_","`WP-AQ-409`_","`DP-AQ-409`_","`GR-AQ-409`_","`IT-AQ-409`_","`FN-AQ-409`_"
+   "Dungeness Crab from California","Metacarcinus magister","Crustacea","","`FS-AQ-410`_","`KG-AQ-410`_","`WP-AQ-410`_","`DP-AQ-410`_","`GR-AQ-410`_","`IT-AQ-410`_","`FN-AQ-410`_"
+   "Ocean Shrimp from Eastern Pacific","Pandalus jordani","Crustacea","2280400204","`FS-AQ-411`_","`KG-AQ-411`_","`WP-AQ-411`_","`DP-AQ-411`_","`GR-AQ-411`_","`IT-AQ-411`_","`FN-AQ-411`_"
+   "Northern Brown Shrimp from Gulf of Mexico","Farfantepenaeus aztecus","Crustacea","2280100101","`FS-AQ-412`_","`KG-AQ-412`_","`WP-AQ-412`_","`DP-AQ-412`_","`GR-AQ-412`_","`IT-AQ-412`_","`FN-AQ-412`_"
+   "Northern Brown Shrimp from NW Atlantic","Farfantepenaeus aztecus","Crustacea","2280100101","`FS-AQ-413`_","`KG-AQ-413`_","`WP-AQ-413`_","`DP-AQ-413`_","`GR-AQ-413`_","`IT-AQ-413`_","`FN-AQ-413`_"
+   "Northern Pink Shrimp from Gulf of Mexico","Farfantepenaeus duorarum","Crustacea","2280100105","`FS-AQ-414`_","`KG-AQ-414`_","`WP-AQ-414`_","`DP-AQ-414`_","`GR-AQ-414`_","`IT-AQ-414`_","`FN-AQ-414`_"
+   "Northern Pink Shrimp from NW Atlantic","Farfantepenaeus duorarum","Crustacea","2280100105","`FS-AQ-415`_","`KG-AQ-415`_","`WP-AQ-415`_","`DP-AQ-415`_","`GR-AQ-415`_","`IT-AQ-415`_","`FN-AQ-415`_"
+   "Northern White Shrimp from Gulf of Mexico","Litopenaeus setiferus","Crustacea","2280100122","`FS-AQ-416`_","`KG-AQ-416`_","`WP-AQ-416`_","`DP-AQ-416`_","`GR-AQ-416`_","`IT-AQ-416`_","`FN-AQ-416`_"
 
 
 Visualization
@@ -178,7 +469,6 @@ PlantUML diagram 3
    manager -[#blue]->> (Manage Users): This arrow is -[#blue]->>
 
 
-
 GraphViz
 ========
 
@@ -212,12 +502,51 @@ GraphViz diagram 1
    }
 
 
-Terms and Glossary
-******************
+
+Resources
+*********
+
+Terms
+=====
+
+Using :term:
+------------
 
 A **term** that is defined in the glossary is formatted as follows: :term:`grammar<Grammar>`
 
+Reference
+=========
+
+Using :ref:
+-----------
+
+A **reference** is formatted
+
+
+Documentation
+=============
+
+Using :doc:
+-----------
+
+A **documentation link** is formatted
+
+
+Glossary
+========
+
+Using :gloss:
+-------------
+
+A **glossary link** is formatted
+
+
+Bibliography
+============
+
 A bibliographic **references** is formatted as follows: See :cite:`4001` for more information about ...
+
+
 
 Code Documentation
 ******************
@@ -239,7 +568,10 @@ PowerShell command to convert a Windows file to a Unix file
 
 
 Rubric
-^^^^^^
+------
+
+Outline of existing Sphinx instances
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. rubric:: Sphinx-RDF-About-outline
 
@@ -255,9 +587,11 @@ Rubric
    2.2 RDF/XML
    2.3 Use a Validator!
 
+Video
+*****
 
 YouTube-iFrame
-^^^^^^^^^^^^^^
+==============
 
 .. admonition:: YouTube
 
@@ -271,13 +605,20 @@ YouTube-iFrame
 
 |br|
 
-Tabs contentui
-^^^^^^^^^^^^^^
+Information Hiding
+******************
+
+Tabs
+====
+
+sphinx-contentui
+----------------
 
 Example 1
+^^^^^^^^^
 
 .. toggle-header::
-    :header: Example 1 **Show/Hide Code**
+    :header: **Show/Hide Code**
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -286,9 +627,8 @@ Example 1
     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id est laborum
 
-------
-
 Example 2
+^^^^^^^^^
 
 .. content-tabs::
 
@@ -333,8 +673,9 @@ Example 2
         asperiores repellat.
 
 
+
 sphinx-tabs
-^^^^^^^^^^^
+-----------
 
 .. tabs::
 
@@ -368,7 +709,7 @@ sphinx-tabs
 
 
 sphinx-collapse
-^^^^^^^^^^^^^^^
+---------------
 
 .. collapse:: Details
 
@@ -388,8 +729,11 @@ sphinx-collapse
         print("Not really")
 
 
+JavaScript
+**********
+
 JavaScript and d3.js (under construction)
------------------------------------------
+=========================================
 
 .. raw:: html
 
@@ -411,6 +755,10 @@ JavaScript and d3.js (under construction)
        .attr('fill', 'steelblue');
    </script>
 
+
+|br|
+|br|
+|br|
 
 
 .. include:: substitution.txt
