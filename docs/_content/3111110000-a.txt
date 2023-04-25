@@ -388,24 +388,28 @@ sphinx-collapse
         print("Not really")
 
 
-JavaScript
-----------
+JavaScript and d3.js (under construction)
+-----------------------------------------
 
 .. raw:: html
 
-    <script type='text/javascript'>
-      p = document.getElementById('js_ex_text');
+   <script type='text/javascript'>
+   var data = [{r: 5, cy: 100, cx: 100},
+               {r: 10, cy: 100, cx: 200},
+               {r: 15, cy: 100, cx: 300}];
 
-      buttonWrite = document.getElementById('js_ex_write');
-      buttonWrite.onclick = function() {
-        p.innerHTML = 'Hello <strong>js</strong> world!';
-      };
-
-      buttonClear = document.getElementById('js_ex_clear');
-      buttonClear.onclick = function() {
-        p.innerHTML = ' -- nothing here, click write --';
-      };
-    </script>
+   var root = d3.select('#vizdiv').append('svg')
+       .attr('width', 400)
+       .attr('height', 200);
+   
+   root.selectAll('circle')
+       .data(data).enter()
+     .append('circle')
+       .attr('r', function(d) {return d.r;})
+       .attr('cx', function(d) {return d.cx;})
+       .attr('cy', function(d) {return d.cy;})
+       .attr('fill', 'steelblue');
+   </script>
 
 
 
