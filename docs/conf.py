@@ -71,7 +71,12 @@ hoverxref_role_types = {
     "term": "tooltip",  # for glossaries
 }
 
-mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+# current path is shutting down
+# mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+# new
+
+mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/latest.min.js'
+
 
 # -- GraphViz configuration ----------------------------------
 graphviz_output_format = 'svg'
@@ -79,7 +84,7 @@ graphviz_output_format = 'svg'
 # -- More general configuration ------------------------------
 
 # Add any paths that contain templates here, relative to this directory.
-#templates_path = ['_templates']
+templates_path = ['_templates']
 
 # The suffix of source filenames.
 source_suffix = '.rst'
