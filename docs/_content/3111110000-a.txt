@@ -388,5 +388,25 @@ sphinx-collapse
         print("Not really")
 
 
+JavaScript
+----------
+
+.. raw:: html
+
+    <script type='text/javascript'>
+      p = document.getElementById('js_ex_text');
+
+      buttonWrite = document.getElementById('js_ex_write');
+      buttonWrite.onclick = function() {
+        p.innerHTML = 'Hello <strong>js</strong> world!';
+      };
+
+      buttonClear = document.getElementById('js_ex_clear');
+      buttonClear.onclick = function() {
+        p.innerHTML = ' -- nothing here, click write --';
+      };
+    </script>
+
+
 
 .. include:: substitution.txt
