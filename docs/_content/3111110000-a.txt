@@ -8,7 +8,7 @@ Examples
 Images
 ******
 
-.. _my-reference-label:
+.. _my-reference-images:
 
 List Table and ``thumbnail``
 ============================
@@ -459,7 +459,8 @@ Glossary Terms
 Using ``:term:``
 ----------------
 
-The `role` :term: links to a glossary term and is linked as follows: :term:`grammar<Grammar>`
+The `role` :term: links a glossary term and is linked as follows:
+   See :term:`grammar<Grammar>`
 
 Reference
 =========
@@ -467,7 +468,8 @@ Reference
 Using ``:ref:``
 ---------------
 
-The `role` :ref: links to a location in any document and is linked as follows: :ref:`my-reference-label`
+The `role` :ref: links a location in this document and is linked as follows:
+   See :ref:`my-reference-images`
 
 
 Documentation
@@ -476,17 +478,17 @@ Documentation
 Using ``:doc:``
 ---------------
 
-The `role` :doc: links to a document.
+The `role` :doc: links an external document and is linked as follows:
+   See :doc:`this example target file </bibliography-1-book-food-method.rst>`.
 
-This is a link to display a referenced file.
-   See :doc:`this example bibliography file </bibliography-1-book-food-method.rst>`.
 
 Download
 ========
 
-The `role` :download: links to a document.
+Using ``:download:``
+--------------------
 
-This is a link to display a referenced file.
+The `role` :download: links an external document and is linked as follows:
    See :download:`this example download </requirements.txt>`.
 
 
@@ -510,7 +512,8 @@ Bibliography
 Using ``:cite:``
 ----------------
 
-The `role` :cite: links to a bibliographic reference and is linked as follows: See :cite:`4001` for more information about ...
+The `role` :cite: links a bibliographic reference and is linked as follows.
+   See :cite:`4001` for more information about ...
 
 
 Code Documentation
@@ -531,20 +534,21 @@ PowerShell command to convert a Windows file to a Unix file
      Set-Content -NoNewline E:directory\31111100000000000061.rst;
 
 
-Python (Nobel Prize collection.py)
-----------------------------------
+Python
+------
 
 .. literalinclude:: collection.py
    :linenos:
-   :caption:
+   :caption: Nobel Prize
+   :emphasize-lines: 12,15-18
 
 
-Text (use JSON example)
------------------------
+JSON-LD
+-------
 
 .. literalinclude:: data.json
    :linenos:
-   :caption:
+   :caption: JSON-LD
 
 
 Rubric
@@ -778,6 +782,8 @@ Emoji
 |:negative_squared_cross_mark:|
 |:new:|
 |:ok:|
+|:x:|
+|:triangular_flag_on_post:|
 
 |:regional_indicator_a:|
 |:regional_indicator_b:|
@@ -806,9 +812,6 @@ Emoji
 |:regional_indicator_y:|
 |:regional_indicator_z:|
 
-|:x:|
-
-|:triangular_flag_on_post:|
 
 |:large_blue_circle:|
 
