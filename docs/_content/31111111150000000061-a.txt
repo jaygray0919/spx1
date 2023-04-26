@@ -1,0 +1,41 @@
+Ontology (continuing to add precision to the word "Ontology" previously used above)
+   Uses a Controlled Vocabulary to specify Things, Properties and Relations for a Domain-of-Knowledge. Defines a set of statements about a Domain-of-Knowledge. Statements in Ontomatica ontologies are implemented as Graphs.
+
+Faceted Classification
+   Enables assignment of a Term to multiple categories in a Taxonomy. Faceted search (a.k.a. faceted navigation or faceted browsing) is the user-interface of a faceted classification system. Users explore a collection of information by applying multiple filters (a.k.a. facet terms).
+
+Facet Tree
+   Hierarchy of Facets in a specific Domain-of-Knowledge.
+
+Thing (continuing to add precision to the word "Thing" previously used above)
+   An entity capable of an independent existence that can be uniquely identified.
+
+Subject
+   An observer; an entity that has a relationship with another entity that exists outside of itself (an "object"). A Subject is an observer and an Object is an entity observed.
+
+Object
+   An entity observed by a Subject.
+
+Item
+   A Thing - associated with a Domain-of-Knowledge - that is described by one or more Terms in one or more Facet Trees. Item is comparable to Data in a Data Model and to an instance of an Entity-type in an Entity-Relationship model.
+
+Graph
+   Composed of vertices {nodes} and lines {edges} that connect vertices. Ontomatica graphs are Directed Acyclic Graphs (DAG) that represent Things and causal Relations between them.
+
+Facet and Facet Term (as defined during Facet Classification and revealed in a Facet Tree)
+   Vertex {node} in a Graph. Logically, a facet is a noun. A class term (word identifying a collection of Facet Terms) is called a Facet. A type term (instances of members of a Facet) is called Facet Term. Code assigned to Facet Term (FT) is called Facet Term Code (FTC).
+
+Facet Map
+   Pairing of an Item with one or more Facet Terms in one or more Facet Trees.
+
+Relation (continuing to add precision to the word "Relation" previously used above)
+   Line {edge} expressing connection between Facets and Facet Terms in a Graph. Logically, a relation is a verb. Term that describes a Relation is a Predicate.
+
+Predicate and Predicate Term
+   Type {single} or class {hierarchy} of Relations. A class term (word identifying a collection of Predicate Terms) is called a Predicate. A type term (instances of members of a Predicate Taxonomy) is called Predicate Term. Code assigned to Predicate Term (PT) is called Predicate Term Code (PTC).
+
+Syntax (continuing to add precision to the word "Syntax" previously used above, but now specific to Ontology)
+   Web Ontology Language (OWL) that specifies the Syntax for creating structures like phrases, sentences, and paragraphs.
+
+Grammar (continuing to add precision to the word "Grammar" previously used above, but now specific to Ontology)
+   Set of statements in the logical form: :class:`subject` :class:`predicate` :class:`object` where :class:`subject` and :class:`object` are Facet Terms and :class:`predicate` are Predicate Terms.

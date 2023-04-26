@@ -1,0 +1,24 @@
+IS-A relationship
+   Specifies relations between abstractions (e.g. types, classes), where one class A is a subclass of another class B (and so B is a superclass of A). In other words, type A is a subtype of type B when A's specification implies B's specification. More specifically, the IS-A relationship is defined by:
+
+      1) Hypernymy-Hyponymy (supertype-subtype) relations between types (classes) defining a taxonomic hierarchy, where a hyponym (subtype, subclass) has a type-of (IS-A) relationship with its hypernym (supertype, superclass)
+
+      2) Holonymy-Meronymy (container-part or member) relations between types (classes) defining a possessive hierarchy.
+
+HAS-A relationship
+   Specifies part-whole relations. Meronym is the name given to a constituent part of, the substance of, or a member of something. 'X' is a meronym of 'Y' if an X is a part of a Y. A meronym may be:
+
+      1) Transitive - "Parts of parts are parts of the whole" - if A is part of B and B is part of C, then A is part of C.
+
+      2) Reflexive - "Everything is part of itself" - A is part of A.
+
+      3) Antisymmetric - "Nothing is a part of its parts" - if A is part of B and A !- B then B is not part of A.
+
+Domain
+   Set of values for a Term declared in a Relation.
+
+Range
+   Limits for the values of a Term declared in a Relation.
+
+Symmetric relationship
+   Declaration that Terms are essentially the same and are interchangeable.

@@ -27,9 +27,11 @@ plantuml = f"java -Djava.awt.headless=true -jar {local_plantuml_path}"
 # Add any Sphinx extension module names here, as strings.
 # They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 
+
 extensions = [
-    'hoverxref.extension',
     'sphinx_rtd_theme',
+    'hoverxref.extension',
+    'sphinxemoji.sphinxemoji',
     'sphinxcontrib.bibtex',
     'sphinxcontrib.contentui',
     'sphinxcontrib.images',
@@ -81,6 +83,9 @@ mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS
 
 # -- GraphViz configuration ----------------------------------
 graphviz_output_format = 'svg'
+
+# -- sphinxemoji configuration -------------------------------
+sphinxemoji_style = 'twemoji'
 
 # -- More general configuration ------------------------------
 

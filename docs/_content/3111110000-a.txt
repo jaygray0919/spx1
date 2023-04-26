@@ -15,13 +15,13 @@ List Table and ``thumbnail``
    :stub-columns: 1
 
    * - Far far away, behind the word mountains, there live the blind texts.
-     - .. thumbnail:: _static/3111110000-a.png
+     - .. thumbnail:: _images/3111110000-a.png
           :width: 70%
    * - They live at the coast of the Semantics, a large language ocean.
-     - .. thumbnail:: _static/3111110000-b.png
+     - .. thumbnail:: _images/3111110000-b.png
           :width: 70%
    * - A small river named Duden supplies the necessary regelialia.
-     - .. thumbnail:: _static/3111110000-c.png
+     - .. thumbnail:: _images/3111110000-c.png
           :width: 70%
 
 
@@ -32,7 +32,7 @@ Thumbnail ``clearfix + align``
 
    .. describe:: Image A
 
-      .. thumbnail:: _static/3111110000-a.png
+      .. thumbnail:: _images/3111110000-a.png
          :width: 60%
          :class: framed
          :align: left
@@ -41,7 +41,7 @@ Thumbnail ``clearfix + align``
 
    .. describe:: Image B
 
-      .. thumbnail:: _static/3111110000-b.png
+      .. thumbnail:: _images/3111110000-b.png
          :width: 60%
          :class: framed
          :align: center
@@ -50,7 +50,7 @@ Thumbnail ``clearfix + align``
 
    .. describe:: Image C
 
-      .. thumbnail:: _static/3111110000-c.png
+      .. thumbnail:: _images/3111110000-c.png
          :width: 60%
          :class: framed
          :align: right
@@ -411,6 +411,21 @@ Aquatic Food - Crustaceans
    "Northern White Shrimp from Gulf of Mexico","Litopenaeus setiferus","Crustacea","2280100122","`FS-AQ-416`_","`KG-AQ-416`_","`WP-AQ-416`_","`DP-AQ-416`_","`GR-AQ-416`_","`IT-AQ-416`_","`FN-AQ-416`_"
 
 
+Example 3
+---------
+
+Data source |end| ``CSV`` (external)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Ontomatica Products
+~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: _content/3111110000.csv
+   :header: "Services", "Ontomatica Products", "Technologies"
+   :widths: 15, 20, 25
+
+
 Visualization
 *************
 
@@ -535,6 +550,22 @@ Using :doc:
 A **documentation link** is formatted
 
 
+Class
+=====
+
+Using :class:
+-----------
+
+The Genomedata hierarchy:
+
+  Each :class:`Genome` contains many :class:`Chromosomes <Chromosome>`
+    Each :class:`Chromosome` contains many :class:`Supercontigs <Supercontig>`
+      Each :class:`Supercontig` contains one ``continuous`` data set
+        Each ``continuous`` data set is a numpy.array of floating
+        point numbers with a column for each data track and a row
+        for each base in the data set.
+
+
 Glossary
 ========
 
@@ -568,6 +599,35 @@ PowerShell command to convert a Windows file to a Unix file
         -join "`n") + "`n" | 
      Set-Content -NoNewline E:directory\31111100000000000061.rst;
 
+HTTP GET
+--------
+
+.. http:get:: /users/(int:user_id_)/posts/(tag)
+
+   **Request**:
+
+   .. sourcecode:: http
+
+      GET /users/123/posts/web HTTP/1.1
+      Host: example.com
+      Accept: application/json, text/javascript
+
+   **Response**:
+
+   .. sourcecode:: http
+
+      HTTP/1.1 200 OK
+      Vary: Accept
+      Content-Type: text/javascript
+
+      [
+        {
+          "post_id": 12345,
+        },
+        {
+          "post_id": 12346,
+        }
+      ]
 
 
 Rubric
@@ -762,6 +822,74 @@ JavaScript and d3.js (``under construction``)
        .attr('cy', function(d) {return d.cy;})
        .attr('fill', 'steelblue');
    </script>
+
+File Sharing
+************
+
+Download
+========
+
+This is a link to display a referenced file
+   See :download:`this example download <\requirements.txt>`.
+
+
+Page Layout
+***********
+
+Sidebars
+========
+
+.. sidebar:: Sidebar Title
+   :subtitle: Optional Sidebar Subtitle
+
+   Subsequent indented lines comprise the body of the sidebar, and are interpreted as body elements.
+
+1. Item 1 initial text.
+
+   a) Item 1a.
+   b) Item 1b.
+
+2. a) Item 2a.
+   b) Item 2b.
+
+term 1
+    Definition 1.
+
+term 2
+    Definition 2, paragraph 1.
+
+    Definition 2, paragraph 2.
+
+term 3 : classifier
+    Definition 3.
+
+term 4 : classifier one : classifier two
+    Definition 4.
+
+Doctree element: literal_block. This is a typical paragraph.  An indented literal block follows.
+::
+
+    for a in [5,4,3,2,1]:
+        print a
+    print "it's..."
+
+This text has returned to the indentation of the first paragraph, is outside of the literal block, and is therefore treated as an ordinary paragraph.
+
+Changing Menus
+==============
+
+The following puts "Implementation" into the menu but keeps text on same page.
+
+.. _Implementation:
+
+Implementation
+--------------
+
+Genomedata archives are implemented as one or more HDF5 files. The :ref:`API <inline-markup>` handles both single-file and directory archives transparently, but the implementation options exist for several performance reasons.
+
+Use a **directory** with few chromosomes/scaffolds:
+  * Parallel load/access
+  * Smaller file sizes
 
 
 |br|
