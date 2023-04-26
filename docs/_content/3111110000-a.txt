@@ -212,8 +212,8 @@ Example 2
 Data source |end| ``CSV`` (inline)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Aquatic Food - Finned Fish
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Aquatic Food |end| Finned Fish |:fish:|
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :header-rows: 1
@@ -451,13 +451,13 @@ GraphViz ``diagram 1``
 Resources
 *********
 
-Terms
-=====
+Glossary Terms
+==============
 
 Using :term:
 ------------
 
-A **term** that is defined in the glossary is formatted as follows: :term:`grammar<Grammar>`
+The role :term: links to a glossary term and is formatted as follows: :term:`grammar<Grammar>`
 
 Reference
 =========
@@ -465,7 +465,9 @@ Reference
 Using :ref:
 -----------
 
-A **reference** is formatted
+The role :ref: links to a location in any document and is formatted as follows: :ref:`my-reference-label`
+
+The link is set as follows:
 
 
 Documentation
@@ -474,14 +476,14 @@ Documentation
 Using :doc:
 -----------
 
-A **documentation link** is formatted
+The role :doc: links to a document and is formatted as follows: :doc:`Monty Python members </people>`
 
 
 Class
 =====
 
 Using :class:
------------
+-------------
 
 The Genomedata hierarchy:
 
@@ -491,19 +493,11 @@ The Genomedata hierarchy:
             Each ``continuous`` data set is a numpy.array of floating point numbers with a column for each data track and a row for each base in the data set.
 
 
-Glossary
-========
-
-Using :gloss:
--------------
-
-A **glossary link** is formatted
-
 
 Bibliography
 ============
 
-A bibliographic **references** is formatted as follows: See :cite:`4001` for more information about ...
+The role :cire: links links to a bibliographic reference and is formatted as follows: See :cite:`4001` for more information about ...
 
 
 
@@ -523,6 +517,25 @@ PowerShell command to convert a Windows file to a Unix file
    ((Get-Content E:directory\31111100000000000061.rst)
         -join "`n") + "`n" | 
      Set-Content -NoNewline E:directory\31111100000000000061.rst;
+
+
+Python (use Nobel Prize config.py)
+----------------------------------
+
+.. literalinclude:: example.py
+   :language: python
+   :emphasize-lines: 12,15-18
+   :linenos:
+
+
+Text (use np++ example)
+-----------------------
+
+.. literalinclude:: example.txt
+   :language: text
+   :emphasize-lines: 12,15-18
+   :linenos:
+
 
 HTTP GET (fails)
 ----------------
@@ -777,12 +790,96 @@ Sidebars
          b) Item 2b.
 
 
+.. _my-reference-label:
+
+Section to cross-reference
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is the text of the section.
+
+
 Emoji
 =====
 
-This text includes a smiley face |:smile:| and a snake too! |:snake:|
+|:arrow_forward:|
+|:asterisk:|
+|:atom:|
+|:ballot_box_with_check:|
+|:books:|
+|:bug:|
+|:date:|
+|:desktop:|
 
-Don't you love it? |:heart_eyes:|
+|:digit_zero:|
+|:digit_one:|
+|:digit_two:|
+|:digit_three:|
+|:digit_four:|
+|:digit_five:|
+|:digit_six:|
+|:digit_seven:|
+|:digit_eight:|
+|:digit_nine:|
+
+|:fish:|
+|:gear:|
+|:hammer_and_wrench:|
+|:information_source:|
+|:loop:|
+|:negative_squared_cross_mark:|
+|:new:|
+|:ok:|
+
+|:regional_indicator_a:|
+|:regional_indicator_b:|
+|:regional_indicator_c:|
+|:regional_indicator_d:|
+|:regional_indicator_e:|
+|:regional_indicator_f:|
+|:regional_indicator_g:|
+|:regional_indicator_h:|
+|:regional_indicator_i:|
+|:regional_indicator_j:|
+|:regional_indicator_k:|
+|:regional_indicator_l:|
+|:regional_indicator_m:|
+|:regional_indicator_n:|
+|:regional_indicator_o:|
+|:regional_indicator_p:|
+|:regional_indicator_q:|
+|:regional_indicator_r:|
+|:regional_indicator_s:|
+|:regional_indicator_t:|
+|:regional_indicator_u:|
+|:regional_indicator_v:|
+|:regional_indicator_w:|
+|:regional_indicator_x:|
+|:regional_indicator_y:|
+|:regional_indicator_z:|
+
+|:x:|
+
+|:triangular_flag_on_post:|
+
+|:large_blue_circle:|
+
+|:small_blue_diamond:|
+|:large_blue_diamond:|
+
+|:small_orange_diamond:|
+|:large_orange_diamond:|
+
+|:yellow_circle:|
+|:yellow_square:|
+
+|:orange_circle:|
+|:orange_square:|
+
+|:purple_circle:|
+|:purple_square:|
+
+|:red_circle:|
+|:red_square:|
 
 
 |br|
