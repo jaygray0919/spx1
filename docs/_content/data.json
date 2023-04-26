@@ -1,0 +1,23 @@
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalWebPage",
+  "about":[
+   {
+      "@type": "Drug",
+      "nonProprietaryName": "propanaolol",
+      "alternateName": "Innopran"
+    },
+    {
+      "@type": "Substance",
+      "activeIngredient": "atenolol",
+      "alternateName": "Tenormin"
+    },
+    {
+      "@type": "Class",
+      "name": "Tenormin"
+    }
+  ],
+  "lastReviewed": "2011-09-14",
+  "name": "beta-blocker",
+  "specialty": "http://schema.org/Cardiovascular"
+}

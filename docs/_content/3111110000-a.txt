@@ -454,36 +454,34 @@ Resources
 Glossary Terms
 ==============
 
-Using :term:
-------------
+Using ``:term:``
+----------------
 
-The role :term: links to a glossary term and is formatted as follows: :term:`grammar<Grammar>`
+The `role` :term: links to a glossary term and is linked as follows: :term:`grammar<Grammar>`
 
 Reference
 =========
 
-Using :ref:
------------
+Using ``:ref:``
+---------------
 
-The role :ref: links to a location in any document and is formatted as follows: :ref:`my-reference-label`
-
-The link is set as follows:
+The `role` :ref: links to a location in any document and is linked as follows: :ref:`my-reference-label`
 
 
 Documentation
 =============
 
-Using :doc:
------------
+Using ``:doc:``
+---------------
 
-The role :doc: links to a document and is formatted as follows: :doc:`Monty Python members </people>`
+The `role` :doc: links to a document and is linked as follows: :doc:`Monty Python members </people>`
 
 
 Class
 =====
 
-Using :class:
--------------
+Using ``:class:``
+-----------------
 
 The Genomedata hierarchy:
 
@@ -497,8 +495,7 @@ The Genomedata hierarchy:
 Bibliography
 ============
 
-The role :cire: links links to a bibliographic reference and is formatted as follows: See :cite:`4001` for more information about ...
-
+The ``role`` :cite: links to a bibliographic reference and is linked as follows: See :cite:`4001` for more information about ...
 
 
 Code Documentation
@@ -519,53 +516,22 @@ PowerShell command to convert a Windows file to a Unix file
      Set-Content -NoNewline E:directory\31111100000000000061.rst;
 
 
-Python (use Nobel Prize config.py)
-----------------------------------
+Python (Nobel Prize Colection.py)
+---------------------------------
 
-.. literalinclude:: example.py
+.. literalinclude:: Collection.py
    :language: python
    :emphasize-lines: 12,15-18
    :linenos:
 
 
-Text (use np++ example)
+Text (use JSON example)
 -----------------------
 
-.. literalinclude:: example.txt
-   :language: text
+.. literalinclude:: data.json
+   :language: json
    :emphasize-lines: 12,15-18
    :linenos:
-
-
-HTTP GET (fails)
-----------------
-
-.. http:get:: /users/(int:user_id_)/posts/(tag)
-
-   **Request**:
-
-   .. sourcecode:: http
-
-      GET /users/123/posts/web HTTP/1.1
-      Host: example.com
-      Accept: application/json, text/javascript
-
-   **Response**:
-
-   .. sourcecode:: http
-
-      HTTP/1.1 200 OK
-      Vary: Accept
-      Content-Type: text/javascript
-
-      [
-        {
-          "post_id": 12345,
-        },
-        {
-          "post_id": 12346,
-        }
-      ]
 
 
 Rubric
@@ -760,16 +726,6 @@ JavaScript and d3.js (``under construction``)
    </script>
 
 
-File Sharing
-************
-
-Download
-========
-
-This is a link to display a referenced file
-   See :download:`this example download <\requirements.txt>`.
-
-
 Page Layout
 ***********
 
@@ -788,6 +744,19 @@ Sidebars
       
       2. a) Item 2a.
          b) Item 2b.
+
+
+File Sharing
+************
+
+Download
+========
+
+This is a link to display a referenced file
+   See :download:`this example download <\requirements.txt>`.
+
+
+
 
 
 .. _my-reference-label:
@@ -809,17 +778,6 @@ Emoji
 |:bug:|
 |:date:|
 |:desktop:|
-
-|:digit_zero:|
-|:digit_one:|
-|:digit_two:|
-|:digit_three:|
-|:digit_four:|
-|:digit_five:|
-|:digit_six:|
-|:digit_seven:|
-|:digit_eight:|
-|:digit_nine:|
 
 |:fish:|
 |:gear:|
