@@ -22,11 +22,10 @@ CURDIR = os.path.abspath(os.path.dirname(__file__))
 local_plantuml_path = os.path.join(os.path.dirname(__file__), "utils", "plantuml-1.2023.6.jar")
 plantuml = f"java -Djava.awt.headless=true -jar {local_plantuml_path}"
 
-# -- General configuration -----------------------------------------------------------------
+# -- General configuration ----------------------------------
 
 # Add any Sphinx extension module names here, as strings.
 # They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-
 
 extensions = [
     'sphinx_rtd_theme',
@@ -56,7 +55,7 @@ bibtex_bibfiles = [
     'reference-8-article-technology.bib',
 ]
 
-# -- hoverxref.extension configuration ----------------------------------
+# -- hoverxref.extension configuration ----------------------
 hoverxref_auto_ref = True
 hoverxref_domains = ["py"]
 hoverxref_roles = [
@@ -77,10 +76,10 @@ hoverxref_role_types = {
 }
 
 # -- MathJax configuration ----------------------------------
-# current path is shutting down
-# new fails
+# new link fails
 #mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/latest.min.js'
 
+# current path is shutting down
 mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 
 # -- GraphViz configuration ----------------------------------
@@ -119,14 +118,14 @@ release = 'a'
 number_figures = True
 
 
-# -- Bibliography configuration ----------------------------------
+# -- Bibliography configuration -----------------------------
 # see https://wnielson.bitbucket.org/projects/sphinx-natbib/
 natbib = {
-   'file': 'reference-1-book-food-method.bib,reference-2-article-food-method.bib,reference-3-book-food-ref.bib,reference-4-article-food-ref.bib,reference-5-misc-ontology.bib,reference-6-misc-data.bib,reference-7-misc-web.bib,reference-8-article-technology.bib',
-   'brackets': '[]',
-   'separator': ',',
-   'style': 'numbers',
-   'sort': True,
+    'file': 'reference-1-book-food-method.bib,reference-2-article-food-method.bib,reference-3-book-food-ref.bib,reference-4-article-food-ref.bib,reference-5-misc-ontology.bib,reference-6-misc-data.bib,reference-7-misc-web.bib,reference-8-article-technology.bib',
+    'brackets': '[]',
+    'separator': ',',
+    'style': 'numbers',
+    'sort': True,
 }
 
 
@@ -140,16 +139,16 @@ today_fmt = '%d %B %Y'
 # List of patterns, relative to source directory, that match files and directories to ignore when looking for source files.
 
 exclude_patterns = [
-   '__notes',
-   '_build',
-   'link-aq-cf.rst',
-   'link-aq-cr.rst',
-   'link-aq-mo.rst',
-   'link-aq-rf.rst',
-   'link-generic.rst',
-   'link-ontology.rst',
-   'link-ss.rst',
-   'link-wedge.rst',
+    '__notes',
+    '_build',
+    'link-aq-cf.rst',
+    'link-aq-cr.rst',
+    'link-aq-mo.rst',
+    'link-aq-rf.rst',
+    'link-generic.rst',
+    'link-ontology.rst',
+    'link-ss.rst',
+    'link-wedge.rst',
 ]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
@@ -201,7 +200,7 @@ with open('link-wedge.rst') as f:
 
 pygments_style = 'sphinx'
 
-# -- Options for HTML output ----------------------------------------
+# -- Options for HTML output --------------------------------
 
 # The theme to use for HTML and HTML Help pages. See the documentation for a list of built-in themes.
 
