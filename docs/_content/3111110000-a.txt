@@ -867,15 +867,6 @@ Use a **directory** with few chromosomes/scaffolds:
   * Smaller file sizes
 
 
-Emoji
-=====
-
-This text includes a smiley face |:smile:| and a snake too! |:snake:|
-
-Don't you love it? |:heart_eyes:|
-
-
-
 |br|
 |br|
 |br|

@@ -31,7 +31,7 @@ plantuml = f"java -Djava.awt.headless=true -jar {local_plantuml_path}"
 extensions = [
     'sphinx_rtd_theme',
     'hoverxref.extension',
-    'sphinxemoji.sphinxemoji',
+#    'sphinxemoji.sphinxemoji',
     'sphinxcontrib.bibtex',
     'sphinxcontrib.contentui',
     'sphinxcontrib.images',
@@ -85,7 +85,7 @@ mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS
 graphviz_output_format = 'svg'
 
 # -- sphinxemoji configuration -------------------------------
-sphinxemoji_style = 'twemoji'
+#sphinxemoji_style = 'twemoji'
 
 # -- More general configuration ------------------------------
 
