@@ -856,18 +856,16 @@ Sidebars
 Changing Menus
 ==============
 
-The following puts "Implementation" into the menu but keeps text on same page.
+The following puts "Genomedata" into the menu but keeps text on same page.
 
-.. _Implementation:
-
-Implementation
---------------
+.. _Genomedata:
 
 Genomedata archives are implemented as one or more HDF5 files. The :ref:`API <inline-markup>` handles both single-file and directory archives transparently, but the implementation options exist for several performance reasons.
 
 Use a **directory** with few chromosomes/scaffolds:
   * Parallel load/access
   * Smaller file sizes
+
 
 Emoji
 =====
