@@ -339,78 +339,6 @@ Aquatic Food - Finned Fish
    "Longspine Thornyhead from US West Coast","Sebastolobus altivelis","Scorpaeniformes","1780107902","`FS-AQ-201`_","`KG-AQ-201`_","`WP-AQ-201`_","`DP-AQ-201`_","`GR-AQ-201`_","`IT-AQ-201`_","`FN-AQ-201`_"
 
 
-Aquatic Food - Cartilaginous fishes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table::
-   :header-rows: 1
-   :widths: 10 60
-
-   "Abbreviation","Authority or Data Structure"
-   "FS","Fish Source"
-   "KG","Google Knowledge Graph"
-   "WP","Wikipedia"
-   "DP","DBpedia"
-   "GR","Directed Acyclic Graph (DAG) format"
-   "IT","Integrated Taxonomic Information System (ITIS)"
-   "FN","US Food and Drug Administration (US FDA) Unique Ingredient Identifier (UNII)"
-   "PT","Phylogenic tree"
-   "UN","United Nations Food and Agriculture Organization (UN FAO) Monograph"
-
-.. csv-table::
-   :header-rows: 1
-   :class: table
-
-   "Common Name by Region-of-Origin","Taxon Name","Taxon Class","UN FAO Identifier","FS","KG","WP","DP","GR","IT","FN"
-   "Sandbar Shark from Gulf of Mexico; NW Atlantic","Carcharhinus plumbeus","Chondrichthyes","1080201001","`FS-AQ-300`_","`KG-AQ-300`_","`WP-AQ-300`_","`DP-AQ-300`_","`GR-AQ-300`_","`IT-AQ-300`_","`FN-AQ-300`_"
-   "Shortfin Mako from Gulf of Mexico","Isurus oxyrinchus","Chondrichthyes","1060800201","`FS-AQ-301`_","`KG-AQ-301`_","`WP-AQ-301`_","`DP-AQ-301`_","`GR-AQ-301`_","`IT-AQ-301`_","`FN-AQ-301`_"
-   "Longnose Skate from US West Coast","Dentiraja confusa","Chondrichthyes","","`FS-AQ-302`_","`KG-AQ-302`_","`WP-AQ-302`_","`DP-AQ-302`_","`GR-AQ-302`_","`IT-AQ-302`_","`FN-AQ-302`_"
-   "Winter Skate from NE Atlantic","Leucoraja ocellata","Chondrichthyes","","`FS-AQ-303`_","`KG-AQ-303`_","`WP-AQ-303`_","`DP-AQ-303`_","`GR-AQ-303`_","`IT-AQ-303`_","`FN-AQ-303`_"
-   "Picked Dogfish from US Atlantic","Squalus acanthias","Chondrichthyes","","`FS-AQ-304`_","`KG-AQ-304`_","`WP-AQ-304`_","`DP-AQ-304`_","`GR-AQ-304`_","`IT-AQ-304`_","`FN-AQ-304`_"
-
-
-Aquatic Food - Crustaceans
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table::
-   :header-rows: 1
-   :widths: 10 60
-
-   "Abbreviation","Authority or Data Structure"
-   "FS","Fish Source"
-   "KG","Google Knowledge Graph"
-   "WP","Wikipedia"
-   "DP","DBpedia"
-   "GR","Directed Acyclic Graph (DAG) format"
-   "IT","Integrated Taxonomic Information System (ITIS)"
-   "FN","US Food and Drug Administration (US FDA) Unique Ingredient Identifier (UNII)"
-   "PT","Phylogenic tree"
-   "UN","United Nations Food and Agriculture Organization (UN FAO) Monograph"
-
-.. csv-table::
-   :header-rows: 1
-   :class: table
-
-   "Common Name by Region-of-Origin","Taxon Name","Taxon Class","UN FAO Identifier","FS","KG","WP","DP","GR","IT","FN"
-   "Red King Crab from Bristol Bay","Paralithodes camtschaticus","Crustacea","2302001801","`FS-AQ-400`_","`KG-AQ-400`_","`WP-AQ-400`_","`DP-AQ-400`_","`GR-AQ-400`_","`IT-AQ-400`_","`FN-AQ-400`_"
-   "Blue Crab from Chesapeake Bay","Callinectes sapidus","Crustacea","2311101202","`FS-AQ-401`_","`KG-AQ-401`_","`WP-AQ-401`_","`DP-AQ-401`_","`GR-AQ-401`_","`IT-AQ-401`_","`FN-AQ-401`_"
-   "Blue Crab from Eastern Gulf of Mexico","Callinectes sapidus","Crustacea","2311101202","`FS-AQ-402`_","`KG-AQ-402`_","`WP-AQ-402`_","`DP-AQ-402`_","`GR-AQ-402`_","`IT-AQ-402`_","`FN-AQ-402`_"
-   "Blue Crab from Gulf of Mexico","Callinectes sapidus","Crustacea","2311101202","`FS-AQ-403`_","`KG-AQ-403`_","`WP-AQ-403`_","`DP-AQ-403`_","`GR-AQ-403`_","`IT-AQ-403`_","`FN-AQ-403`_"
-   "Jonah Crab from Stock Units Undefined","Cancer borealis","Crustacea","2310901007","`FS-AQ-404`_","`KG-AQ-404`_","`WP-AQ-404`_","`DP-AQ-404`_","`GR-AQ-404`_","`IT-AQ-404`_","`FN-AQ-404`_"
-   "Red Crab from Southern New England/Mid Atlantic","Chaceon quinquedens","Crustacea","2314300112","`FS-AQ-405`_","`KG-AQ-405`_","`WP-AQ-405`_","`DP-AQ-405`_","`GR-AQ-405`_","`IT-AQ-405`_","`FN-AQ-405`_"
-   "Queen Crab from Alaska","Chionoecetes opilio","Crustacea","2312114501","`FS-AQ-406`_","`KG-AQ-406`_","`WP-AQ-406`_","`DP-AQ-406`_","`GR-AQ-406`_","`IT-AQ-406`_","`FN-AQ-406`_"
-   "Golden King Crab from Aleutian Islands","Lithodes aequispinus","Crustacea","","`FS-AQ-407`_","`KG-AQ-407`_","`WP-AQ-407`_","`DP-AQ-407`_","`GR-AQ-407`_","`IT-AQ-407`_","`FN-AQ-407`_"
-   "Golden King Crab from Pribilof Islands","Lithodes aequispinus","Crustacea","","`FS-AQ-408`_","`KG-AQ-408`_","`WP-AQ-408`_","`DP-AQ-408`_","`GR-AQ-408`_","`IT-AQ-408`_","`FN-AQ-408`_"
-   "Dungeness Crab from Alaska","Metacarcinus magister","Crustacea","","`FS-AQ-409`_","`KG-AQ-409`_","`WP-AQ-409`_","`DP-AQ-409`_","`GR-AQ-409`_","`IT-AQ-409`_","`FN-AQ-409`_"
-   "Dungeness Crab from California","Metacarcinus magister","Crustacea","","`FS-AQ-410`_","`KG-AQ-410`_","`WP-AQ-410`_","`DP-AQ-410`_","`GR-AQ-410`_","`IT-AQ-410`_","`FN-AQ-410`_"
-   "Ocean Shrimp from Eastern Pacific","Pandalus jordani","Crustacea","2280400204","`FS-AQ-411`_","`KG-AQ-411`_","`WP-AQ-411`_","`DP-AQ-411`_","`GR-AQ-411`_","`IT-AQ-411`_","`FN-AQ-411`_"
-   "Northern Brown Shrimp from Gulf of Mexico","Farfantepenaeus aztecus","Crustacea","2280100101","`FS-AQ-412`_","`KG-AQ-412`_","`WP-AQ-412`_","`DP-AQ-412`_","`GR-AQ-412`_","`IT-AQ-412`_","`FN-AQ-412`_"
-   "Northern Brown Shrimp from NW Atlantic","Farfantepenaeus aztecus","Crustacea","2280100101","`FS-AQ-413`_","`KG-AQ-413`_","`WP-AQ-413`_","`DP-AQ-413`_","`GR-AQ-413`_","`IT-AQ-413`_","`FN-AQ-413`_"
-   "Northern Pink Shrimp from Gulf of Mexico","Farfantepenaeus duorarum","Crustacea","2280100105","`FS-AQ-414`_","`KG-AQ-414`_","`WP-AQ-414`_","`DP-AQ-414`_","`GR-AQ-414`_","`IT-AQ-414`_","`FN-AQ-414`_"
-   "Northern Pink Shrimp from NW Atlantic","Farfantepenaeus duorarum","Crustacea","2280100105","`FS-AQ-415`_","`KG-AQ-415`_","`WP-AQ-415`_","`DP-AQ-415`_","`GR-AQ-415`_","`IT-AQ-415`_","`FN-AQ-415`_"
-   "Northern White Shrimp from Gulf of Mexico","Litopenaeus setiferus","Crustacea","2280100122","`FS-AQ-416`_","`KG-AQ-416`_","`WP-AQ-416`_","`DP-AQ-416`_","`GR-AQ-416`_","`IT-AQ-416`_","`FN-AQ-416`_"
-
-
 Example 3
 ---------
 
@@ -520,7 +448,6 @@ GraphViz ``diagram 1``
    }
 
 
-
 Resources
 *********
 
@@ -558,12 +485,10 @@ Using :class:
 
 The Genomedata hierarchy:
 
-  Each :class:`Genome` contains many :class:`Chromosomes <Chromosome>`
-    Each :class:`Chromosome` contains many :class:`Supercontigs <Supercontig>`
-      Each :class:`Supercontig` contains one ``continuous`` data set
-        Each ``continuous`` data set is a numpy.array of floating
-        point numbers with a column for each data track and a row
-        for each base in the data set.
+   Each :class:`Genome` contains many :class:`Chromosomes <Chromosome>`
+      Each :class:`Chromosome` contains many :class:`Supercontigs <Supercontig>`
+         Each :class:`Supercontig` contains one ``continuous`` data set
+            Each ``continuous`` data set is a numpy.array of floating point numbers with a column for each data track and a row for each base in the data set.
 
 
 Glossary
@@ -856,15 +781,19 @@ Sidebars
 Changing Menus
 ==============
 
-The following puts "Genomedata" into the menu but keeps text on same page.
+The following puts "Implementation" into the menu but keeps text on same page.
 
-.. _Genomedata:
+.. _Implementation:
 
 Genomedata archives are implemented as one or more HDF5 files. The :ref:`API <inline-markup>` handles both single-file and directory archives transparently, but the implementation options exist for several performance reasons.
 
-Use a **directory** with few chromosomes/scaffolds:
-  * Parallel load/access
-  * Smaller file sizes
+
+Emoji
+=====
+
+This text includes a smiley face |:smile:| and a snake too! |:snake:|
+
+Don't you love it? |:heart_eyes:|
 
 
 |br|

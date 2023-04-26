@@ -23,6 +23,7 @@ Sphinx Catalogue
 
 .. toctree::
    :maxdepth: 1
+   :numbered:
    :hidden:
    :caption: 🚀 Collection
 
