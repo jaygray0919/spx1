@@ -24,14 +24,15 @@ Sphinx Catalogue
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: |:rocket:| Collection
+   :caption: :rocket: Collection
+   :numbered:
 
    3111000000.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: |:heavy_plus_sign:| Math
+   :caption: :heavy_plus_sign: Math
 
    math-generic.rst
    math-amino-acids.rst
@@ -39,7 +40,7 @@ Sphinx Catalogue
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: |:books:| Reference
+   :caption: :books: Reference
 
    31111100000000000061.rst
    glossary.rst

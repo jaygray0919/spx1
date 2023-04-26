@@ -421,7 +421,7 @@ Ontomatica Products
 ~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: _content/3111110000.csv
+   :file: 3111110000.csv
    :header: "Services", "Ontomatica Products", "Technologies"
    :widths: 15, 20, 25
 
@@ -599,8 +599,8 @@ PowerShell command to convert a Windows file to a Unix file
         -join "`n") + "`n" | 
      Set-Content -NoNewline E:directory\31111100000000000061.rst;
 
-HTTP GET
---------
+HTTP GET (fails)
+----------------
 
 .. http:get:: /users/(int:user_id_)/posts/(tag)
 
@@ -866,14 +866,6 @@ term 3 : classifier
 term 4 : classifier one : classifier two
     Definition 4.
 
-Doctree element: literal_block. This is a typical paragraph.  An indented literal block follows.
-::
-
-    for a in [5,4,3,2,1]:
-        print a
-    print "it's..."
-
-This text has returned to the indentation of the first paragraph, is outside of the literal block, and is therefore treated as an ordinary paragraph.
 
 Changing Menus
 ==============
