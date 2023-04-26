@@ -25,7 +25,8 @@ Sphinx Catalogue
    :maxdepth: 1
    :numbered:
    :hidden:
-   :caption: 🚀 Collection
+   :caption: Collection
+   |:rocket:|
 
    3111000000.rst
 
