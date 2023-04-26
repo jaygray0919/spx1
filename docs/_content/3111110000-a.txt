@@ -479,7 +479,7 @@ Using ``:doc:``
 The `role` :doc: links to a document.
 
 This is a link to display a referenced file.
-   See :doc:`this example JSON file <.._content/data.json>`.
+   See :doc:`this example bibliography file </bibliography-1-book-food-method.rst>`.
 
 Download
 ========
@@ -487,7 +487,7 @@ Download
 The `role` :download: links to a document.
 
 This is a link to display a referenced file.
-   See :download:`this example download <../requirements.txt>`.
+   See :download:`this example download </requirements.txt>`.
 
 
 Class
@@ -534,7 +534,7 @@ PowerShell command to convert a Windows file to a Unix file
 Python (Nobel Prize collection.py)
 ----------------------------------
 
-.. literalinclude:: ../_content/collection.py
+.. literalinclude:: collection.py
    :linenos:
    :caption:
 
@@ -542,7 +542,7 @@ Python (Nobel Prize collection.py)
 Text (use JSON example)
 -----------------------
 
-.. literalinclude:: ../_content/data.json
+.. literalinclude:: data.json
    :linenos:
    :caption:
 
@@ -759,11 +759,6 @@ Sidebars
          b) Item 2b.
 
 
-File Sharing
-************
-
-
-
 Emoji
 *****
 
@@ -836,8 +831,6 @@ Emoji
 |:red_square:|
 
 
-|br|
-|br|
 |br|
 
 
