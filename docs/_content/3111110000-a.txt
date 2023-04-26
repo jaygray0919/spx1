@@ -8,6 +8,8 @@ Examples
 Images
 ******
 
+.. _my-reference-label:
+
 List Table and ``thumbnail``
 ============================
 
@@ -474,7 +476,18 @@ Documentation
 Using ``:doc:``
 ---------------
 
-The `role` :doc: links to a document and is linked as follows: :doc:`Monty Python members </people>`
+The `role` :doc: links to a document.
+
+This is a link to display a referenced file.
+   See :doc:`this example JSON file <.._content/data.json>`.
+
+Download
+========
+
+The `role` :download: links to a document.
+
+This is a link to display a referenced file.
+   See :download:`this example download <../requirements.txt>`.
 
 
 Class
@@ -491,11 +504,13 @@ The Genomedata hierarchy:
             Each ``continuous`` data set is a numpy.array of floating point numbers with a column for each data track and a row for each base in the data set.
 
 
-
 Bibliography
 ============
 
-The ``role`` :cite: links to a bibliographic reference and is linked as follows: See :cite:`4001` for more information about ...
+Using ``:cite:``
+----------------
+
+The `role` :cite: links to a bibliographic reference and is linked as follows: See :cite:`4001` for more information about ...
 
 
 Code Documentation
@@ -516,22 +531,20 @@ PowerShell command to convert a Windows file to a Unix file
      Set-Content -NoNewline E:directory\31111100000000000061.rst;
 
 
-Python (Nobel Prize Colection.py)
----------------------------------
+Python (Nobel Prize collection.py)
+----------------------------------
 
-.. literalinclude:: Collection.py
-   :language: python
-   :emphasize-lines: 12,15-18
+.. literalinclude:: ../_content/collection.py
    :linenos:
+   :caption:
 
 
 Text (use JSON example)
 -----------------------
 
-.. literalinclude:: data.json
-   :language: json
-   :emphasize-lines: 12,15-18
+.. literalinclude:: ../_content/data.json
    :linenos:
+   :caption:
 
 
 Rubric
@@ -749,26 +762,10 @@ Sidebars
 File Sharing
 ************
 
-Download
-========
-
-This is a link to display a referenced file
-   See :download:`this example download <\requirements.txt>`.
-
-
-
-
-
-.. _my-reference-label:
-
-Section to cross-reference
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This is the text of the section.
 
 
 Emoji
-=====
+*****
 
 |:arrow_forward:|
 |:asterisk:|
@@ -778,7 +775,6 @@ Emoji
 |:bug:|
 |:date:|
 |:desktop:|
-
 |:fish:|
 |:gear:|
 |:hammer_and_wrench:|
