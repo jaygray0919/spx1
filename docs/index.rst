@@ -25,8 +25,7 @@ Sphinx Catalogue
    :maxdepth: 1
    :numbered:
    :hidden:
-   :caption: Collection
-   |:rocket:|
+   :caption: 🚀 Collection
 
    3111000000.rst
 
@@ -37,6 +36,7 @@ Sphinx Catalogue
 
    math-generic.rst
    math-amino-acids.rst
+   31111316121300000061.rst
 
 .. toctree::
    :maxdepth: 2
