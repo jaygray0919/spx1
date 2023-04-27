@@ -11,7 +11,7 @@ Link to definition in a separate file
 
 .. _terms-agrontology-hasMember:
 
-See :ref:`agrontology:hasMember`
+See `agrontology:hasMember`
 
 
 Images
@@ -691,7 +691,7 @@ Using ``:download:``
 --------------------
 
 The `role` :download: links an external document and is linked as follows:
-   See :download:`this example download </requirements.txt>`.
+   Download :download:`the requirements file </requirements.txt>`.
 
 
 Class
@@ -750,7 +750,7 @@ JSON-LD
 
 .. literalinclude:: data.json
    :linenos:
-   :caption: JSON-LD
+   :caption: Medical Web Page
 
 
 Rubric
@@ -789,7 +789,28 @@ YouTube via ``iFrame``
    src="https://www.youtube.com/embed/vioCbTo3C-4"
    frameborder="0" allowfullscreen></iframe>
 
-|br|
+
+Page Layout
+***********
+
+Sidebars
+========
+
+.. sidebar:: Sidebar Title
+   :subtitle: Optional Sidebar Subtitle
+
+   Subsequent indented lines comprise the body of the sidebar, and are interpreted as body elements.
+
+      1. Item 1 text.
+      
+         a) Item 1a.
+         b) Item 1b.
+      
+      2. Item 2 text.
+
+         a) Item 2a.
+         b) Item 2b.
+
 
 Information Hiding
 ******************
@@ -813,8 +834,6 @@ Example 1
     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id est laborum
 
-|br|
-|br|
 
 Example 2
 ^^^^^^^^^
@@ -943,26 +962,6 @@ JavaScript and d3.js (``under construction``)
        .attr('cy', function(d) {return d.cy;})
        .attr('fill', 'steelblue');
    </script>
-
-
-Page Layout
-***********
-
-Sidebars
-========
-
-.. sidebar:: Sidebar Title
-   :subtitle: Optional Sidebar Subtitle
-
-   Subsequent indented lines comprise the body of the sidebar, and are interpreted as body elements.
-
-      1. Item 1 initial text.
-      
-         a) Item 1a.
-         b) Item 1b.
-      
-      2. a) Item 2a.
-         b) Item 2b.
 
 
 Emoji
