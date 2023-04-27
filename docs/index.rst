@@ -12,7 +12,8 @@ Sphinx Catalogue
 ----------------
 
 :Project: `Sphinx Catalogue for EWB Documentation <https://example.com/index.html>`_
-:Author: `Jay Gray <https://example.com/index.html>`_
+:Author: `Jay Gray <https://ontomatica.io>`_
+:Editor: `Randy Duodu <https://github.com/isolveit>`_
 :Organization: `Ontomatica <https://dailyfood.io>`_
 :Date: 23 April 2023
 
@@ -25,14 +26,14 @@ Sphinx Catalogue
    :maxdepth: 1
    :numbered:
    :hidden:
-   :caption: 🚀 Collection
+   :caption: 🍱 Collection
 
    3111000000.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: ➕ Math
+   :caption: 💡 Math
 
    math-generic.rst
    math-amino-acids.rst

@@ -6,12 +6,6 @@ Examples
    * Each section opens with a sentence about using the page example. |br| In some cases there is a second sentence.
 
 
-Link to definition in a separate file
-*************************************
-
-See :ref:`agrontology:hasMember <terms-agrontology-hasMember>`
-
-
 Images
 ******
 
@@ -557,6 +551,28 @@ Ontomatica Products
    :widths: 15, 20, 25
 
 
+Page Layout
+***********
+
+Sidebars
+========
+
+.. sidebar:: Sidebar Title
+   :subtitle: Optional Sidebar Subtitle
+
+   Subsequent indented lines comprise the body of the sidebar, and are interpreted as body elements.
+
+      1. Item 1 text.
+      
+         a) Item 1a.
+         b) Item 1b.
+      
+      2. Item 2 text.
+
+         a) Item 2a.
+         b) Item 2b.
+
+
 Visualization
 *************
 
@@ -660,7 +676,7 @@ Glossary Terms
 Using ``:term:``
 ----------------
 
-The `role` :term: links a glossary term and is linked as follows:
+The `role` :term: links a glossary `term` and is linked as follows:
    See :term:`grammar<Grammar>`
 
 Reference
@@ -669,17 +685,27 @@ Reference
 Using ``:ref:``
 ---------------
 
-Option 1 - linking a location in this document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Option 1 - linking a `location` in this document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The `role` :ref: links a location in this document and is linked as follows:
    See :ref:`my-reference-images`
 
 
-Option 2 - linking terms file using prefix `terms-`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Option 2 - linking a `term in a file` using `<terms-string>`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ontomatica :ref:`label classes <terms-Label-Class>` integrate data requirements for US NIH National Cancer Institute (NCI) `Automated Self-administered 24-hour Recall <https://appliedresearch.cancer.gov/asa24/>`_ (ASA24).
+   See :ref:`agrontology:hasMember <terms-agrontology-hasMember>`
+
+
+Bibliography
+============
+
+Using ``:cite:``
+----------------
+
+The `role` :cite: links a bibliographic reference and is linked as follows:
+   See :cite:`4001` for more information about ...
 
 
 Documentation
@@ -688,7 +714,7 @@ Documentation
 Using ``:doc:``
 ---------------
 
-The `role` :doc: links another page on the site and is linked as follows:
+The `role` :doc: links another `page` on the site and is linked as follows:
    See :doc:`articles about food </bibliography-4-article-food-ref>`.
 
 
@@ -714,16 +740,6 @@ The Genomedata hierarchy:
       Each :class:`Chromosome` contains many :class:`Supercontigs <Supercontig>`
          Each :class:`Supercontig` contains one ``continuous`` data set
             Each ``continuous`` data set is a numpy.array of floating point numbers with a column for each data track and a row for each base in the data set.
-
-
-Bibliography
-============
-
-Using ``:cite:``
-----------------
-
-The `role` :cite: links a bibliographic reference and is linked as follows.
-   See :cite:`4001` for more information about ...
 
 
 Code Documentation
@@ -758,6 +774,7 @@ JSON-LD
 
 .. literalinclude:: data.json
    :linenos:
+   :emphasize-lines: 3,6,11,16
    :caption: Medical Web Page
 
 
@@ -799,28 +816,6 @@ YouTube via ``iFrame``
 
 |br|
 |br|
-
-Page Layout
-***********
-
-Sidebars
-========
-
-.. sidebar:: Sidebar Title
-   :subtitle: Optional Sidebar Subtitle
-
-   Subsequent indented lines comprise the body of the sidebar, and are interpreted as body elements.
-
-      1. Item 1 text.
-      
-         a) Item 1a.
-         b) Item 1b.
-      
-      2. Item 2 text.
-
-         a) Item 2a.
-         b) Item 2b.
-
 
 Information Hiding
 ******************

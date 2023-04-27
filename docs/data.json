@@ -1,5 +1,5 @@
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "MedicalWebPage",
   "about":[
    {
@@ -17,7 +17,7 @@
       "name": "Tenormin"
     }
   ],
-  "lastReviewed": "2011-09-14",
+  "lastReviewed": "2022-09-14",
   "name": "beta-blocker",
-  "specialty": "http://schema.org/Cardiovascular"
+  "specialty": "https://schema.org/Cardiovascular"
 }
