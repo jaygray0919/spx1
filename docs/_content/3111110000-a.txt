@@ -945,6 +945,20 @@ sphinx-collapse
 JavaScript
 **********
 
+JavaScript inline
+=================
+
+.. raw:: html
+
+    <script>
+    function myFunction() {
+     alert("I am an alert box!");
+    }
+    </script>
+
+    <button onclick="myFunction()">Try it</button>
+
+
 JavaScript and d3.js (``under construction``)
 =============================================
 
