@@ -9,9 +9,7 @@ Examples
 Link to definition in a separate file
 *************************************
 
-.. _terms-agrontology-hasMember:
-
-See `agrontology:hasMember`
+See :ref:`agrontology:hasMember <terms-agrontology-hasMember>`
 
 
 Images
@@ -678,10 +676,10 @@ The `role` :ref: links a location in this document and is linked as follows:
    See :ref:`my-reference-images`
 
 
-Option 2 - linking terms file using prefix: terms-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Option 2 - linking terms file using prefix `terms-`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ontomatica :ref:`label classes <terms-Label-Class>` integrate data requirements for US NIH National Cancer Institute (NCI) `Automated Self-administered 24-hour Recall <http://appliedresearch.cancer.gov/asa24/>`_ (ASA24).
+Ontomatica :ref:`label classes <terms-Label-Class>` integrate data requirements for US NIH National Cancer Institute (NCI) `Automated Self-administered 24-hour Recall <https://appliedresearch.cancer.gov/asa24/>`_ (ASA24).
 
 
 Documentation
@@ -799,6 +797,8 @@ YouTube via ``iFrame``
    src="https://www.youtube.com/embed/vioCbTo3C-4"
    frameborder="0" allowfullscreen></iframe>
 
+|br|
+|br|
 
 Page Layout
 ***********

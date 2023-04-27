@@ -27,6 +27,7 @@ plantuml = f"java -Djava.awt.headless=true -jar {local_plantuml_path}"
 # Add any Sphinx extension module names here, as strings.
 # They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 
+
 extensions = [
     'sphinx_rtd_theme',
     'hoverxref.extension',
@@ -39,9 +40,10 @@ extensions = [
     'sphinx.ext.graphviz',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
-    'sphinx_tabs.tabs',
-    'sphinx_copybutton',
     'sphinx_collapse',
+    'sphinx_copybutton',
+    'sphinx_search.extension',
+    'sphinx_tabs.tabs',
     ]
 
 bibtex_bibfiles = [
