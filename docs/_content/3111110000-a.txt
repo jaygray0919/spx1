@@ -82,6 +82,7 @@ Admonitions
    * `Structured Product Labeling`_
    * `Web Ontology Language`_
 
+
 Directives
 **********
 
@@ -129,8 +130,8 @@ Another two |end| column list
 :thing-3: single item
 
 
-RST |end| hlist
----------------
+ReStructureText |end| hlist
+---------------------------
 
 Ontomatica :ref:`label classes <terms-Label-Class>` integrate data requirements for US NIH National Cancer Institute (NCI) `Automated Self-administered 24-hour Recall <http://appliedresearch.cancer.gov/asa24/>`_ (ASA24), including coverage of all specifications below.
 
@@ -670,8 +671,17 @@ Reference
 Using ``:ref:``
 ---------------
 
+Option 1 - linking a location in this document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 The `role` :ref: links a location in this document and is linked as follows:
    See :ref:`my-reference-images`
+
+
+Option 2 - linking terms file using prefix: terms-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ontomatica :ref:`label classes <terms-Label-Class>` integrate data requirements for US NIH National Cancer Institute (NCI) `Automated Self-administered 24-hour Recall <http://appliedresearch.cancer.gov/asa24/>`_ (ASA24).
 
 
 Documentation
