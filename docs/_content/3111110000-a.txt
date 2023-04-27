@@ -958,6 +958,7 @@ JavaScript inline
 
     <button onclick="myFunction()">Try it</button>
 
+|br|
 
 JavaScript and d3.js (``under construction``)
 =============================================
