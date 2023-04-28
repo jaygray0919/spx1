@@ -5,6 +5,23 @@ Examples
 .. note::
    * Each section opens with a sentence about using the page example. |br| In some cases there is a second sentence.
 
+Intersphinx
+***********
+
+Reference Sphinx EWB
+====================
+
+Using ``:ref:``
+---------------
+
+Linking a `location` in another document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The `role` :ref: links a location in another document and is linked as follows:
+   See :ref:`ewb:3111130000`
+
+   See :ref:`rdf:notation-3`
+
 
 Images
 ******
