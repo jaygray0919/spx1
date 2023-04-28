@@ -50,12 +50,12 @@ extensions = [
     ]
 
 intersphinx_mapping = {
-    "ewb": ("https://ewb.readthedocs.io/en/latest/", None),
-    "rdf": ("https://rdfabout.readthedocs.io/en/latest/", None),
+       "ewb": ("https://ewb.readthedocs.io/en/latest/", None),
+       "rdf": ("https://rdfabout.readthedocs.io/en/latest/", None),
     "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
 }
 
-#intersphinx_disabled_reftypes = ["*"]
+intersphinx_disabled_reftypes = ["*"]
 
 bibtex_bibfiles = [
     'reference-1-book-food-method.bib',

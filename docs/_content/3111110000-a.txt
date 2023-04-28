@@ -14,17 +14,17 @@ Reference Sphinx EWB
 Using ``:ref:``
 ---------------
 
-Linking a `location` in another document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Linking a `location` in an RTD document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The `role` :ref: links a location in another document and is linked as follows:
+The `role` :ref: links a location in an RTD document ``fails``:
 
 - See :ref:`ewb words <ewb:3116111100.html>`
 - See :ref:`rdf words <rdf:chapters/rdf_abt_rdf.html>`
 
 
-Using Sphinx intersphinx examples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Intersphinx links to non-RTD documents work
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Using `:ref:`
 ^^^^^^^^^^^^^
