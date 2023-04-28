@@ -55,7 +55,7 @@ intersphinx_mapping = {
     "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
 }
 
-intersphinx_disabled_reftypes = ["*"]
+#intersphinx_disabled_reftypes = ["*"]
 
 bibtex_bibfiles = [
     'reference-1-book-food-method.bib',

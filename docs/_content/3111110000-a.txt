@@ -19,8 +19,8 @@ Linking a `location` in another document
 
 The `role` :ref: links a location in another document and is linked as follows:
 
-- See :ref:`ewb words <ewb:3111130000>`
-- See :ref:`rdf words <rdf:chapters/rdf_abt_rdf>`
+- See :ref:`ewb words <ewb:3116111100.html>`
+- See :ref:`rdf words <rdf:chapters/rdf_abt_rdf.html>`
 
 
 Using Sphinx intersphinx examples
