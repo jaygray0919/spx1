@@ -20,8 +20,14 @@ Linking a GH document
 Using ``:ref:``
 ^^^^^^^^^^^^^^^
 
-- See :ref:`complexity:ref-word-complexity`
+- See :ref:`complexity:supplementary-2-foodb-chemical-library`
+- See :ref:`ldp:chapters/chapter_2/proxy-uris`
 
+Using ``:doc:``
+^^^^^^^^^^^^^^^
+
+- See :doc:`complexity:supplementary-2-foodb-chemical-library`
+- See :doc:`ldp:chapters/chapter_2/proxy-uris`
 
 Linking an RTD document
 ~~~~~~~~~~~~~~~~~~~~~~~

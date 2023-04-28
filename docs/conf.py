@@ -49,7 +49,6 @@ extensions = [
     'sphinx_tabs.tabs',
     ]
 
-
 intersphinx_mapping = {
   "complexity": ("https://isolveit.github.io/chem-complexity-diet/", None),
          "ewb": ("https://ewb.readthedocs.io/en/latest/", None),
