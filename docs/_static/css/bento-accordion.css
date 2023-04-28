@@ -1,0 +1,2 @@
+
+{% set css_files = css_files + ['https://cdn.ampproject.org/v0/bento-accordion-1.0.css'] %}

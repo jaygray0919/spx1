@@ -270,6 +270,7 @@ html_static_path = [
 
 html_css_files = [
     'css/custom.css',
+    'css/bento-accordion.css',
 ]
 
 html_js_files = [

@@ -1033,8 +1033,8 @@ JavaScript and d3.js (``under construction``)
    </script>
 
 
-Bento JavaScript
-================
+Bento JavaScript (``under construction``)
+=========================================
 
 .. raw:: html
 
