@@ -18,8 +18,10 @@ Linking a `location` in another document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The `role` :ref: links a location in another document and is linked as follows:
-- See :ref:`ewb:3111130000.html`
-- See :ref:`rdf:chapters/rdf_abt_rdf.html#web-ontology-language-owl`
+
+- See :ref:`ewb words <ewb:3111130000>`
+- See :ref:`rdf words <rdf:chapters/rdf_abt_rdf>`
+
 
 Using Sphinx intersphinx examples
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -27,14 +29,14 @@ Using Sphinx intersphinx examples
 Using `:ref:`
 ^^^^^^^^^^^^^
 
-- :ref:`sphinx:ref-role`
-- :ref:`:ref: role <sphinx:ref-role>`
+- See :ref:`sphinx:ref-role`
+- See :ref:`:ref: role <sphinx:ref-role>`
 
 Using `:doc:`
 ^^^^^^^^^^^^^
 
-- :doc:`sphinx:usage/extensions/intersphinx`
-- :doc:`Intersphinx <sphinx:usage/extensions/intersphinx>`
+- See :doc:`sphinx:usage/extensions/intersphinx`
+- See :doc:`Intersphinx <sphinx:usage/extensions/intersphinx>`
 
 
 Images
