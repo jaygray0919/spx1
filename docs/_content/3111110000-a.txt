@@ -20,7 +20,7 @@ Linking a GH document
 Using ``:ref:``
 ^^^^^^^^^^^^^^^
 
-- See :ref:`chapters/chapter_2/proxy-uris`
+- See :ref:`ldp:chapters/chapter_2/proxy-uris`
 - Fails
 
 Using ``:doc:``
@@ -33,6 +33,12 @@ Linking an RTD document
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Using ``:ref:``
+^^^^^^^^^^^^^^^
+
+- See :ref:`rdf:intro_to_rdf`
+- Fails
+
+Using ``:doc:``
 ^^^^^^^^^^^^^^^
 
 - See :ref:`rdf:intro_to_rdf`
@@ -1033,8 +1039,8 @@ JavaScript and d3.js (``under construction``)
    </script>
 
 
-Bento JavaScript (``under construction``)
-=========================================
+Bento JavaScript (``SUCCESS``)
+==============================
 
 .. raw:: html
 
