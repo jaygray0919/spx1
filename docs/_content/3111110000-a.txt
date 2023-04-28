@@ -989,7 +989,6 @@ JavaScript and bento.js
 
 .. raw:: html
 
-
 <script type="module" src="https://cdn.ampproject.org/bento.mjs" crossorigin="anonymous"></script>
 <script nomodule src="https://cdn.ampproject.org/bento.js" crossorigin="anonymous"></script>
 <script type="module" src="https://cdn.ampproject.org/v0/bento-accordion-1.0.mjs" crossorigin="anonymous"></script>
@@ -1013,9 +1012,7 @@ JavaScript and bento.js
 </bento-accordion>
 
 
-
-
-
+|br|
 
 Emoji
 *****
