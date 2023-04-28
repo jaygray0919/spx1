@@ -253,7 +253,7 @@ html_short_title = 'Sphinx Catalog'
 
 # The name of an image file (within the static path) to use as favicon of the docs.
 # This file should be a Windows icon file (.ico) being 16x16 or 32x32 pixels large.
-html_favicon = "Ontomatica.png"
+html_favicon = "onto-shortcut-w252-h252-color-ffffff-bgnd-1f64ff.svg"
 
 # Add any paths that contain custom static files (such as style sheets) here, relative to this directory.
 # They are copied after the built-in static files, so a file named "default.css" will overwrite the built-in "default.css".
