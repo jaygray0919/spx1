@@ -19,29 +19,29 @@ Linking a `location` in a GH document
 
 The `role` :ref: links a location in a GitHub document:
 
-- See :ref:`complexity words <complexity:#the-dark-matter-of-nutrition>`
+- See :ref:`complexity:ref-word-complexity>`
 
 
 Linking a `location` in an RTD document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The `role` :ref: links a location in an RTD document ``fails``:
+The `role` :ref: links a location in an RTD document:
 
-- See :ref:`ewb words <ewb:3116111100.html>`
-- See :ref:`rdf words <rdf:chapters/rdf_abt_rdf.html>`
+- See :ref:`ewb:ref-word-ewb>`
+- See :ref:`rdf:ref-word-rdf>`
 
 
 Intersphinx links to non-RTD documents work
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Using `:ref:`
-^^^^^^^^^^^^^
+Using ``:ref:``
+^^^^^^^^^^^^^^^
 
 - See :ref:`sphinx:ref-role`
 - See :ref:`:ref: role <sphinx:ref-role>`
 
-Using `:doc:`
-^^^^^^^^^^^^^
+Using ``:doc:``
+^^^^^^^^^^^^^^^
 
 - See :doc:`sphinx:usage/extensions/intersphinx`
 - See :doc:`Intersphinx <sphinx:usage/extensions/intersphinx>`
