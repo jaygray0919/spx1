@@ -273,7 +273,9 @@ html_css_files = [
 
 html_js_files = [
     'js/bento.js',
+    'js/bento.mjs',
     'js/bento-accordion-1.0.js',
+    'js/bento-accordion-1.0.mjs',
 ]
 
 # Add any extra paths that contain custom files (such as robots.txt or .htaccess) here, relative to this directory.
