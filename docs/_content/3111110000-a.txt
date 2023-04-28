@@ -14,25 +14,27 @@ Reference Sphinx EWB
 Using ``:ref:``
 ---------------
 
-Linking a `location` in a GH document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Linking a GH document
+~~~~~~~~~~~~~~~~~~~~~
 
-The `role` :ref: links a location in a GitHub document:
+Using ``:ref:``
+^^^^^^^^^^^^^^^
 
 - See :ref:`complexity:ref-word-complexity`
 
 
-Linking a `location` in an RTD document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Linking an RTD document
+~~~~~~~~~~~~~~~~~~~~~~~
 
-The `role` :ref: links a location in an RTD document:
+Using ``:ref:``
+^^^^^^^^^^^^^^^
 
 - See :ref:`ewb:ref-word-ewb`
 - See :ref:`rdf:ref-word-rdf`
 
 
-Intersphinx links to non-RTD documents work
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Linking a Sphinx document
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Using ``:ref:``
 ^^^^^^^^^^^^^^^
