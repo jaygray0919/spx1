@@ -20,13 +20,13 @@ Linking a GH document
 Using ``:ref:``
 ^^^^^^^^^^^^^^^
 
-- See :ref:`complexity:supplementary-2-foodb-chemical-library`
-- See :ref:`ldp:chapters/chapter_2/proxy-uris`
+- See :ref:`complexity:chem-complexity-diet`
+- See :ref:`ldp:chapters/chapter_2/`
 
 Using ``:doc:``
 ^^^^^^^^^^^^^^^
 
-- See :doc:`complexity:supplementary-2-foodb-chemical-library`
+- See :doc:`complexity:chem-complexity-diet`
 - See :doc:`ldp:chapters/chapter_2/proxy-uris`
 
 Linking an RTD document
@@ -35,8 +35,8 @@ Linking an RTD document
 Using ``:ref:``
 ^^^^^^^^^^^^^^^
 
-- See :ref:`ewb:ref-word-ewb`
-- See :ref:`rdf:ref-word-rdf`
+- See :ref:`ewb:3112110000`
+- See :ref:`rdf:chapters/intro_to_rdf`
 
 
 Linking a Sphinx document
