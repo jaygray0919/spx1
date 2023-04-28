@@ -37,7 +37,9 @@ extensions = [
     'sphinxcontrib.images',
     'sphinxcontrib.plantuml',
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
     'sphinx.ext.graphviz',
+    'sphinx.ext.intersphinx',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx_collapse',
@@ -45,6 +47,13 @@ extensions = [
     'sphinx_search.extension',
     'sphinx_tabs.tabs',
     ]
+
+intersphinx_mapping = {
+    'ewb': ('https://ewb.readthedocs.io/en/latest/', None),
+    'rdf': ('https://rdfabout.readthedocs.io/en/latest/', None),
+}
+
+intersphinx_disabled_reftypes = ["*"]
 
 bibtex_bibfiles = [
     'reference-1-book-food-method.bib',
@@ -82,7 +91,7 @@ hoverxref_role_types = {
 #mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/latest.min.js'
 
 # current path is shutting down
-mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+#mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 
 # -- GraphViz configuration ----------------------------------
 graphviz_output_format = 'svg'
