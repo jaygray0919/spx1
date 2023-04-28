@@ -49,7 +49,10 @@ extensions = [
     'sphinx_tabs.tabs',
     ]
 
+
+
 intersphinx_mapping = {
+         "ldp": ("https://isolveit.github.io/linked-data-patterns/", None),
   "complexity": ("https://isolveit.github.io/chem-complexity-diet/", None),
          "ewb": ("https://ewb.readthedocs.io/en/latest/", None),
          "rdf": ("https://rdfabout.readthedocs.io/en/latest/", None),
