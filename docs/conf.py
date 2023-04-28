@@ -49,8 +49,30 @@ extensions = [
     ]
 
 intersphinx_mapping = {
-    'ewb': ('https://ewb.readthedocs.io/en/latest/', None),
-    'rdf': ('https://rdfabout.readthedocs.io/en/latest/', None),
+    "ewb": ("https://ewb.readthedocs.io/en/latest/", None),
+    "rdf": ("https://rdfabout.readthedocs.io/en/latest/", None),
+    "python": ("https://docs.python.org/3.10/", None),
+    "django": (
+        "https://docs.djangoproject.com/en/stable/",
+        "https://docs.djangoproject.com/en/stable/_objects/",
+    ),
+    "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
+    "pip": ("https://pip.pypa.io/en/stable/", None),
+    "nbsphinx": ("https://nbsphinx.readthedocs.io/en/latest/", None),
+    "myst-nb": ("https://myst-nb.readthedocs.io/en/stable/", None),
+    "ipywidgets": ("https://ipywidgets.readthedocs.io/en/stable/", None),
+    "jupytext": ("https://jupytext.readthedocs.io/en/stable/", None),
+    "ipyleaflet": ("https://ipyleaflet.readthedocs.io/en/latest/", None),
+    "poliastro": ("https://docs.poliastro.space/en/stable/", None),
+    "qiskit": ("https://qiskit.org/documentation/", None),
+    "myst-parser": ("https://myst-parser.readthedocs.io/en/stable/", None),
+    "writethedocs": ("https://www.writethedocs.org/", None),
+    "jupyterbook": ("https://jupyterbook.org/en/stable/", None),
+    "executablebook": ("https://executablebooks.org/en/latest/", None),
+    "rst-to-myst": ("https://rst-to-myst.readthedocs.io/en/stable/", None),
+    "rtd": ("https://docs.readthedocs.io/en/stable/", None),
+    "rtd-dev": ("https://dev.readthedocs.io/en/latest/", None),
+    "jupyter": ("https://docs.jupyter.org/en/latest/", None),
 }
 
 intersphinx_disabled_reftypes = ["*"]

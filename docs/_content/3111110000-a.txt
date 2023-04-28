@@ -22,6 +22,14 @@ The `role` :ref: links a location in another document and is linked as follows:
 
    See :ref:`rdf:notation-3`
 
+Using Sphinx intersphinx examples
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- :ref:`sphinx:ref-role`
+- :ref:`:ref: role <sphinx:ref-role>`
+- :doc:`sphinx:usage/extensions/intersphinx`
+- :doc:`Intersphinx <sphinx:usage/extensions/intersphinx>`
+
 
 Images
 ******
