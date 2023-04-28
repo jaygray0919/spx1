@@ -14,6 +14,14 @@ Reference Sphinx EWB
 Using ``:ref:``
 ---------------
 
+Linking a `location` in a GH document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The `role` :ref: links a location in a GitHub document:
+
+- See :ref:`complexity words <complexity:#the-dark-matter-of-nutrition>`
+
+
 Linking a `location` in an RTD document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

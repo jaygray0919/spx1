@@ -49,10 +49,12 @@ extensions = [
     'sphinx_tabs.tabs',
     ]
 
+
 intersphinx_mapping = {
-       "ewb": ("https://ewb.readthedocs.io/en/latest/", None),
-       "rdf": ("https://rdfabout.readthedocs.io/en/latest/", None),
-    "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
+  "complexity": ("https://isolveit.github.io/chem-complexity-diet/", None),
+         "ewb": ("https://ewb.readthedocs.io/en/latest/", None),
+         "rdf": ("https://rdfabout.readthedocs.io/en/latest/", None),
+      "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
 }
 
 intersphinx_disabled_reftypes = ["*"]
