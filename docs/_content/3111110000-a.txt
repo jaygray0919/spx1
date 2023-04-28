@@ -20,12 +20,14 @@ Linking a GH document
 Using ``:ref:``
 ^^^^^^^^^^^^^^^
 
-- See :ref:`ldp:chapter_2`
+- See :ref:`chapters/chapter_2/proxy-uris`
+- Fails
 
 Using ``:doc:``
 ^^^^^^^^^^^^^^^
 
 - See :doc:`ldp:chapters/chapter_2/proxy-uris`
+- Success
 
 Linking an RTD document
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -34,6 +36,7 @@ Using ``:ref:``
 ^^^^^^^^^^^^^^^
 
 - See :ref:`rdf:intro_to_rdf`
+- Fails
 
 
 Linking a Sphinx document
