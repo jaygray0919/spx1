@@ -685,15 +685,15 @@ Reference
 Using ``:ref:``
 ---------------
 
-Intrapage - linking a `location` in this document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Intra-page - linking a `location` in this document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The `role` :ref: links a location in this document and is linked as follows:
    See :ref:`my-reference-images`
 
 
-Interpage - linking a `term in a file` using `<terms-string>`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Inter-page - linking a `term in a file` using `<terms-string>`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The `role` :ref: links external reference and is linked as follows:
    See :ref:`agrontology:hasMember <terms-agrontology-hasMember>`
@@ -716,8 +716,9 @@ Using ``:doc:``
 ---------------
 
 The `role` :doc: links another `page` on the site and is linked as follows:
-   See :doc:`articles about food </bibliography-4-article-food-ref>`.
+   See citations :doc:`articles about food </bibliography-4-article-food-ref>`.
 
+   See the page :doc:`Changing denominators and units </31111316121300000061>`.
 
 Download
 ========
@@ -1018,15 +1019,14 @@ Words and Formats used in Project
 Words Used in Project
 ---------------------
 
-
 Words for specifying data
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- See :ref:`data <Data>`
-- See :ref:`data-element <Data Element>`
-- See :ref:`data-dictionary <Data Dictionary>`
-- See :ref:`data-model <Data Model>`
-- See :ref:`entity-relationship-model <Entity-Relationship Model>`
+- See :ref:`Data <ref-data>`
+- See :ref:`Data Element <ref-data-element>`
+- See :ref:`Data Dictionary <ref-data-dictionary>`
+- See :ref:`Data Model <ref-data-model>`
+- See :ref:`Entity-Relationship Model <ref-entity-relationship-model>`
 
 
 Words for specifying information
