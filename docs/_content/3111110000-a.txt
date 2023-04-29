@@ -691,14 +691,13 @@ Using ``:ref:``
 The `role` :ref: links a location in this document and is linked as follows:
    See :ref:`my-reference-images`
 
-   See :ref:`31111316121300000061`
-
-
 ``Inter``-page - linking a `term in a file` using `<terms-string>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `role` :ref: links external reference and is linked as follows:
    See :ref:`agrontology:hasMember <terms-agrontology-hasMember>`
+
+   See :ref:`Changing denominators and units <terms-31111316121300000061>`
 
 
 Citation
