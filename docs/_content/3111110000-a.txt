@@ -1022,11 +1022,11 @@ Words Used in Project
 Words for specifying data
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- See :ref:`Data <ref-data>`
-- See :ref:`Data Element <ref-data-element>`
-- See :ref:`Data Dictionary <ref-data-dictionary>`
-- See :ref:`Data Model <ref-data-model>`
-- See :ref:`Entity-Relationship Model <ref-entity-relationship-model>`
+- See :ref:`Data <terms-data>`
+- See :ref:`Data Element <terms-data-element>`
+- See :ref:`Data Dictionary <terms-data-dictionary>`
+- See :ref:`Data Model <terms-data-model>`
+- See :ref:`Entity-Relationship Model <terms-entity-relationship-model>`
 
 
 Words for specifying information
