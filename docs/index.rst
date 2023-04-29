@@ -48,7 +48,7 @@ Sphinx Catalogue
    bibliography.rst
    term-project.rst
    term-ontology.rst
-   term-vocab.rst
+   term-vocab-2.rst
 
 |br|
 
