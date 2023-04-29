@@ -1062,7 +1062,7 @@ Words for implementing an Ontology
 - See :ref:`Relation <terms-relation>`
 - See :ref:`Predicate and Predicate Term <terms-predicate>`
 - See :ref:`Syntax <terms-syntax>`
-- See :ref:`Grammar <terms-grammar-2>`
+- See :ref:`Grammar <terms-grammar>`
 
 
 Visual Symbols

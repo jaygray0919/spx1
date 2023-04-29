@@ -1,14 +1,13 @@
 
 .. term-vocab:
 
-Words and Formats used in Project
-=================================
+Words and Formats related to Project
+====================================
 
 .. _terms-data:
 
    Data
       An item of factual information derived from measurement or research.
-
       Literals (numbers and letters).
 
 .. _terms-data-element:
@@ -55,7 +54,6 @@ Words and Formats used in Project
 
    Taxonomy
       Categorization of Things (entities). Categorization is based on discrete sets. Taxonomy may have multiple forms, such as lists and hierarchies.
-
       Hierarchy of facets in a specific knowledge domain. Base of taxonomy is called a facet. Term in hierarchy is called facet term (FT). Code assigned to facet term is called facet term code (FTC). Taxonomy does not include predicates, formal classes, expressions or axioms.
 
 .. _terms-metadata
@@ -137,7 +135,6 @@ Words and Formats used in Project
 
    Ontology (continuing to add precision to the word "Ontology" previously used above)
       Uses a Controlled Vocabulary to specify Things, Properties and Relations for a Domain-of-Knowledge. Defines a set of statements about a Domain-of-Knowledge. Statements in Ontomatica ontologies are implemented as Graphs.
-
       An ontology is a set of statements in the logical form: :class:`subject` :class:`predicate` :class:`object` where :class:`subject` and :class:`object` are facet terms.
 
 .. _terms-faceted-classification
@@ -169,8 +166,6 @@ Words and Formats used in Project
 
    Item
       A Thing - associated with a Domain-of-Knowledge - that is described by one or more Terms in one or more Facet Trees. Item is comparable to Data in a Data Model and to an instance of an Entity-type in an Entity-Relationship model.
-
-      Food record in electronic format.
 
 .. _terms-graph
 
