@@ -44,12 +44,11 @@ Sphinx Catalogue
    :hidden:
    :caption: 📚 Reference
 
-   31111100000000000061.rst
    glossary.rst
    bibliography.rst
    term-project.rst
    term-ontology.rst
-
+   ref-vocab.rst
 
 |br|
 
