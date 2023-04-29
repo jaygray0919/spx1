@@ -44,6 +44,11 @@ Words and Formats related to Project
    Relation (continuing to add precision to the word "Relation" previously used above)
       Line {edge} expressing connection between Facets and Facet Terms in a Graph. Logically, a relation is a verb. Term that describes a Relation is a Predicate.
 
+.. _terms-Relationship:
+
+   Relationship
+      Line (edge) expressing connection between facets and facet terms in a graph. Logically, a relationship is a verb.
+
 .. _terms-Predicate:
 
    Predicate and Predicate Term
@@ -59,6 +64,11 @@ Words and Formats related to Project
    Syntax (continuing to add precision to the word "Syntax" previously used above, but now specific to Ontology)
       Web Ontology Language (OWL) that specifies the Syntax for creating structures like phrases, sentences, and paragraphs.
 
+.. _terms-Grammar-1:
+
+   Grammar
+      Rules for specifying a set of well-formed structures using Terms of a given Language.
+
 .. _terms-Grammar-2:
 
    Grammar (continuing to add precision to the word "Grammar" previously used above, but now specific to Ontology)
@@ -68,11 +78,6 @@ Words and Formats related to Project
 
    Class
       Hierarchy of facet terms and/or predicate terms.
-
-.. _terms-Relationship:
-
-   Relationship
-      Line (edge) expressing connection between facets and facet terms in a graph. Logically, a relationship is a verb.
 
 .. _terms-jointWith:
 
@@ -154,20 +159,22 @@ Words and Formats related to Project
    Encyclopedia
       The services known as Wikipedia and DBpedia. Wikipedia disambiguation associates a word with a Domain-of-Context.
 
-.. _terms-Grammar:
-
-   Grammar
-      Rules for specifying a set of well-formed structures using Terms of a given Language.
-
 .. _terms-Language:
 
    Language
       Set of Terms specified by a Syntax and sequenced according to a Grammar. Language is used to systematically define and aggregate knowledge.
 
-.. _terms-Ontology:
+.. _terms-Ontology-1:
 
    Ontology
       Combination of the above to express higher order activities, such as communications, translation, learning, understanding, teaching, and making decisions. More specifically, a formal way to represent entities, ideas, and events (Things). Things have Properties such as names and values. Things have Relations such as kinship and sequence of steps (ordinality) to perform a task. Things, Properties and Relations are organized by categories (Taxonomy). Knowledge - in a form that can be processed by a computer - is the categorical ordering of Things, Properties and Relations from Domain-of-Context into a Domain-of-Knowledge.
+
+.. _terms-Ontology-2:
+
+   Ontology (continuing to add precision to the word "Ontology" previously used above)
+      Uses a Controlled Vocabulary to specify Things, Properties and Relations for a Domain-of-Knowledge. Defines a set of statements about a Domain-of-Knowledge. Statements in Ontomatica ontologies are implemented as Graphs.
+
+         An ontology is a set of statements in the logical form: :class:`subject` :class:`predicate` :class:`object` where :class:`subject` and :class:`object` are facet terms.
 
 .. _terms-IS-A-relationship:
 
@@ -203,13 +210,6 @@ Words and Formats related to Project
 
    Symmetric Relationship
       Declaration that Terms are essentially the same and are interchangeable.
-
-.. _terms-Ontology-2:
-
-   Ontology (continuing to add precision to the word "Ontology" previously used above)
-      Uses a Controlled Vocabulary to specify Things, Properties and Relations for a Domain-of-Knowledge. Defines a set of statements about a Domain-of-Knowledge. Statements in Ontomatica ontologies are implemented as Graphs.
-
-         An ontology is a set of statements in the logical form: :class:`subject` :class:`predicate` :class:`object` where :class:`subject` and :class:`object` are facet terms.
 
 .. _terms-Faceted-Classification:
 

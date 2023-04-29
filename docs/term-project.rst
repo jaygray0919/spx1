@@ -7,7 +7,7 @@ Terms related to Project
 .. _terms-Python:
 
    Python
-      Application programming language used to build several Ontomatica services. Python is the main scripting language used at `Google <http://google-styleguide.googlecode.com/svn/trunk/pyguide.html>`_.
+      Application programming language used to build several Ontomatica services. Python is the main scripting language used at `Google <https://google-styleguide.googlecode.com/svn/trunk/pyguide.html>`_.
 
 .. _terms-Ilustration:
 

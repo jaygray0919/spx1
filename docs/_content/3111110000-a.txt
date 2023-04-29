@@ -732,7 +732,7 @@ Using ``:download:``
 --------------------
 
 The `role` :download: links an external document and is linked as follows:
-   Download :download:`the requirements file </requirements.txt>`.
+   Download the :download:`requirements file </requirements.txt>`.
 
 
 Class
@@ -976,7 +976,7 @@ Bento JavaScript (``Success``)
 .. raw:: html
 
    <bento-accordion id="my-accordion">
-      <section>
+      <section expanded>
         <h2>Section 1</h2>
         <div>Content in section 1.</div>
       </section>
@@ -985,7 +985,7 @@ Bento JavaScript (``Success``)
         <div>Content in section 2.</div>
       </section>
        <!-- Expanded on page load due to attribute: -->
-      <section expanded>
+      <section>
         <h2>Section 3</h2>
         <div>Content in section 3.</div>
       </section>
@@ -997,14 +997,11 @@ Bento JavaScript (``Success``)
 Vocabulary
 ##########
 
-Words and Formats used in Project
-*********************************
-
-Words Used in Project (using inter-page format)
-===============================================
+Words used in Project (using inter-page format)
+***********************************************
 
 Words for specifying data
--------------------------
+=========================
 
 - See :ref:`Data <terms-Data>`
 - See :ref:`Data Element <terms-Data-Element>`
@@ -1014,7 +1011,7 @@ Words for specifying data
 
 
 Words for specifying information
---------------------------------
+================================
 
 - See :ref:`Context <terms-Context>`
 - See :ref:`Vocabulary <terms-Vocabulary>`
@@ -1028,16 +1025,16 @@ Words for specifying information
 
 
 Words for specifying knowledge
-------------------------------
+==============================
 
-- See :ref:`Syntax <terms-Syntax>`
-- See :ref:`Grammar <terms-Grammar>`
+- See :ref:`Syntax <terms-Syntax-1>`
+- See :ref:`Grammar <terms-Grammar-1>`
 - See :ref:`Language <terms-Language>`
-- See :ref:`Ontology <terms-Ontology>`
+- See :ref:`Ontology <terms-Ontology-1>`
 
 
 Words for specifying relations
-------------------------------
+==============================
 
 - See :ref:`IS-A relationship <terms-IS-A-relationship>`
 - See :ref:`HAS-A relationship <terms-HAS-A-relationship>`
@@ -1047,23 +1044,52 @@ Words for specifying relations
 
 
 Words for implementing an Ontology
-----------------------------------
+==================================
 
 - See :ref:`Ontology <terms-Ontology-2>`
 - See :ref:`Faceted Classification <terms-Faceted-Classification>`
+- See :ref:`Facet and Facet Term <terms-Facet>`
 - See :ref:`Facet Tree <terms-Facet-Tree>`
+- See :ref:`Facet Map <terms-Facet-Map>`
 - See :ref:`Thing <terms-Thing>`
 - See :ref:`Subject <terms-Subject>`
 - See :ref:`Object <terms-Object>`
+- See :ref:`Predicate and Predicate Term <terms-Predicate>`
 - See :ref:`Item <terms-Item>`
 - See :ref:`Graph <terms-Graph>`
-- See :ref:`Facet and Facet Term <terms-Facet>`
-- See :ref:`Facet Map <terms-Facet-Map>`
 - See :ref:`Relation <terms-Relation>`
-- See :ref:`Predicate and Predicate Term <terms-Predicate>`
-- See :ref:`Syntax <terms-Syntax>`
-- See :ref:`Grammar <terms-Grammar>`
+- See :ref:`Syntax <terms-Syntax-2>`
+- See :ref:`Grammar <terms-Grammar-2>`
 
+Ontology Terms used in Project (using inter-page format)
+********************************************************
+
+Biochemistry Terms
+==================
+
+- See :ref:` <>`
+- See :ref:` <>`
+- See :ref:` <>`
+- See :ref:` <>`
+- See :ref:` <>`
+
+Food Commodity Terms
+====================
+
+- See :ref:` <>`
+- See :ref:` <>`
+- See :ref:` <>`
+- See :ref:` <>`
+- See :ref:` <>`
+
+Demography Terms
+================
+
+- See :ref:` <>`
+- See :ref:` <>`
+- See :ref:` <>`
+- See :ref:` <>`
+- See :ref:` <>`
 
 Visual Symbols
 **************
