@@ -1006,63 +1006,63 @@ Words Used in Project (using inter-page format)
 Words for specifying data
 -------------------------
 
-- See :ref:`Data <terms-data>`
-- See :ref:`Data Element <terms-data-element>`
-- See :ref:`Data Dictionary <terms-data-dictionary>`
-- See :ref:`Data Model <terms-data-model>`
-- See :ref:`Entity-Relationship Model <terms-entity-relationship-model>`
+- See :ref:`Data <terms-Data>`
+- See :ref:`Data Element <terms-Data-Element>`
+- See :ref:`Data Dictionary <terms-Data-Dictionary>`
+- See :ref:`Data Model <terms-Data-Model>`
+- See :ref:`Entity-Relationship Model <terms-Entity-Relationship-Model>`
 
 
 Words for specifying information
 --------------------------------
 
-- See :ref:`Context <terms-context>`
-- See :ref:`Vocabulary <terms-vocabulary>`
-- See :ref:`Controlled Vocabulary <terms-controlled-vocabulary>`
-- See :ref:`Term <terms-term>`
-- See :ref:`Taxonomy <terms-taxonomy>`
-- See :ref:`Metadata <terms-metadata>`
-- See :ref:`Thesaurus <terms-thesaurus>`
-- See :ref:`Glossary <terms-glossary>`
-- See :ref:`Encyclopedia <terms-encyclopedia>`
+- See :ref:`Context <terms-Context>`
+- See :ref:`Vocabulary <terms-Vocabulary>`
+- See :ref:`Controlled Vocabulary <terms-Controlled-Vocabulary>`
+- See :ref:`Term <terms-Term>`
+- See :ref:`Taxonomy <terms-Taxonomy>`
+- See :ref:`Metadata <terms-Metadata>`
+- See :ref:`Thesaurus <terms-Thesaurus>`
+- See :ref:`Glossary <terms-Glossary>`
+- See :ref:`Encyclopedia <terms-Encyclopedia>`
 
 
 Words for specifying knowledge
 ------------------------------
 
-- See :ref:`Syntax <terms-syntax>`
-- See :ref:`Grammar <terms-grammar>`
-- See :ref:`Language <terms-language>`
-- See :ref:`Ontology <terms-ontology>`
+- See :ref:`Syntax <terms-Syntax>`
+- See :ref:`Grammar <terms-Grammar>`
+- See :ref:`Language <terms-Language>`
+- See :ref:`Ontology <terms-Ontology>`
 
 
 Words for specifying relations
 ------------------------------
 
-- See :ref:`IS-A relationship <terms-is-a-relationship>`
-- See :ref:`HAS-A relationship <terms-has-a-relationship>`
-- See :ref:`Domain <terms-domain>`
-- See :ref:`Range <terms-range>`
-- See :ref:`Symmetric relationship <terms-symmetric-relationship>`
+- See :ref:`IS-A relationship <terms-IS-A-relationship>`
+- See :ref:`HAS-A relationship <terms-HAS-A-relationship>`
+- See :ref:`Domain <terms-Domain>`
+- See :ref:`Range <terms-Range>`
+- See :ref:`Symmetric relationship <terms-Symmetric-Relationship>`
 
 
 Words for implementing an Ontology
 ----------------------------------
 
-- See :ref:`Ontology <terms-ontology-2>`
-- See :ref:`Faceted Classification <terms-faceted-classification>`
-- See :ref:`Facet Tree <terms-facet-tree>`
-- See :ref:`Thing <terms-thing>`
-- See :ref:`Subject <terms-subject>`
-- See :ref:`Object <terms-object>`
-- See :ref:`Item <terms-item>`
-- See :ref:`Graph <terms-graph>`
-- See :ref:`Facet and Facet Term <terms-facet>`
-- See :ref:`Facet Map <terms-facet-map>`
-- See :ref:`Relation <terms-relation>`
-- See :ref:`Predicate and Predicate Term <terms-predicate>`
-- See :ref:`Syntax <terms-syntax>`
-- See :ref:`Grammar <terms-grammar>`
+- See :ref:`Ontology <terms-Ontology-2>`
+- See :ref:`Faceted Classification <terms-Faceted-Classification>`
+- See :ref:`Facet Tree <terms-Facet-Tree>`
+- See :ref:`Thing <terms-Thing>`
+- See :ref:`Subject <terms-Subject>`
+- See :ref:`Object <terms-Object>`
+- See :ref:`Item <terms-Item>`
+- See :ref:`Graph <terms-Graph>`
+- See :ref:`Facet and Facet Term <terms-Facet>`
+- See :ref:`Facet Map <terms-Facet-Map>`
+- See :ref:`Relation <terms-Relation>`
+- See :ref:`Predicate and Predicate Term <terms-Predicate>`
+- See :ref:`Syntax <terms-Syntax>`
+- See :ref:`Grammar <terms-Grammar>`
 
 
 Visual Symbols

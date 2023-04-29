@@ -59,8 +59,6 @@ Words and Formats related to Project
    Syntax (continuing to add precision to the word "Syntax" previously used above, but now specific to Ontology)
       Web Ontology Language (OWL) that specifies the Syntax for creating structures like phrases, sentences, and paragraphs.
 
-
-
 .. _terms-Grammar-2:
 
    Grammar (continuing to add precision to the word "Grammar" previously used above, but now specific to Ontology)
@@ -171,15 +169,25 @@ Words and Formats related to Project
    Ontology
       Combination of the above to express higher order activities, such as communications, translation, learning, understanding, teaching, and making decisions. More specifically, a formal way to represent entities, ideas, and events (Things). Things have Properties such as names and values. Things have Relations such as kinship and sequence of steps (ordinality) to perform a task. Things, Properties and Relations are organized by categories (Taxonomy). Knowledge - in a form that can be processed by a computer - is the categorical ordering of Things, Properties and Relations from Domain-of-Context into a Domain-of-Knowledge.
 
-.. _terms-is-a-relationship:
+.. _terms-IS-A-relationship:
 
    IS-A relationship
-      Specifies relations between abstractions (e.g. types, classes), where one class A is a subclass of another class B (and so B is a superclass of A). In other words, type A is a subtype of type B when A's specification implies B's specification. More specifically, the IS-A relationship is defined by: 1) Hypernymy-Hyponymy (supertype-subtype) relations between types (classes) defining a taxonomic hierarchy, where a hyponym (subtype, subclass) has a type-of (IS-A) relationship with its hypernym (supertype, superclass) 2) Holonymy-Meronymy (container-part or member) relations between types (classes) defining a possessive hierarchy.
+      Specifies relations between abstractions (e.g. types, classes), where one class A is a subclass of another class B (and so B is a superclass of A). In other words, type A is a subtype of type B when A's specification implies B's specification. More specifically, the IS-A relationship is defined by:
+
+         1) Hypernymy-Hyponymy (supertype-subtype) relations between types (classes) defining a taxonomic hierarchy, where a hyponym (subtype, subclass) has a type-of (IS-A) relationship with its hypernym (supertype, superclass)
    
-.. _terms-has-a-relationship:
+         2) Holonymy-Meronymy (container-part or member) relations between types (classes) defining a possessive hierarchy.
+
+.. _terms-HAS-A-relationship:
 
    HAS-A relationship
-      Specifies part-whole relations. Meronym is the name given to a constituent part of, the substance of, or a member of something. 'X' is a meronym of 'Y' if an X is a part of a Y. A meronym may be: 1) Transitive - "Parts of parts are parts of the whole" - if A is part of B and B is part of C, then A is part of C. 2) Reflexive - "Everything is part of itself" - A is part of A. 3) Antisymmetric - "Nothing is a part of its parts" - if A is part of B and A !- B then B is not part of A.
+      Specifies part-whole relations. Meronym is the name given to a constituent part of, the substance of, or a member of something. 'X' is a meronym of 'Y' if an X is a part of a Y. A meronym may be:
+
+         1) Transitive - "Parts of parts are parts of the whole" - if A is part of B and B is part of C, then A is part of C.
+   
+         2) Reflexive - "Everything is part of itself" - A is part of A.
+   
+         3) Antisymmetric - "Nothing is a part of its parts" - if A is part of B and A !- B then B is not part of A.
 
 .. _terms-Domain:
 
@@ -199,7 +207,9 @@ Words and Formats related to Project
 .. _terms-Ontology-2:
 
    Ontology (continuing to add precision to the word "Ontology" previously used above)
-      Uses a Controlled Vocabulary to specify Things, Properties and Relations for a Domain-of-Knowledge. Defines a set of statements about a Domain-of-Knowledge. Statements in Ontomatica ontologies are implemented as Graphs. An ontology is a set of statements in the logical form: :class:`subject` :class:`predicate` :class:`object` where :class:`subject` and :class:`object` are facet terms.
+      Uses a Controlled Vocabulary to specify Things, Properties and Relations for a Domain-of-Knowledge. Defines a set of statements about a Domain-of-Knowledge. Statements in Ontomatica ontologies are implemented as Graphs.
+
+         An ontology is a set of statements in the logical form: :class:`subject` :class:`predicate` :class:`object` where :class:`subject` and :class:`object` are facet terms.
 
 .. _terms-Faceted-Classification:
 
