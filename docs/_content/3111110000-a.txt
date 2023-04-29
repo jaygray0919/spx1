@@ -685,15 +685,15 @@ Reference
 Using ``:ref:``
 ---------------
 
-Intra-page - linking a `location` in this document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``Intra``-page - linking a `location` in this document
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `role` :ref: links a location in this document and is linked as follows:
    See :ref:`my-reference-images`
 
 
-Inter-page - linking a `term in a file` using `<terms-string>`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``Inter``-page - linking a `term in a file` using `<terms-string>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `role` :ref: links external reference and is linked as follows:
    See :ref:`agrontology:hasMember <terms-agrontology-hasMember>`

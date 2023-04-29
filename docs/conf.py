@@ -84,7 +84,7 @@ hoverxref_role_types = {
 #mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/latest.min.js'
 
 # current path is shutting down
-#mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+mathjax_path = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 
 # -- GraphViz configuration ----------------------------------
 graphviz_output_format = 'svg'
