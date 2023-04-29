@@ -685,26 +685,27 @@ Reference
 Using ``:ref:``
 ---------------
 
-Option 1 - linking a `location` in this document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Intrapage - linking a `location` in this document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The `role` :ref: links a location in this document and is linked as follows:
    See :ref:`my-reference-images`
 
 
-Option 2 - linking a `term in a file` using `<terms-string>`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Interpage - linking a `term in a file` using `<terms-string>`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The `role` :ref: links external reference and is linked as follows:
    See :ref:`agrontology:hasMember <terms-agrontology-hasMember>`
 
 
-Bibliography
-============
+Citation
+========
 
 Using ``:cite:``
 ----------------
 
-The `role` :cite: links a bibliographic reference and is linked as follows:
+The `role` :cite: links a citation and is linked as follows:
    See :cite:`4001` for more information about ...
 
 
@@ -1017,14 +1018,16 @@ Words and Formats used in Project
 Words Used in Project
 ---------------------
 
+
 Words for specifying data
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- See :ref:`terms-data`
-- See :ref:`terms-data-element`
-- See :ref:`terms-data-dictionary`
-- See :ref:`terms-data-model`
-- See :ref:`terms-entity-relationship-model`
+- See :ref:`data <Data>`
+- See :ref:`data-element <Data Element>`
+- See :ref:`data-dictionary <Data Dictionary>`
+- See :ref:`data-model <Data Model>`
+- See :ref:`entity-relationship-model <Entity-Relationship Model>`
+
 
 Words for specifying information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1035,6 +1038,7 @@ Words for specifying information
 - See :ref:``
 - See :ref:``
 
+
 Words for specifying knowledge
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1044,6 +1048,7 @@ Words for specifying knowledge
 - See :ref:``
 - See :ref:``
 
+
 Words for specifying relations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1052,6 +1057,7 @@ Words for specifying relations
 - See :ref:``
 - See :ref:``
 - See :ref:``
+
 
 Words for implementing an Ontology
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
