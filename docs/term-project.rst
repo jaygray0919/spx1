@@ -4,20 +4,10 @@
 Terms related to Project
 ========================
 
-.. _terms-Grammar:
-
-   Grammar
-      An ontology is a set of statements in the logical form: :class:`subject` :class:`predicate` :class:`object` where :class:`subject` and :class:`object` are facet terms.
-
 .. _terms-Python:
 
    Python
       Application programming language used to build several Ontomatica services. Python is the main scripting language used at `Google <http://google-styleguide.googlecode.com/svn/trunk/pyguide.html>`_.
-
-.. _terms-Graph:
-
-   Graph
-      Composed of vertices (nodes) and lines (edges) that connect them. Ontomatica graphs are directed acyclic graphs that represent things or events, and causal relationships between them.
 
 .. _terms-Ilustration:
 
@@ -44,35 +34,10 @@ Terms related to Project
    Listing Page
       Displays items that share facets and predicates.
 
-.. _terms-Item:
-
-   Item
-      Food record in electronic format.
-
 .. _terms-Depositor:
 
    Depositor
       Food supplier that submits information about food items to label project.
-
-.. _terms-Class:
-
-   Class
-      Hierarchy of facet terms and/or predicate terms.
-
-.. _terms-Taxonomy:
-
-   Taxonomy
-      Hierarchy of facets in a specific knowledge domain. Base of taxonomy is called a facet. Term in hierarchy is called facet term (FT). Code assigned to facet term is called facet term code (FTC). Taxonomy does not include predicates, formal classes, expressions or axioms.
-
-.. _terms-Relationship:
-
-   Relationship
-      Line (edge) expressing connection between facets and facet terms in a graph. Logically, a relationship is a verb.
-
-.. _terms-Data:
-
-   Data
-      Literals (numbers and letters).
 
 .. _terms-Navigation:
 
@@ -144,20 +109,10 @@ Terms related to Project
    Production
       Process when Quality Assurance version is promoted to public access.
 
-.. _terms-Metadata:
-
-   Metadata
-      Same as terms in taxonomy.
-
 .. _terms-Label-Class:
 
    Label Class
-      Set of facets and predicates required to implement USDA label project.
-
-.. _terms-Ontology:
-
-   Ontology
-      Set of statements about a domain of knowledge. Statements in Ontomatica ontologies are implemented as graphs.
+      Set of facets and predicates required to implement label project.
 
 .. _terms-Failover:
 
@@ -304,11 +259,6 @@ Terms related to Project
    Work flow
       TBD
 
-.. _terms-Predicate:
-
-   Predicate
-      Type (single) or hierarchy (class) of relationship. Type or class term is called predicate term. Code assigned to predicate term (PT) is called predicate term code (PTC).
-
 .. _terms-USDA-Mathematics:
 
    USDA Mathematics
@@ -318,11 +268,6 @@ Terms related to Project
 
    Curator
       USDA professional who manages item life-cycle. Item life-cycle has five dates: (1) creation; (2) deposition; (3) hold; (4) modification; and, (5) deprecation. See Data Services for detail.
-
-.. _terms-Facet:
-
-   Facet
-      Vertex (node) in a graph. Logically, a facet is a noun. Type or class term is called facet term. Code assigned to facet term (FT) is called facet term code (FTC).
 
 .. _terms-Vocal:
 
@@ -354,15 +299,6 @@ Terms related to Project
    Deposition
       TBD
 
-.. _terms-jointWith:
-
-   jointWith
-      TBD
-
-.. _terms-disjointWith:
-
-   disjointWith
-      TBD
 
 .. _terms-Proximate:
 
@@ -429,11 +365,6 @@ Terms related to Project
    INFOODS
       TBD
 
-.. _terms-Term:
-
-   Term
-      TBD
-
 .. _terms-Web-Service:
 
    Web Service
@@ -444,8 +375,4 @@ Terms related to Project
    Jurisdiction
       TBD
 
-.. _terms-Facet-Map:
-
-   Facet Map
-      TBD
 

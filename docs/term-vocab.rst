@@ -9,6 +9,8 @@ Words and Formats used in Project
    Data
       An item of factual information derived from measurement or research.
 
+      Literals (numbers and letters).
+
 .. _terms-data-element:
 
    Data Element
@@ -32,7 +34,7 @@ Words and Formats used in Project
 .. _terms-context
 
    Context
-      Discourse that surrounds a language unit and helps to determine its interpretation. For the USDA project, the Context of the language unit is Food. In other words, the Domain-of-Context is Food.
+      Discourse that surrounds a language unit and helps to determine its interpretation. For the project, the Context of the language unit is Food. In other words, the Domain-of-Context is Food.
 
 .. _terms-vocabulary
 
@@ -53,6 +55,8 @@ Words and Formats used in Project
 
    Taxonomy
       Categorization of Things (entities). Categorization is based on discrete sets. Taxonomy may have multiple forms, such as lists and hierarchies.
+
+      Hierarchy of facets in a specific knowledge domain. Base of taxonomy is called a facet. Term in hierarchy is called facet term (FT). Code assigned to facet term is called facet term code (FTC). Taxonomy does not include predicates, formal classes, expressions or axioms.
 
 .. _terms-metadata
 
@@ -78,12 +82,12 @@ Words and Formats used in Project
 
    Syntax
       Rules for specifying Terms to create structures like phrases, sentences, and paragraphs.
-   
+
 .. _terms-grammar
 
    Grammar
       Rules for specifying a set of well-formed structures using Terms of a given Language.
-   
+
 .. _terms-language
 
    Language
@@ -134,6 +138,8 @@ Words and Formats used in Project
    Ontology (continuing to add precision to the word "Ontology" previously used above)
       Uses a Controlled Vocabulary to specify Things, Properties and Relations for a Domain-of-Knowledge. Defines a set of statements about a Domain-of-Knowledge. Statements in Ontomatica ontologies are implemented as Graphs.
 
+      An ontology is a set of statements in the logical form: :class:`subject` :class:`predicate` :class:`object` where :class:`subject` and :class:`object` are facet terms.
+
 .. _terms-faceted-classification
 
    Faceted Classification
@@ -163,6 +169,8 @@ Words and Formats used in Project
 
    Item
       A Thing - associated with a Domain-of-Knowledge - that is described by one or more Terms in one or more Facet Trees. Item is comparable to Data in a Data Model and to an instance of an Entity-type in an Entity-Relationship model.
+
+      Food record in electronic format.
 
 .. _terms-graph
 
@@ -199,4 +207,22 @@ Words and Formats used in Project
    Grammar (continuing to add precision to the word "Grammar" previously used above, but now specific to Ontology)
       Set of statements in the logical form: :class:`subject` :class:`predicate` :class:`object` where :class:`subject` and :class:`object` are Facet Terms and :class:`predicate` are Predicate Terms.
 
-   
+.. _terms-class:
+
+   Class
+      Hierarchy of facet terms and/or predicate terms.
+
+.. _terms-relationship:
+
+   Relationship
+      Line (edge) expressing connection between facets and facet terms in a graph. Logically, a relationship is a verb.
+
+.. _terms-jointWith:
+
+   jointWith
+      TBD
+
+.. _terms-disjointWith:
+
+   disjointWith
+      TBD
