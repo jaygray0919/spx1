@@ -40,7 +40,6 @@ extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.autosummary',
     'sphinx.ext.graphviz',
-    'sphinx.ext.intersphinx',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx_collapse',
@@ -48,16 +47,6 @@ extensions = [
     'sphinx_search.extension',
     'sphinx_tabs.tabs',
     ]
-
-intersphinx_mapping = {
-         "ldp": ("https://isolveit.github.io/linked-data-patterns/", None),
-  "complexity": ("https://isolveit.github.io/chem-complexity-diet/", None),
-         "ewb": ("https://ewb.readthedocs.io/en/latest/", None),
-         "rdf": ("https://rdfabout.readthedocs.io/en/latest/", None),
-      "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
-}
-
-intersphinx_disabled_reftypes = ["*"]
 
 bibtex_bibfiles = [
     'reference-1-book-food-method.bib',

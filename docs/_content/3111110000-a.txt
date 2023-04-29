@@ -5,61 +5,6 @@ Examples
 .. note::
    * Each section opens with a sentence about using the page example. |br| In some cases there is a second sentence.
 
-Intersphinx
-***********
-
-Reference Sphinx EWB
-====================
-
-Using ``:ref:``
----------------
-
-Linking a GH document
-~~~~~~~~~~~~~~~~~~~~~
-
-Using ``:ref:``
-^^^^^^^^^^^^^^^
-
-- See :ref:`ldp:chapters/chapter_2/proxy-uris`
-- Fails
-
-Using ``:doc:``
-^^^^^^^^^^^^^^^
-
-- See :doc:`ldp:chapters/chapter_2/proxy-uris`
-- Success
-
-Linking an RTD document
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Using ``:ref:``
-^^^^^^^^^^^^^^^
-
-- See :ref:`rdf:intro_to_rdf`
-- Fails
-
-Using ``:doc:``
-^^^^^^^^^^^^^^^
-
-- See :ref:`rdf:intro_to_rdf`
-- Fails
-
-
-Linking a Sphinx document
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Using ``:ref:``
-^^^^^^^^^^^^^^^
-
-- See :ref:`sphinx:ref-role`
-- See :ref:`:ref: role <sphinx:ref-role>`
-
-Using ``:doc:``
-^^^^^^^^^^^^^^^
-
-- See :doc:`sphinx:usage/extensions/intersphinx`
-- See :doc:`Intersphinx <sphinx:usage/extensions/intersphinx>`
-
 
 Images
 ******
