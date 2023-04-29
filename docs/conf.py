@@ -42,7 +42,6 @@ extensions = [
     'sphinx.ext.graphviz',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
-    'sphinx_collapse',
     'sphinx_copybutton',
     'sphinx_search.extension',
     'sphinx_tabs.tabs',
