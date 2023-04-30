@@ -15,7 +15,7 @@ Sphinx Catalogue
 :Author: `Jay Gray <https://ontomatica.io>`_
 :Editor: `Randy Duodu <https://github.com/isolveit>`_
 :Organization: `Ontomatica <https://dailyfood.io>`_
-:Date: 23 April 2023
+:Date: 30 April 2023
 
 .. image:: _images/docs-latest.svg
    :align: left
