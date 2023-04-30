@@ -1053,12 +1053,59 @@ Bento JavaScript (``Success``)
         <h2>Section 2</h2>
         <div>Content in section 2.</div>
       </section>
-       <!-- Expanded on page load due to attribute: -->
       <section>
         <h2>Section 3</h2>
         <div>Content in section 3.</div>
       </section>
    </bento-accordion>
+
+|br|
+
+Bento JavaScript Lightbox
+=========================
+
+.. raw:: html
+
+    <bento-lightbox-gallery></bento-lightbox-gallery>
+
+    <section class="image-grid">
+      <figure>
+        <img
+          width="160"
+          height="120"
+          src="https://picsum.photos/id/237/640/480"
+          lightbox
+        />
+        <figcaption>A random image</figcaption>
+      </figure>
+      <figure>
+        <img
+          width="160"
+          height="120"
+          src="https://picsum.photos/id/238/640/480"
+          lightbox
+        />
+        <figcaption>Another random image</figcaption>
+      </figure>
+      <figure>
+        <img
+          width="160"
+          height="120"
+          src="https://picsum.photos/id/239/640/480"
+          lightbox
+        />
+        <figcaption>And another random image</figcaption>
+      </figure>
+      <figure>
+        <img
+          width="160"
+          height="120"
+          src="https://picsum.photos/id/240/640/480"
+          lightbox
+        />
+        <figcaption>Aaaand another random image</figcaption>
+      </figure>
+    </section>
 
 
 |br|
