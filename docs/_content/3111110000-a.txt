@@ -667,7 +667,7 @@ GraphViz ``diagram 1``
    }
 
 
-GraphViz ``diagram 1``
+GraphViz ``diagram 2``
 ----------------------
 
 .. graphviz::
@@ -676,65 +676,25 @@ GraphViz ``diagram 1``
    :alt: How Sphinx and GraphViz Render the Final Document
    :align: center
 
-   digraph G{
-   splines=false;
-   ranksep=1;
-   
-   node[shape=box, color=grey, style=filled];
-   m1;m2;m3;m4;m5;
-   
-   node[shape=diamond,color=lightblue, style=filled]
-   p1;p2;p3;p4;
-   
-   node[style=solid, color=black, shape=circle, width=0.6, height=0.6];
-   {
-       rank=same;
-       x9;x12;x10;m5;
+   digraph G {
+       graph [ranksep=0];
+       master [label="0001 (master)"]
+       P [shape=record, label="{concat|{P|3}}"];
+       X [shape=record, label="{concat|{X|2}}"];
+       S [shape=record, label="{concat|{S|2}}"];
+       I [shape=record, label="{concat|{I|4}}"];
+       M [shape=record, label="{concat|{M|6}}"];
+       W [shape=record, label="{concat|{W|9}}"];
+       E [shape=record, label="{concat|{E|3}}"];
+       master -> 0044 -> P;
+       master -> 0055 -> 0666 -> E;
+       0333 -> X;
+       0055 -> 0888 -> I;
+       0666 -> 2222 -> W;
+       0044 -> 0333 -> S;
+       0044 -> 0222 -> M;
    }
-   {
-       rank=same;
-       edge[style=invis];
-       p3->x11->x5->x6->m3;
-       p4->x7->x8->m4;
-   }
-   {
-       rank=same;
-       edge[style=invis];
-       p1->x1->x2->m1;
-       p2->x3->x4->m2;
-   }
-   
-   edge[tailport=s]; // also try adding: headport=n
-   y1 -> m5
-   y1 -> x9
-   y1 -> x12  
-   y1 -> x10
-   x10 -> m4
-   x10 -> p4
-   x9-> m3
-   x9-> p3
-   x6 ->m1
-   x6 ->p1
-   x5 ->m1
-   x5 ->p1
-   x8 -> m2
-   x8 -> p2
-   x7 -> m2
-   x7 -> p2
-   x5 -> x1
-   x5 -> x2
-   x6 -> x1
-   x6 -> x2
-   x7 -> x3
-   x7 -> x4
-   x8 -> x3
-   x8 -> x4
-   x9 -> x6
-   x9 -> x11
-   x9 -> x5
-   x10 -> x8
-   x10 -> x7
-   }
+
 
 Resources
 *********
