@@ -1061,8 +1061,8 @@ Bento JavaScript (``Success``)
 
 |br|
 
-Bento JavaScript Lightbox
-=========================
+Bento JavaScript Lightbox  (``Fails``)
+======================================
 
 .. raw:: html
 
