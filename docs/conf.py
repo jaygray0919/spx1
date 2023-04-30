@@ -257,6 +257,8 @@ html_static_path = [
 html_css_files = [
     'css/custom.css',
     'css/bento-accordion.css',
+    'css/bento-accordion.css',
+    'css/bento-lightbox-gallery-1.0.css',
 ]
 
 html_js_files = [
@@ -264,7 +266,11 @@ html_js_files = [
     'js/bento.mjs',
     'js/bento-accordion-1.0.js',
     'js/bento-accordion-1.0.mjs',
+    'js/bento-lightbox-gallery-1.0.js',
+    'js/bento-lightbox-gallery-1.0.mjs',
+#    'https://example.com/scripts/custom.js',
 ]
+
 
 # Add any extra paths that contain custom files (such as robots.txt or .htaccess) here, relative to this directory.
 # These files are copied directly to the root of the documentation.
