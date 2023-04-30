@@ -256,19 +256,17 @@ html_static_path = [
 
 html_css_files = [
     'css/custom.css',
-    'css/bento-accordion.css',
-    'css/bento-accordion.css',
-    'css/bento-lightbox-gallery-1.0.css',
+    'https://cdn.ampproject.org/v0/bento-accordion-1.0.css',
+    'https://cdn.ampproject.org/v0/bento-lightbox-gallery-1.0.css',
 ]
 
 html_js_files = [
-    'js/bento.js',
-    'js/bento.mjs',
-    'js/bento-accordion-1.0.js',
-    'js/bento-accordion-1.0.mjs',
-    'js/bento-lightbox-gallery-1.0.js',
-    'js/bento-lightbox-gallery-1.0.mjs',
-#    'https://example.com/scripts/custom.js',
+    'https://cdn.ampproject.org/bento.js',
+    'https://cdn.ampproject.org/bento.mjs',
+    'https://cdn.ampproject.org/v0/bento-accordion-1.0.js',
+    'https://cdn.ampproject.org/v0/bento-accordion-1.0.mjs',
+    'https://cdn.ampproject.org/v0/bento-lightbox-gallery-1.0.js',
+    'https://cdn.ampproject.org/v0/bento-lightbox-gallery-1.0.mjs',
 ]
 
 
