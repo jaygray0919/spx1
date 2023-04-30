@@ -1066,8 +1066,7 @@ Bento JavaScript Lightbox
 
 .. raw:: html
 
-    <bento-lightbox-gallery></bento-lightbox-gallery>
-
+    <bento-lightbox-gallery>
     <section class="image-grid">
       <figure>
         <img
@@ -1106,7 +1105,7 @@ Bento JavaScript Lightbox
         <figcaption>Aaaand another random image</figcaption>
       </figure>
     </section>
-
+    </bento-lightbox-gallery>
 
 |br|
 
