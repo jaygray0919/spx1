@@ -28,8 +28,8 @@ List Table and ``thumbnail``
           :width: 70%
 
 
-AMP JavaScript Lightbox
-=======================
+AMP JavaScript Lightbox 1
+=========================
 
 .. raw:: html
 
@@ -43,13 +43,12 @@ AMP JavaScript Lightbox
      layout="fixed-height"
      src="https://afdsi.com/_sphinx/ewb/3111110000-a-w1130-h699.png"
      width="auto"
-     height="699"
+     height="350"
    ></amp-img>
    <figcaption>
    excel 1
    </figcaption>
    </figure>
-   
    
    <figure>
    <amp-img
@@ -59,7 +58,7 @@ AMP JavaScript Lightbox
      tabindex="0"
      src="https://afdsi.com/_sphinx/ewb/3111110000-b-w2083-h674.png"
      width="auto"
-     height="674"
+     height="335"
    ></amp-img>
    <figcaption>
    excel 2
@@ -74,12 +73,28 @@ AMP JavaScript Lightbox
      tabindex="0"
      src="https://afdsi.com/_sphinx/ewb/3111110000-c-w1914-h884.png"
      width="auto"
-     height="884"
+     height="350"
    ></amp-img>
    <figcaption>
    excel 3
    </figcaption>
    </figure>
+
+
+AMP JavaScript Lightbox Gallery
+===============================
+
+.. raw:: html
+
+   <amp-img lightbox 
+               width="100" 
+              height="100"
+              layout="fixed"
+              srcset="https://picsum.photos/800 800w,
+                      https://picsum.photos/1200 1200w,
+                      https://picsum.photos/1600 1600w">
+       
+   </amp-img>
 
 
 |br|
