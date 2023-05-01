@@ -262,12 +262,12 @@ html_css_files = [
 
 html_js_files = [
     'https://cdn.ampproject.org/bento.js',
-#    'https://cdn.ampproject.org/bento.mjs',
     'https://cdn.ampproject.org/v0/bento-accordion-1.0.js',
-#    'https://cdn.ampproject.org/v0/bento-accordion-1.0.mjs',
-    'https://cdn.ampproject.org/v0/bento-lightbox-gallery-1.0.js',
-#    'https://cdn.ampproject.org/v0/bento-lightbox-gallery-1.0.mjs',
-    'https://cdn.ampproject.org/v0/bento-mustache-1.0.js',
+    'https://cdn.ampproject.org/v0.js',
+    'https://cdn.ampproject.org/v0/amp-bind-0.1.js',
+    'https://cdn.ampproject.org/v0/amp-list-0.1.js',
+    'https://cdn.ampproject.org/v0/amp-mustache-0.2.js',
+    'https://cdn.ampproject.org/v0/amp-form-0.1.js',
 ]
 
 
