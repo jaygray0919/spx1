@@ -36,7 +36,7 @@ AMP JavaScript Lightbox minus P64
    <style>
    *{box-sizing:border-box}
    main{display:block}
-  .indent{margin-left: -64px;}
+   .indent{margin-left: -64px;}
    </style>
    <main>
    <p class="indent">
