@@ -256,19 +256,16 @@ html_static_path = [
 
 html_css_files = [
     'css/custom.css',
-    'https://cdn.ampproject.org/v0/bento-accordion-1.0.css',
-    'https://cdn.ampproject.org/v0/bento-lightbox-gallery-1.0.css',
 ]
 
 html_js_files = [
-    'https://cdn.ampproject.org/bento.js',
-    'https://cdn.ampproject.org/v0/bento-accordion-1.0.js',
     'https://cdn.ampproject.org/v0.js',
     'https://cdn.ampproject.org/v0/amp-bind-0.1.js',
-    'https://cdn.ampproject.org/v0/amp-list-0.1.js',
-    'https://cdn.ampproject.org/v0/amp-mustache-0.2.js',
     'https://cdn.ampproject.org/v0/amp-form-0.1.js',
     'https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js',
+    'https://cdn.ampproject.org/v0/amp-list-0.1.js',
+    'https://cdn.ampproject.org/v0/amp-mustache-0.2.js',
+    'https://cdn.ampproject.org/v0/amp-selector-0.1.js',
 ]
 
 
