@@ -28,12 +28,12 @@ List Table and ``thumbnail``
           :width: 70%
 
 
-AMP JavaScript Lightbox
-=======================
+AMP JavaScript Lightbox minus 16
+================================
 
 .. raw:: html
 
-   <style>.indent{margin-left: -12px;}</style>
+   <style>.indent{margin-left: -16px;}</style>
    <div class="indent">
    <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
    <figure>
