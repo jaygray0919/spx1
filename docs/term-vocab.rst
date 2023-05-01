@@ -1,8 +1,8 @@
 
 .. term-vocab:
 
-Words and Formats related to Project
-====================================
+Vocabulary related to Project
+=============================
 
 .. _terms-Thing:
 

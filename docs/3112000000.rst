@@ -1,16 +1,13 @@
 
 .. 3111120000:
 
-===================
-Lightbox Experiment
-===================
+================
+Testing Lightbox
+================
 
 
 .. raw:: html
 
-   <style>
-   .indent{margin-left: 64px;}
-   </style>
    <p class="indent">
    <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
    <amp-img
@@ -44,5 +41,4 @@ Lightbox Experiment
      width="574"
      height="265"
    ></amp-img>
-   </p>
 
