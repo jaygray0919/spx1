@@ -34,34 +34,53 @@ AMP JavaScript Lightbox
 .. raw:: html
 
    <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
-
+   
+   <figure>
    <amp-img
      on="tap:lightbox1"
      role="button"
      tabindex="0"
-     layout="fixed"
+     layout="fixed-height"
      src="https://afdsi.com/_sphinx/ewb/3111110000-a-w1130-h699.png"
-     width="399"
-     height="200"
+     width="auto"
+     height="699"
    ></amp-img>
-
+   <figcaption>
+   excel 1
+   </figcaption>
+   </figure>
+   
+   
+   <figure>
    <amp-img
      on="tap:lightbox1"
      role="button"
+     layout="fixed-height"
      tabindex="0"
      src="https://afdsi.com/_sphinx/ewb/3111110000-b-w2083-h674.png"
-     width="625"
-     height="202"
+     width="auto"
+     height="674"
    ></amp-img>
-
+   <figcaption>
+   excel 2
+   </figcaption>
+   </figure>
+   
+   <figure>
    <amp-img
      on="tap:lightbox1"
      role="button"
+     layout="fixed-height"
      tabindex="0"
      src="https://afdsi.com/_sphinx/ewb/3111110000-c-w1914-h884.png"
-     width="574"
-     height="265"
+     width="auto"
+     height="884"
    ></amp-img>
+   <figcaption>
+   excel 3
+   </figcaption>
+   </figure>
+
 
 |br|
 
