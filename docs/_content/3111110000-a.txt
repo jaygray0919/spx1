@@ -33,7 +33,7 @@ AMP JavaScript Lightbox
 
 .. raw:: html
 
-   <style>div{margin-left: -10vw;}</style>
+   <style>div{margin-left: -3vw;}</style>
    <div>
    <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
    <figure>
