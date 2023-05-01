@@ -28,44 +28,55 @@ List Table and ``thumbnail``
           :width: 70%
 
 
-Thumbnail ``clearfix + align``
-==============================
-
-.. container:: clearfix
-
-   .. describe:: Image A
-
-      .. thumbnail:: _images/3111110000-a.png
-         :width: 60%
-         :class: framed
-         :align: left
-
-.. container:: clearfix
-
-   .. describe:: Image B
-
-      .. thumbnail:: _images/3111110000-b.png
-         :width: 60%
-         :class: framed
-         :align: center
-
-.. container:: clearfix
-
-   .. describe:: Image C
-
-      .. thumbnail:: _images/3111110000-c.png
-         :width: 60%
-         :class: framed
-         :align: right
-
-
 AMP JavaScript Lightbox
 =======================
 
 .. raw:: html
 
-   <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="fixed" src="https://img.mobius.studio/themes/pinna/LTR/assets/img/gallery_grid_1_750x750.jpg" width="345" height="345"></amp-img><div class="space-3"></div><h4 class="margin-0">Captions</h4><p>The amp-image-lightbox also can optionally display a caption for the image at the bottom of the viewport. This can either be the contents of the <strong>&lt;figcaption&gt;</strong> element when the image is in the figure tag...</p><div class="space-2"></div><figure><amp-img on="tap:lightbox1" role="button" tabindex="0" src="https://img.mobius.studio/themes/pinna/LTR/assets/img/gallery_grid_2_750x750.jpg" width="345" height="345"></amp-img><figcaption>French Bulldog</figcaption></figure><div class="space-3"></div><p>... or the contents of the element whose ID is specified by the image's <strong>aria-describedby</strong> attribute.</p><div class="space-2"></div><amp-img on="tap:lightbox1" role="button" tabindex="0" aria-describedby="imageDescription" src="https://img.mobius.studio/themes/pinna/LTR/assets/img/gallery_grid_3_750x750.jpg" width="345" height="345"></amp-img><div id="imageDescription">This is a tiger.</div>
+   <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
 
+   <figure>
+   <amp-img
+     on="tap:lightbox1"
+     role="button"
+     tabindex="0"
+     layout="fixed"
+     src="https://afdsi.com/_sphinx/ewb/3111110000-a-w1130-h699.png"
+     width="1130"
+     height="699"
+   ></amp-img>
+   <figcaption>
+   excel 1
+   </figcaption>
+   </figure>
+
+   <figure>
+   <amp-img
+     on="tap:lightbox1"
+     role="button"
+     tabindex="0"
+     src="https://afdsi.com/_sphinx/ewb/3111110000-b-w2083-h674.png"
+     width="2083"
+     height="674"
+   ></amp-img>
+   <figcaption>
+   excel 2
+   </figcaption>
+   </figure>
+
+   <figure>
+   <amp-img
+     on="tap:lightbox1"
+     role="button"
+     tabindex="0"
+     src="https://afdsi.com/_sphinx/ewb/3111110000-c-w1914-h884.png"
+     width="1914"
+     height="884"
+   ></amp-img>
+   <figcaption>
+   excel 3
+   </figcaption>
+   </figure>
 
 |br|
 
