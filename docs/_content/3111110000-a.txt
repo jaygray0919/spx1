@@ -27,51 +27,6 @@ List Table and ``thumbnail``
      - .. thumbnail:: _images/3111110000-c.png
           :width: 70%
 
-
-AMP JavaScript Lightbox minus P64
-=================================
-
-.. raw:: html
-
-   <style>
-   .indent{margin-left: 64px;}
-   </style>
-   <p class="indent">
-   <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
-   <amp-img
-     on="tap:lightbox1"
-     role="button"
-     tabindex="0"
-     layout="fixed"
-     src="https://afdsi.com/_sphinx/ewb/3111110000-a-w1130-h699.png"
-     width="339"
-     height="210"
-   ></amp-img>
-   <br>
-   <br>
-   <amp-img
-     on="tap:lightbox1"
-     role="button"
-     layout="fixed"
-     tabindex="0"
-     src="https://afdsi.com/_sphinx/ewb/3111110000-b-w2083-h674.png"
-     width="625"
-     height="202"
-   ></amp-img>
-   <br>
-   <br>
-   <amp-img
-     on="tap:lightbox1"
-     role="button"
-     layout="fixed"
-     tabindex="0"
-     src="https://afdsi.com/_sphinx/ewb/3111110000-c-w1914-h884.png"
-     width="574"
-     height="265"
-   ></amp-img>
-   </p>
-
-
 |br|
 
 Admonitions
