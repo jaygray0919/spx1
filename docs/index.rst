@@ -21,10 +21,12 @@ Sphinx Catalogue
    :align: left
    :width: 7%
 
+|br|
+
 * :ref:`Index of Glossary Terms <genindex>`
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :numbered:
    :hidden:
    :caption: 🍱 Collection
