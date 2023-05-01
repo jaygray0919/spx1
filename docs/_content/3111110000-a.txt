@@ -45,7 +45,8 @@ AMP JavaScript Lightbox minus P64
      width="339"
      height="210"
    ></amp-img>
-   
+   <br>
+   <br>
    <amp-img
      on="tap:lightbox1"
      role="button"
@@ -55,7 +56,8 @@ AMP JavaScript Lightbox minus P64
      width="625"
      height="202"
    ></amp-img>
-   
+   <br>
+   <br>
    <amp-img
      on="tap:lightbox1"
      role="button"
