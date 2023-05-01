@@ -33,8 +33,8 @@ AMP JavaScript Lightbox 1
 
 .. raw:: html
 
-   <style><p>margin-left: -100px;</p></style>
-   <p>
+   <style><div>margin-left: -10vw;</div></style>
+   <div>
    <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
    <figure>
    <amp-img
@@ -80,7 +80,66 @@ AMP JavaScript Lightbox 1
    excel 3
    </figcaption>
    </figure>
-   </p>
+   </div>
+
+
+AMP JavaScript Lightbox 2
+=========================
+
+.. raw:: html
+
+   <style amp-custom>
+   amp-lightbox {
+        background-color: White;
+      }
+      svg {
+        display: block;
+        max-height: 100%;
+        max-width: 100%;
+      }
+      .my-btn .pest {
+        width: 250px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .my-lightbox {
+        height: 100vh;
+        width: 100vw;
+      }
+      @media screen and (max-width: 600px) {
+        .hidden-on-mobile {
+          display: none;
+        }
+      }
+   </style>
+   <div class='my-btn' on='tap:my-lightbox' role='button' tabindex='1'>
+   <svg class="pest" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62.432 125">
+   <path d="M57.724,31l-4.017,6.427V92c0,2.879-1.121,4-4,4H31.216H12.725c-2.879,0-4-1.121-4-4V37.427L4.708,31H0l4.725,7.573V92 c0,5.084,2.916,8,8,8h18.491h18.491c5.084,0,8-2.916,8-8V38.573L62.432,31H57.724z" />
+   <path class="hidden-on-mobile" d="M12.716,40v52h37V40H12.716z M44.716,88h-8v-4h8V88z M44.716,80h-8v-4h8V80z M44.716,72h-8v-4h8V72z M44.716,64h-8v-4h8V64z M44.716,56h-8v-4h8V56z M44.716,48h-8v-4h8V48z" />
+   <circle class="hidden-on-mobile" cx="39.216" cy="28.5" r="6.5" />
+   <circle class="hidden-on-mobile" cx="41.216" cy="16.5" r="2.5" />
+   <circle class="hidden-on-mobile" cx="27.216" cy="27.5" r="2.5" />
+   <circle class="hidden-on-mobile" cx="24.216" cy="2.5" r="2.5" />
+   <circle class="hidden-on-mobile" cx="22.716" cy="18" r="4" />
+   <circle class="hidden-on-mobile" cx="31.716" cy="13" r="3" />
+   <circle class="hidden-on-mobile" cx="17.216" cy="29.5" r="4.5" />
+   </svg>
+   </div>
+   <amp-lightbox id='my-lightbox' layout='nodisplay'>
+   <div class='my-lightbox' on='tap:my-lightbox.close' role='button' tabindex='2'>
+   <svg class="pest" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62.432 125">
+   <path d="M57.724,31l-4.017,6.427V92c0,2.879-1.121,4-4,4H31.216H12.725c-2.879,0-4-1.121-4-4V37.427L4.708,31H0l4.725,7.573V92 c0,5.084,2.916,8,8,8h18.491h18.491c5.084,0,8-2.916,8-8V38.573L62.432,31H57.724z" />
+   <path d="M12.716,40v52h37V40H12.716z M44.716,88h-8v-4h8V88z M44.716,80h-8v-4h8V80z M44.716,72h-8v-4h8V72z M44.716,64h-8v-4h8V64z M44.716,56h-8v-4h8V56z M44.716,48h-8v-4h8V48z" />
+   <circle class="hidden-on-mobile" cx="39.216" cy="28.5" r="6.5" />
+   <circle class="hidden-on-mobile" cx="41.216" cy="16.5" r="2.5" />
+   <circle class="hidden-on-mobile" cx="27.216" cy="27.5" r="2.5" />
+   <circle class="hidden-on-mobile" cx="24.216" cy="2.5" r="2.5" />
+   <circle class="hidden-on-mobile" cx="22.716" cy="18" r="4" />
+   <circle class="hidden-on-mobile" cx="31.716" cy="13" r="3" />
+   <circle class="hidden-on-mobile" cx="17.216" cy="29.5" r="4.5" />
+   </svg>
+   </div>
+   </amp-lightbox>
 
 
 |br|
