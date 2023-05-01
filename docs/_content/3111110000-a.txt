@@ -33,17 +33,18 @@ AMP JavaScript Lightbox 1
 
 .. raw:: html
 
+   <style><p>margin-left: -10px;</p></style>
+   <p>
    <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
-   
    <figure>
    <amp-img
      on="tap:lightbox1"
      role="button"
      tabindex="0"
-     layout="fixed-height"
+     layout="fixed"
      src="https://afdsi.com/_sphinx/ewb/3111110000-a-w1130-h699.png"
-     width="auto"
-     height="350"
+     width="339"
+     height="210"
    ></amp-img>
    <figcaption>
    excel 1
@@ -54,11 +55,11 @@ AMP JavaScript Lightbox 1
    <amp-img
      on="tap:lightbox1"
      role="button"
-     layout="fixed-height"
+     layout="fixed"
      tabindex="0"
      src="https://afdsi.com/_sphinx/ewb/3111110000-b-w2083-h674.png"
-     width="auto"
-     height="335"
+     width="625"
+     height="202"
    ></amp-img>
    <figcaption>
    excel 2
@@ -69,32 +70,29 @@ AMP JavaScript Lightbox 1
    <amp-img
      on="tap:lightbox1"
      role="button"
-     layout="fixed-height"
+     layout="fixed"
      tabindex="0"
      src="https://afdsi.com/_sphinx/ewb/3111110000-c-w1914-h884.png"
-     width="auto"
-     height="350"
+     width="574"
+     height="265"
    ></amp-img>
    <figcaption>
    excel 3
    </figcaption>
    </figure>
-
+   </p>
 
 AMP JavaScript Lightbox Gallery
 ===============================
 
 .. raw:: html
 
-   <amp-img lightbox 
-               width="100" 
-              height="100"
-              layout="fixed"
-              srcset="https://picsum.photos/800 800w,
-                      https://picsum.photos/1200 1200w,
-                      https://picsum.photos/1600 1600w">
-       
-   </amp-img>
+   <amp-img lightbox
+     width="100" 
+     height="100"
+     layout="fixed"
+     srcset="https://picsum.photos/800 800w, https://picsum.photos/1200 1200w, https://picsum.photos/1600 1600w"
+   ></amp-img>
 
 
 |br|
