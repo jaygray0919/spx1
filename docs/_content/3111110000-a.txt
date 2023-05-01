@@ -33,7 +33,7 @@ AMP JavaScript Lightbox
 
 .. raw:: html
 
-   <style>.indent{margin-left: -12px;}</style>
+   <style>.indent{margin-left: -8px;}</style>
    <div class="indent">
    <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
    <figure>
