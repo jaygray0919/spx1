@@ -58,6 +58,15 @@ Thumbnail ``clearfix + align``
          :class: framed
          :align: right
 
+
+AMP JavaScript Lightbox
+=======================
+
+.. raw:: html
+
+   <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="fixed" src="https://img.mobius.studio/themes/pinna/LTR/assets/img/gallery_grid_1_750x750.jpg" width="345" height="345"></amp-img><div class="space-3"></div><h4 class="margin-0">Captions</h4><p>The amp-image-lightbox also can optionally display a caption for the image at the bottom of the viewport. This can either be the contents of the <strong>&lt;figcaption&gt;</strong> element when the image is in the figure tag...</p><div class="space-2"></div><figure><amp-img on="tap:lightbox1" role="button" tabindex="0" src="https://img.mobius.studio/themes/pinna/LTR/assets/img/gallery_grid_2_750x750.jpg" width="345" height="345"></amp-img><figcaption>French Bulldog</figcaption></figure><div class="space-3"></div><p>... or the contents of the element whose ID is specified by the image's <strong>aria-describedby</strong> attribute.</p><div class="space-2"></div><amp-img on="tap:lightbox1" role="button" tabindex="0" aria-describedby="imageDescription" src="https://img.mobius.studio/themes/pinna/LTR/assets/img/gallery_grid_3_750x750.jpg" width="345" height="345"></amp-img><div id="imageDescription">This is a tiger.</div>
+
+
 |br|
 
 Admonitions
@@ -1021,7 +1030,7 @@ Bento JavaScript (``Success``)
 
 |br|
 
-ANP JavaScript Mustache
+AMP JavaScript Mustache
 =======================
 
 .. raw:: html
