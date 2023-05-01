@@ -33,8 +33,13 @@ AMP JavaScript Lightbox minus P64
 
 .. raw:: html
 
-   <style>.indent{margin-left: -64px;}</style>
-   <p class="indent">
+   <style>
+   *{box-sizing:border-box}
+   body{margin:0}
+   main{display:block}
+   </style>
+   <body>
+   <main>
    <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
    <amp-img
      on="tap:lightbox1"
@@ -67,7 +72,8 @@ AMP JavaScript Lightbox minus P64
      width="574"
      height="265"
    ></amp-img>
-   </p>
+   </main>
+   </body>
 
 
 |br|
