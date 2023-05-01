@@ -969,16 +969,6 @@ JavaScript and d3.js (``under construction``)
 
 |br|
 
-AMP JavaScript Mustache
-=======================
-
-.. raw:: html
-
-   <style>:root{--space-2:1rem}.linked-dropdown label{font-weight:700}.linked-dropdown [role=listitem]{display:flex;justify-content:space-between}.linked-dropdown select{width:200px}.linked-dropdown amp-list{margin:var(--space-2);min-width:320px}body{padding-left:10vw;padding-top:10vh}</style>
-   <div class="linked-dropdown-form"><form data-initialize-from-url id="formResetSample" class="field" action="https://www.google.com" method="get" target="_top"><amp-list layout="fixed-height" height="25" src="https://afdsi.com/___tmp-3/data.json" binding="refresh" single-item items="." noloading><template type="amp-mustache"><label for="country">Country:</label><select id="country" on="change: AMP.setState({  citiesForm: dropdown.countries.filter(x => x.name == event.value)[0]  })" name="q" data-allow-initialization><option value="">Choose a country</option> {{#countries}}<option value="{{name}}">{{name}}</option> {{/countries}}</select></template><div placeholder role="listitem"><label for="country">Country:</label><select disabled><option value="">Choose a country</option></select></div></amp-list><amp-list layout="fixed-height" height="25" [src]="citiesForm || 'https://afdsi.com/___tmp-3/data.json'" src="https://afdsi.com/___tmp-3/data.json" binding="refresh" single-item items="." noloading><template type="amp-mustache"><label for="city">City:</label><select [disabled]="!citiesForm" disabled id="city" on="change: AMP.setState({city: event.value})" name="q" data-allow-initialization><option value="">Choose a city</option> {{#citiesForm}}<option value="{{.}}">{{.}}</option> {{/citiesForm}}</select></template></amp-list><amp-state id="dropdown" src="https://afdsi.com/___tmp-3/data.json"></amp-state><button on="select:formResetSample.submit"> Submit</button></form></div>
-
-|br|
-
 Vocabulary
 ##########
 
