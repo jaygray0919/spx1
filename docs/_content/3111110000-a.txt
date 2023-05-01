@@ -28,15 +28,14 @@ List Table and ``thumbnail``
           :width: 70%
 
 
-AMP JavaScript Lightbox minus 32
-================================
+AMP JavaScript Lightbox minus P64
+=================================
 
 .. raw:: html
 
-   <style>.indent{margin-left: -32px;}</style>
-   <div class="indent">
+   <style>.indent{margin-left: -64px;}</style>
+   <p class="indent">
    <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
-   <figure>
    <amp-img
      on="tap:lightbox1"
      role="button"
@@ -46,12 +45,7 @@ AMP JavaScript Lightbox minus 32
      width="339"
      height="210"
    ></amp-img>
-   <figcaption>
-   excel 1
-   </figcaption>
-   </figure>
    
-   <figure>
    <amp-img
      on="tap:lightbox1"
      role="button"
@@ -61,12 +55,7 @@ AMP JavaScript Lightbox minus 32
      width="625"
      height="202"
    ></amp-img>
-   <figcaption>
-   excel 2
-   </figcaption>
-   </figure>
    
-   <figure>
    <amp-img
      on="tap:lightbox1"
      role="button"
@@ -76,11 +65,7 @@ AMP JavaScript Lightbox minus 32
      width="574"
      height="265"
    ></amp-img>
-   <figcaption>
-   excel 3
-   </figcaption>
-   </figure>
-   </div>
+   </p>
 
 
 |br|
