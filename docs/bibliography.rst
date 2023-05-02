@@ -1,7 +1,6 @@
 
 .. bibliography:
 
-==============
 Bibliographies
 ==============
 

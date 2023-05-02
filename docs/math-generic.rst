@@ -1,7 +1,6 @@
 
 .. math-generic:
 
-===================
 Testing Sphinx math
 ===================
 

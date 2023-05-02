@@ -1,4 +1,6 @@
 
+.. 31111316121300000061-a.txt
+
 In general, for food composition purposes it is recommended to use a metric unit (|gram|, |millig| or |microg|). As food is typically consumed on the fresh weight basis and only the edible portion is eaten, food composition data are usually reported as '|per| 100 |gram| edible portion on fresh weight basis (EP)'. On the other hand, scientific articles often report data as '|per| 100 |gram| dry matter (DM)' which is useful for scientific purposes to easily compare food contents in a standardized way without the influence of the changing water content. However, in order to be useful for food composition purposes, the water content is needed so that the values can be converted to EP.
 
 Some denominators should be avoided, for example 'individual amino acid (AA) as |gram| |per| 100 |gram|' because it is not obvious if they refer to, for example, '|per| 100 |gram| edible portion' or '|per| 100 |gram| protein' or to '|per| 100 |gram| dry matter'. To avoid ambiguity, it is therefore recommended to always provide a precise description of the denominator. Examples are:

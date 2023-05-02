@@ -1,7 +1,6 @@
 
 .. math-amino-acids:
 
-=========================
 Calculation - Amino Acids
 =========================
 
