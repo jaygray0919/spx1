@@ -3,7 +3,6 @@ sphinx-rtd-theme==1.2.0
 sphinxcontrib-bibtex
 sphinxcontrib-contentui
 sphinxcontrib-httpdomain==1.8.1
-sphinxcontrib-images==0.9.4
 sphinxcontrib-jquery==4.1
 sphinxcontrib-plantuml==0.25 
 sphinx-tabs==3.4.1

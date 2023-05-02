@@ -34,7 +34,7 @@ extensions = [
     'sphinxcontrib.bibtex',
     'sphinxcontrib.contentui',
     'sphinxcontrib.httpdomain',
-    'sphinxcontrib.images',
+#    'sphinxcontrib.images',
     'sphinxcontrib.plantuml',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosectionlabel',
