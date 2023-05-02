@@ -5,7 +5,9 @@ The world is a Grid
 ===================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :hidden:
+   :numbered:
 
 
 .. include:: _content/3111110000-a.txt
