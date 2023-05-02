@@ -26,11 +26,15 @@ Sphinx Catalogue
 * :ref:`Index of Glossary Terms <genindex>`
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    :numbered:
    :caption: 🍱 Collection
 
-   3111000000.rst
+   3111110000.rst
+   3111120000.rst
+   3111130000.rst
+   3111140000.rst
+   3111150000.rst
 
 .. toctree::
    :maxdepth: 1
@@ -47,10 +51,10 @@ Sphinx Catalogue
    :caption: 📚 Reference
 
    glossary.rst
-   bibliography.rst
-   term-project.rst
-   term-ontology.rst
    term-vocab.rst
+   term-ontology.rst
+   term-project.rst
+   bibliography.rst
 
 |br|
 
