@@ -35,7 +35,7 @@ Sphinx Catalogue
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: 🍱 Testing
+   :caption: 🧪 Testing
 
    3111120000.rst
    3111130000.rst
