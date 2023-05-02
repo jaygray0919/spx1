@@ -10,7 +10,7 @@ Images
 .. _my-reference-images:
 
 List Table and ``thumbnail``
-============================
+****************************
 
 .. list-table::
    :stub-columns: 1

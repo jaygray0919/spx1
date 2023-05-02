@@ -5,7 +5,7 @@ Examples
 ########
 
 GraphViz dependency diagram
-===========================
+***************************
 
 .. graphviz::
    :name: sphinx.ext.graphviz

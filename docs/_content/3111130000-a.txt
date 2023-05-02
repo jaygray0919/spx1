@@ -22,7 +22,7 @@ Image 1
 
 
 Comment 1
-=========
+---------
 
 - How to use image 1
 
@@ -45,7 +45,7 @@ Image 2
 
 
 Comment 2
-=========
+---------
 
 - How to use image 2
 
@@ -68,7 +68,7 @@ Image 3
 
 
 Comment 3
-=========
+---------
 
 - How to use image 3
 
@@ -115,7 +115,7 @@ Image 4
 
 
 Comment 4
-=========
+---------
 
 - How to use image 4
 
