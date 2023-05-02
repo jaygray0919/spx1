@@ -1,14 +1,11 @@
 
 .. 3111110000-a.txt
 
-Examples
-########
-
 .. note::
    * Each section opens with a sentence about using the page example. |br| In some cases there is a second sentence.
 
 Images
-******
+######
 
 .. _my-reference-images:
 
@@ -31,7 +28,7 @@ List Table and ``thumbnail``
 |br|
 
 Admonitions
-***********
+###########
 
 .. tip::
    * Advice specific to the page.
@@ -46,10 +43,10 @@ Admonitions
 
 
 Directives
-**********
+##########
 
 Directive |emd| ``Describe``
-============================
+****************************
 
 .. describe:: Vocabulary
 
@@ -61,10 +58,10 @@ Directive |emd| ``Describe``
 
 
 Columns and Tables
-******************
+##################
 
 Columns
-=======
+*******
 
 Two |end| column list
 ---------------------
@@ -286,7 +283,7 @@ The following ASA terms will need to be defined: :class:`low` :class:`high` :cla
 
 
 Tables
-======
+######
 
 Example 1
 ---------
@@ -522,10 +519,10 @@ Ontomatica Products
 
 
 Page Layout
-***********
+###########
 
 Sidebars
-========
+********
 
 .. sidebar:: Sidebar Title
    :subtitle: Optional Sidebar Subtitle
@@ -544,10 +541,10 @@ Sidebars
 
 
 Visualization
-*************
+#############
 
 PlantUML
-========
+********
 
 PlantUML ``diagram 1``
 ----------------------
@@ -605,7 +602,7 @@ PlantUML ``diagram 3``
 
 
 GraphViz
-========
+********
 
 GraphViz ``diagram 1``
 ----------------------
@@ -667,10 +664,10 @@ GraphViz ``diagram 2``
 
 
 Resources
-*********
+#########
 
 Glossary Terms
-==============
+**************
 
 Using ``:term:``
 ----------------
@@ -679,7 +676,7 @@ The `role` :term: links a glossary `term` and is linked as follows:
    See :term:`grammar<Grammar>`
 
 Reference
-=========
+*********
 
 Using ``:ref:``
 ---------------
@@ -704,7 +701,7 @@ The `role` :ref: links a different page using ``preview-mode`` and is linked as 
 
 
 Citation
-========
+########
 
 Using ``:cite:``
 ----------------
@@ -714,7 +711,7 @@ The `role` :cite: links a citation using ``preview-mode`` and is linked as follo
 
 
 Documentation
-=============
+#############
 
 Using ``:doc:``
 ---------------
@@ -725,7 +722,7 @@ The `role` :doc: links a different page using ``navigation`` and is linked as fo
    See the page :doc:`Changing denominators and units </31111316121300000061>`.
 
 Download
-========
+########
 
 Using ``:download:``
 --------------------
@@ -735,7 +732,7 @@ The `role` :download: links an external document and is linked as follows:
 
 
 Class
-=====
+#####
 
 Using ``:class:``
 -----------------
@@ -749,10 +746,10 @@ The Genomedata hierarchy:
 
 
 Code Documentation
-******************
+##################
 
 Code Block
-==========
+**********
 
 PowerShell
 ----------
@@ -805,10 +802,10 @@ Outline of existing Sphinx instances
    2.3 Use a Validator!
 
 Video
-*****
+#####
 
 YouTube via ``iFrame``
-======================
+**********************
 
 .. admonition:: YouTube
 
@@ -824,10 +821,10 @@ YouTube via ``iFrame``
 |br|
 
 Information Hiding
-******************
+##################
 
 Tabs
-====
+****
 
 sphinx-contentui
 ----------------
@@ -928,10 +925,10 @@ sphinx-tabs
             Orbits Jupiter
 
 JavaScript
-**********
+##########
 
 JavaScript inline
-=================
+*****************
 
 .. raw:: html
 
@@ -946,7 +943,7 @@ JavaScript inline
 |br|
 
 JavaScript and d3.js (``under construction``)
-=============================================
+*********************************************
 
 .. raw:: html
 
@@ -971,7 +968,7 @@ JavaScript and d3.js (``under construction``)
 |br|
 
 AMP JavaScript Mustache (``Success``)
-=====================================
+*************************************
 
 .. raw:: html
 
@@ -994,7 +991,7 @@ Words used in Project (using inter-page format)
 ***********************************************
 
 Words for specifying data
-=========================
+-------------------------
 
 - See :ref:`Data <terms-Data>`
 - See :ref:`Data Element <terms-Data-Element>`
@@ -1004,7 +1001,7 @@ Words for specifying data
 
 
 Words for specifying information
-================================
+--------------------------------
 
 - See :ref:`Context <terms-Context>`
 - See :ref:`Vocabulary <terms-Vocabulary>`
@@ -1018,7 +1015,7 @@ Words for specifying information
 
 
 Words for specifying knowledge
-==============================
+------------------------------
 
 - See :ref:`Syntax <terms-Syntax-1>`
 - See :ref:`Grammar <terms-Grammar-1>`
@@ -1027,7 +1024,7 @@ Words for specifying knowledge
 
 
 Words for specifying relations
-==============================
+------------------------------
 
 - See :ref:`IS-A relationship <terms-IS-A-relationship>`
 - See :ref:`HAS-A relationship <terms-HAS-A-relationship>`
@@ -1037,7 +1034,7 @@ Words for specifying relations
 
 
 Words for implementing an Ontology
-==================================
+----------------------------------
 
 - See :ref:`Ontology <terms-Ontology-2>`
 - See :ref:`Faceted Classification <terms-Faceted-Classification>`
@@ -1058,7 +1055,7 @@ Ontology Terms used in Project (using inter-page format)
 ********************************************************
 
 Biochemistry Terms
-==================
+------------------
 
 - See :ref:` <>`
 - See :ref:` <>`
@@ -1067,7 +1064,7 @@ Biochemistry Terms
 - See :ref:` <>`
 
 Food Commodity Terms
-====================
+--------------------
 
 - See :ref:` <>`
 - See :ref:` <>`
@@ -1076,7 +1073,7 @@ Food Commodity Terms
 - See :ref:` <>`
 
 Demography Terms
-================
+----------------
 
 - See :ref:` <>`
 - See :ref:` <>`
@@ -1088,7 +1085,7 @@ Visual Symbols
 **************
 
 Emoji
-=====
+-----
 
 |:arrow_forward:|
 |:asterisk:|
