@@ -1,11 +1,11 @@
 
-.. 3111120000:
+.. 3111130000-a.txt
 
-Testing Lightbox
-================
+Examples
+########
 
 Image 1
--------
+*******
 
 .. raw:: html
 
@@ -22,13 +22,13 @@ Image 1
 
 
 Comment 1
-^^^^^^^^^
+=========
 
 - How to use image 1
 
 
 Image 2
--------
+*******
 
 .. raw:: html
 
@@ -45,13 +45,13 @@ Image 2
 
 
 Comment 2
-^^^^^^^^^
+=========
 
 - How to use image 2
 
 
 Image 3
--------
+*******
 
 .. raw:: html
 
@@ -68,13 +68,13 @@ Image 3
 
 
 Comment 3
-^^^^^^^^^
+=========
 
 - How to use image 3
 
 
 Image 4
--------
+*******
 
 .. raw:: html
 
@@ -115,6 +115,9 @@ Image 4
 
 
 Comment 4
-^^^^^^^^^
+=========
 
 - How to use image 4
+
+
+.. include:: substitution.txt

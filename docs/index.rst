@@ -28,11 +28,9 @@ Sphinx Catalogue
 .. toctree::
    :maxdepth: 3
    :numbered:
-   :hidden:
    :caption: 🍱 Collection
 
    3111000000.rst
-   3112000000.rst
 
 .. toctree::
    :maxdepth: 1
