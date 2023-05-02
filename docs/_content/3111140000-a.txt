@@ -1,11 +1,8 @@
 
 .. 3111140000-a.txt
 
-Examples
-########
-
 Grow Software and Jinja Template
-********************************
+################################
 
 .. code-block:: jinja
 

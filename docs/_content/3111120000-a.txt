@@ -1,8 +1,6 @@
 
 .. 3111120000-a.txt
 
-Examples
-########
 
 .. code-block:: yaml
 

@@ -283,7 +283,7 @@ The following ASA terms will need to be defined: :class:`low` :class:`high` :cla
 
 
 Tables
-######
+******
 
 Example 1
 ---------
@@ -701,7 +701,7 @@ The `role` :ref: links a different page using ``preview-mode`` and is linked as 
 
 
 Citation
-########
+********
 
 Using ``:cite:``
 ----------------
@@ -711,7 +711,7 @@ The `role` :cite: links a citation using ``preview-mode`` and is linked as follo
 
 
 Documentation
-#############
+*************
 
 Using ``:doc:``
 ---------------
@@ -722,7 +722,7 @@ The `role` :doc: links a different page using ``navigation`` and is linked as fo
    See the page :doc:`Changing denominators and units </31111316121300000061>`.
 
 Download
-########
+********
 
 Using ``:download:``
 --------------------
@@ -732,7 +732,7 @@ The `role` :download: links an external document and is linked as follows:
 
 
 Class
-#####
+*****
 
 Using ``:class:``
 -----------------
@@ -817,7 +817,6 @@ YouTube via ``iFrame``
    src="https://www.youtube.com/embed/vioCbTo3C-4"
    frameborder="0" allowfullscreen></iframe>
 
-|br|
 |br|
 
 Information Hiding
