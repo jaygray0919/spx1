@@ -31,6 +31,12 @@ Sphinx Catalogue
    :caption: 🍱 Collection
 
    3111110000.rst
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: 🍱 Testing
+
    3111120000.rst
    3111130000.rst
    3111140000.rst
