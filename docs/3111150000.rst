@@ -1,8 +1,8 @@
 
 .. 3111150000:
 
-Testing Graphviz Dependency Diagram
-===================================
+Testing Visualization
+=====================
 
 .. include:: _content/3111150000-a.txt
 
