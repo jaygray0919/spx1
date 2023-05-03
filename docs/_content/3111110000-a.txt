@@ -539,7 +539,7 @@ Using ``:ref:``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `role` :ref: links a location in ``this`` document and is linked as follows:
-   See :ref:`my-reference-images`
+   See :ref:`my-reference-link`
 
 ``Inter``-page - linking a `term in a file` using `<terms-string>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -822,6 +822,7 @@ JavaScript and d3.js (``under construction``)
 
 AMP JavaScript Mustache (``Success``)
 *************************************
+.. my-reference-link:
 
 .. raw:: html
 
