@@ -1,4 +1,2 @@
-__notes
-_build
-_ext
-_templates
+docs/__notes
+docs/_templates
