@@ -1,31 +1,13 @@
-# This file is execfile()d with the current directory set to its containing dir.
 
 import sys
 import os
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-#if not on_rtd:  # only import and set the theme if we're building docs locally
-#    import sphinx_rtd_theme
-#    html_theme = 'sphinx_rtd_theme'
-#    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
-# If the directory is relative to the documentation root, use os.path.abspath to make it absolute, like shown here.
-# directory relative to this conf file
-
 CURDIR = os.path.abspath(os.path.dirname(__file__))
-
-# If extensions (or modules to document with auto-doc) are in another directory, add these directories to sys.path here.
-# add custom extensions directory to python path
-#sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '_extensions'))
 
 local_plantuml_path = os.path.join(os.path.dirname(__file__), "utils", "plantuml-1.2023.6.jar")
 plantuml = f"java -Djava.awt.headless=true -jar {local_plantuml_path}"
-
-# -- General configuration ----------------------------------
-
-# Add any Sphinx extension module names here, as strings.
-# They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 
 extensions = [
     'sphinx_rtd_theme',
@@ -58,7 +40,6 @@ bibtex_bibfiles = [
     'reference-8-article-technology.bib',
 ]
 
-# -- hoverxref.extension configuration ----------------------
 hoverxref_auto_ref = True
 hoverxref_domains = ["py"]
 hoverxref_roles = [
@@ -90,8 +71,6 @@ graphviz_output_format = 'svg'
 
 # -- sphinxemoji configuration -------------------------------
 sphinxemoji_style = 'twemoji'
-
-# -- More general configuration ------------------------------
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -130,7 +109,6 @@ natbib = {
     'style': 'numbers',
     'sort': True,
 }
-
 
 # There are two options for replacing |today|: either, you set today to some non-false value, then it is used:
 #today = ''
@@ -328,5 +306,5 @@ html_search_language = 'en'
 
 # Output file base name for HTML help builder.
 
-htmlhelp_basename = 'spx'
+htmlhelp_basename = 'spx1'
 
