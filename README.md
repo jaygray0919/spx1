@@ -2,6 +2,10 @@
 
 Features Sphinx controls
 
+## Recent change
+
+Renamed local repo to spx1
+
 # Features
 
 rST directives
