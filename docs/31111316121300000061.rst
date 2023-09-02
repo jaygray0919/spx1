@@ -9,5 +9,3 @@ Changing denominators and units
 
 .. include:: _content/31111316121300000061-a.txt
 
-
-

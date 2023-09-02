@@ -1,8 +1,7 @@
-
 .. 3111110000:
 
-The world is a Grid
-===================
+Examples
+========
 
 .. toctree::
    :maxdepth: 1

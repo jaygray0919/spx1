@@ -1,8 +1,10 @@
-
 .. 3111110000-a.txt
 
 .. note::
    * Each section opens with a sentence about using the page example. |br| In some cases there is a second sentence.
+
+.. attention::
+   * rST heading sequences in the Sphinx instance are incorrect; see new sequence for future Sphinx projects (23-09-02).
 
 Admonitions
 ###########

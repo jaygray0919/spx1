@@ -11,11 +11,11 @@
 Sphinx Catalogue
 ----------------
 
-:Project: `Sphinx Catalogue for EWB Documentation <https://example.com/index.html>`_
+:Project: `Sphinx Reference Catalogue <https://example.com/index.html>`_
 :Author: `Jay Gray <https://ontomatica.io>`_
 :Editor: `Randy Duodu <https://github.com/isolveit>`_
 :Organization: `Ontomatica <https://dailyfood.io>`_
-:Date: 30 April 2023
+:Date: 02 September 2023
 
 .. image:: _images/docs-latest.svg
    :align: left
