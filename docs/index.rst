@@ -8,8 +8,9 @@
 |br|
 |br|
 
+################
 Sphinx Catalogue
-----------------
+################
 
 :Project: `Sphinx Reference Catalogue <https://example.com/index.html>`_
 :Author: `Jay Gray <https://ontomatica.io>`_
