@@ -1,7 +1,4 @@
 
-Grow Software and Jinja Template
-################################
-
 .. code-block:: jinja
 
    ---
@@ -101,4 +98,3 @@ Grow Software and Jinja Template
      </div>
    
    </section>
-   
