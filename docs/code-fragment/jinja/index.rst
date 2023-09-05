@@ -1,6 +1,6 @@
 .. index:
 
-Testing Jinja Templates
-=======================
+Jinja Templates
+===============
 
 .. include:: _local.txt

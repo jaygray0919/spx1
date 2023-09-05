@@ -1,8 +1,7 @@
-
 .. index:
 
-Testing YAML
-============
+YAML
+====
 
 .. include:: _local.txt
 
