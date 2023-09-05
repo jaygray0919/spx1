@@ -85,5 +85,3 @@ Copyright 2023 Ontomatica LLC. This work is licensed under a `Creative Commons A
    :width: 7%
    :alt: Creative Commons License
 
-
-.. include:: _substitution/substitution.txt

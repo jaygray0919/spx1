@@ -506,5 +506,3 @@ GraphViz ``dependency diagram`` - Complex
       rtafpr1_1_1t_45 [label="",shape=circle,height=0.12,width=0.12,fontsize=1];
    }
 
-
-.. include:: substitution.txt

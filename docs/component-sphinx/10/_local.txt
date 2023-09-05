@@ -1012,6 +1012,3 @@ Emoji
 
 
 |br|
-
-
-.. include:: substitution.txt
