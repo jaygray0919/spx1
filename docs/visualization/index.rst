@@ -6,6 +6,6 @@ Visualization
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    plant-uml/index.rst

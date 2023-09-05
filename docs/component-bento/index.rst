@@ -6,6 +6,6 @@ Bento Components
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    lightbox/index.rst

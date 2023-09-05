@@ -39,26 +39,28 @@ Sphinx Catalogue
    :hidden:
    :caption: 🍱 Components - Bento
 
-   3111110000.rst
+   component-bento/index.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: 🧪 Code Fragments
 
+   code-fragment/index.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: 💡 Math
 
+   math/index.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: 💡 Visualization
 
-
+   visualization/index.rst
 
 .. toctree::
    :maxdepth: 2

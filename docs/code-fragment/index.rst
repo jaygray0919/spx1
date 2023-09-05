@@ -6,7 +6,7 @@ Code Fragments
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    yaml/index.rst
    jinja/index.rst

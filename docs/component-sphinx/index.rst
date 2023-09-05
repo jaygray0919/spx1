@@ -6,6 +6,6 @@ Sphinx Components
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    10/index.rst
