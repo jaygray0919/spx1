@@ -8,5 +8,5 @@ Visualization
 .. toctree::
    :maxdepth: 2
 
-   graphvix/index.rst
+   graphviz/index.rst
    plant-uml/index.rst
