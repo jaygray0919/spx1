@@ -6,7 +6,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 CURDIR = os.path.abspath(os.path.dirname(__file__))
 
-local_plantuml_path = os.path.join(os.path.dirname(__file__), "utils", "plantuml-1.2023.6.jar")
+local_plantuml_path = os.path.join(os.path.dirname(__file__), "utility", "plantuml-1.2023.6.jar")
 plantuml = f"java -Djava.awt.headless=true -jar {local_plantuml_path}"
 
 extensions = [
@@ -121,7 +121,6 @@ today_fmt = '%d %B %Y'
 
 exclude_patterns = [
     '__notes',
-    '_build',
     'link-aq-cf.rst',
     'link-aq-cr.rst',
     'link-aq-mo.rst',
@@ -225,9 +224,9 @@ html_favicon = "onto-shortcut-w252-h252-color-ffffff-bgnd-1f64ff.svg"
 # They are copied after the built-in static files, so a file named "default.css" will overwrite the built-in "default.css".
 
 html_static_path = [
+    '_image',
     '_static',
-    '_content',
-    '_images',
+    '_substitution',
 ]
 
 # These paths are either relative to html_static_path or fully qualified paths (eg. https://...)

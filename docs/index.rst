@@ -1,5 +1,5 @@
 
-.. image:: _images/onto-logo-text-blue-w325-h60.svg
+.. image:: _image/onto-logo-text-blue-w325-h60.svg
    :align: left
    :width: 30%
    :alt: Ontomatica logo
@@ -18,7 +18,7 @@ Sphinx Catalogue
 :Organization: `Ontomatica <https://dailyfood.io>`_
 :Date: 02 September 2023
 
-.. image:: _images/docs-latest.svg
+.. image:: _image/docs-latest.svg
    :align: left
    :width: 7%
 
@@ -29,28 +29,36 @@ Sphinx Catalogue
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: 🍱 Collection
+   :caption: 🍱 Components - Sphinx
+
+   component-sphinx/index.rst
+
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: 🍱 Components - Bento
 
    3111110000.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: 🧪 Testing
+   :caption: 🧪 Code Fragments
 
-   3111120000.rst
-   3111140000.rst
-   3111130000.rst
-   3111150000.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: 💡 Math
 
-   math-generic.rst
-   math-amino-acids.rst
-   31111316121300000061.rst
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: 💡 Visualization
+
+
 
 .. toctree::
    :maxdepth: 2
@@ -70,10 +78,10 @@ License
 
 Copyright 2023 Ontomatica LLC. This work is licensed under a `Creative Commons Attribution 3.0 License <https://creativecommons.org/licenses/by/3.0/us/deed.en_US>`_.
 
-.. image:: _images/cc-icon.png
+.. image:: _image/cc-icon.png
    :align: left
    :width: 7%
    :alt: Creative Commons License
 
 
-.. include:: substitution.txt
+.. include:: _substitution/substitution.txt

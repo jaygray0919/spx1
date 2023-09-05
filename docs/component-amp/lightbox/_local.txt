@@ -1,6 +1,4 @@
 
-.. 3111130000-a.txt
-
 Examples
 ########
 
@@ -118,6 +116,3 @@ Comment 4
 ---------
 
 - How to use image 4
-
-
-.. include:: substitution.txt

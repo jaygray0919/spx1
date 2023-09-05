@@ -1,6 +1,4 @@
 
-.. 3111140000-a.txt
-
 Grow Software and Jinja Template
 ################################
 
@@ -104,4 +102,3 @@ Grow Software and Jinja Template
    
    </section>
    
-.. include:: substitution.txt

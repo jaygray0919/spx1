@@ -1,8 +1,0 @@
-
-.. 3111120000:
-
-Testing YAML
-============
-
-.. include:: _content/3111120000-a.txt
-

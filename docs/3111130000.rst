@@ -1,8 +1,0 @@
-
-.. 3111130000:
-
-Testing Lightbox
-================
-
-.. include:: _content/3111130000-a.txt
-
