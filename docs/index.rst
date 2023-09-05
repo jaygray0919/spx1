@@ -44,7 +44,7 @@ Sphinx Catalogue
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: 🧪 Code Fragments
+   :caption: 🧪 Code Documentation
 
    code-fragment/index.rst
 
