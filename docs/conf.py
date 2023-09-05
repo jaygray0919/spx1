@@ -6,7 +6,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 CURDIR = os.path.abspath(os.path.dirname(__file__))
 
-local_plantuml_path = os.path.join(os.path.dirname(__file__), "utility", "plantuml-1.2023.6.jar")
+local_plantuml_path = os.path.join(os.path.dirname(__file__), "_utility", "plantuml-1.2023.6.jar")
 plantuml = f"java -Djava.awt.headless=true -jar {local_plantuml_path}"
 
 extensions = [
