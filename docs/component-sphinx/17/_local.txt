@@ -1,0 +1,17 @@
+
+Outline of existing Sphinx instances
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. rubric:: Sphinx-RDF-About-outline
+
+::
+
+   1 What is RDF and what is it good for?
+   1.1 Really Quick Intro to RDF
+   1.2 Why we need a new standard for the Semantic Web
+   1.3 Introducing RDF
+   1.4 Triples of knowledge
+   2 Reading and Writing RDF
+   2.1 Notation 3
+   2.2 RDF/XML
+   2.3 Use a Validator!

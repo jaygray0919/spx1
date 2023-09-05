@@ -1,8 +1,8 @@
 .. index:
 
-**********
-Vocabulary
-**********
+*******
+Headers
+*******
 
 
 .. include:: _local.txt

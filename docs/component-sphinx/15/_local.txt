@@ -1,0 +1,80 @@
+
+
+Glossary Terms
+**************
+
+Using ``:term:``
+----------------
+
+The `role` :term: links a glossary `term` and is linked as follows:
+   See :term:`grammar<Grammar>`
+
+Reference
+*********
+
+Using ``:ref:``
+---------------
+
+``Intra``-page - linking a `location` in this document
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The `role` :ref: links a location in ``this`` document and is linked as follows:
+   See :ref:`my-reference-link`
+
+``Inter``-page - linking a `term in a file` using `<terms-string>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The `role` :ref: links an external reference and is linked as follows:
+   See :ref:`agrontology:hasMember <terms-agrontology-hasMember>`
+
+``Inter``-page - linking a page on the site using `<terms-string>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The `role` :ref: links a different page using ``preview-mode`` and is linked as follows:
+   See :ref:`Changing denominators and units <terms-31111316121300000061>`
+
+
+Citation
+********
+
+Using ``:cite:``
+----------------
+
+The `role` :cite: links a citation using ``preview-mode`` and is linked as follows:
+   See :cite:`4001` for more information about ...
+
+
+Documentation
+*************
+
+Using ``:doc:``
+---------------
+
+The `role` :doc: links a different page using ``navigation`` and is linked as follows:
+   See citations :doc:`articles about food </bibliography-4-article-food-ref>`.
+
+   See the page :doc:`Changing denominators and units </31111316121300000061>`.
+
+Download
+********
+
+Using ``:download:``
+--------------------
+
+The `role` :download: links an external document and is linked as follows:
+   Download the :download:`requirements file </requirements.txt>`.
+
+
+Class
+*****
+
+Using ``:class:``
+-----------------
+
+The Genomedata hierarchy:
+
+   Each :class:`Genome` contains many :class:`Chromosomes <Chromosome>`
+      Each :class:`Chromosome` contains many :class:`Supercontigs <Supercontig>`
+         Each :class:`Supercontig` contains one ``continuous`` data set
+            Each ``continuous`` data set is a numpy.array of floating point numbers with a column for each data track and a row for each base in the data set.
+

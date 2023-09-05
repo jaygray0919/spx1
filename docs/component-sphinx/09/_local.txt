@@ -1,0 +1,50 @@
+
+Sequence
+********
+
+:level 0: blue text
+:level 1: # parts #
+:level 2: * chapters *
+:level 3: sub-chapter *
+:level 4: section =
+:level 5: sub-section -
+:level 6: sub-section ^
+:level 7: paragraph "
+
+
+########################
+with overline, for parts
+########################
+
+
+***************************
+with overline, for chapters
+***************************
+
+
+underline for sub-chapters
+**************************
+
+
+for sections
+============
+
+multiple within _local.txt
+
+
+for subsections
+--------------
+
+multiple within _local.txt
+
+
+for subsubsections
+^^^^^^^^^^^^^^^^^^
+
+multiple within _local.txt
+
+
+for paragraphs
+"""""""""""""""
+
+multiple within _local.txt

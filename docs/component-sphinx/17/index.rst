@@ -1,8 +1,8 @@
 .. index:
 
-**********
-Vocabulary
-**********
+******
+Rubric
+******
 
 
 .. include:: _local.txt

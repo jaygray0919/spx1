@@ -1,8 +1,8 @@
 .. index:
 
-**********
-Vocabulary
-**********
+*****
+Video
+*****
 
 
 .. include:: _local.txt

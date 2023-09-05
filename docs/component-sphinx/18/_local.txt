@@ -1,0 +1,307 @@
+
+Tabs
+****
+
+sphinx-contentui
+----------------
+
+Example 1
+^^^^^^^^^
+
+.. toggle-header::
+    :header: **Show/Hide Code**
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum
+
+|br|
+
+Example 2
+^^^^^^^^^
+
+.. content-tabs::
+
+    .. tab-container:: ex1
+        :title: Example 1
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum
+
+    .. tab-container:: ex2
+        :title: Example 2
+
+        Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae
+        ab illo inventore veritatis et quasi architecto beatae vitae dicta
+        sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
+        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos,
+        qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui
+        dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed
+        quia non numquam eius modi tempora incidunt, ut labore et dolore magnam
+        aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
+        ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in
+        ea voluptate velit esse, quam nihil molestiae consequatur, vel illum,
+        qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et
+        accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
+        voluptatum deleniti atque corrupti, quos dolores et quas molestias
+        excepturi sint, obcaecati cupiditate non provident, similique sunt in
+        culpa, qui officia deserunt mollitia animi, id est laborum et dolorum
+        fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam
+        libero tempore, cum soluta nobis est eligendi optio, cumque nihil
+        impedit, quo minus id, quod maxime placeat, facere possimus, omnis
+        voluptas assumenda est, omnis dolor repellendus. Temporibus autem
+        quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+        eveniet, ut et voluptates repudiandae sint et molestiae non recusandae.
+        Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+        voluptatibus maiores alias consequatur aut perferendis doloribus
+        asperiores repellat.
+
+
+
+sphinx-tabs
+-----------
+
+.. tabs::
+
+   .. tab:: Stars
+
+      .. tabs::
+
+         .. tab:: The Sun
+
+            The closest star to us.
+
+         .. tab:: Proxima Centauri
+
+            The second closest star to us.
+
+         .. tab:: Polaris
+
+            The North Star.
+
+   .. tab:: Moons
+
+      .. tabs::
+
+         .. tab:: The Moon
+
+            Orbits the Earth
+
+         .. tab:: Titan
+
+            Orbits Jupiter
+
+JavaScript
+##########
+
+JavaScript inline
+*****************
+
+.. raw:: html
+
+    <script>
+    function myFunction() {
+     alert("I am an alert box!");
+    }
+    </script>
+
+    <button onclick="myFunction()">Try it</button>
+
+|br|
+
+JavaScript and d3.js (``under construction``)
+*********************************************
+
+.. raw:: html
+
+   <script type='text/javascript'>
+   var data = [{r: 5, cy: 100, cx: 100},
+               {r: 10, cy: 100, cx: 200},
+               {r: 15, cy: 100, cx: 300}];
+
+   var root = d3.select('#vizdiv').append('svg')
+       .attr('width', 400)
+       .attr('height', 200);
+   
+   root.selectAll('circle')
+       .data(data).enter()
+     .append('circle')
+       .attr('r', function(d) {return d.r;})
+       .attr('cx', function(d) {return d.cx;})
+       .attr('cy', function(d) {return d.cy;})
+       .attr('fill', 'steelblue');
+   </script>
+
+|br|
+
+AMP JavaScript Mustache (``Success``)
+*************************************
+
+.. my-reference-link:
+
+.. raw:: html
+
+   <style>
+   :root{--space-2:1rem}
+   .linked-dropdown label{font-weight:700}
+   .linked-dropdown [role=listitem]{display:flex;justify-content:space-between}
+   .linked-dropdown select{width:200px}
+   .linked-dropdown amp-list{margin:var(--space-2);min-width:320px}
+   </style>
+   <div class="linked-dropdown-form"><form data-initialize-from-url id="formResetSample" class="field" action="https://www.google.com" method="get" target="_top"><amp-list layout="fixed-height" height="25" src="https://afdsi.com/___tmp-3/data.json" binding="refresh" single-item items="." noloading><template type="amp-mustache"><label for="country">Country:</label><select id="country" on="change: AMP.setState({ citiesForm: dropdown.countries.filter(x => x.name == event.value)[0] })" name="q" data-allow-initialization><option value="">Choose a country</option> {{#countries}}<option value="{{name}}">{{name}}</option> {{/countries}}</select></template><div placeholder role="listitem"><label for="country">Country:</label><select disabled><option value="">Choose a country</option></select></div></amp-list><amp-list layout="fixed-height" height="25" [src]="citiesForm || 'https://afdsi.com/___tmp-3/data.json'" src="https://afdsi.com/___tmp-3/data.json" binding="refresh" single-item items="." noloading><template type="amp-mustache"><label for="city">City:</label><select [disabled]="!citiesForm" disabled id="city" on="change: AMP.setState({city: event.value})" name="q" data-allow-initialization><option value="">Choose a city</option> {{#citiesForm}}<option value="{{.}}">{{.}}</option> {{/citiesForm}}</select></template></amp-list><amp-state id="dropdown" src="https://afdsi.com/___tmp-3/data.json"></amp-state><br/><button on="select:formResetSample.submit"> Submit</button></form></div>
+
+|br|
+
+
+Vocabulary
+##########
+
+Words used in Project (using inter-page format)
+***********************************************
+
+Words for specifying data
+-------------------------
+
+- See :ref:`Data <terms-Data>`
+- See :ref:`Data Element <terms-Data-Element>`
+- See :ref:`Data Dictionary <terms-Data-Dictionary>`
+- See :ref:`Data Model <terms-Data-Model>`
+- See :ref:`Entity-Relationship Model <terms-Entity-Relationship-Model>`
+
+
+Words for specifying information
+--------------------------------
+
+- See :ref:`Context <terms-Context>`
+- See :ref:`Vocabulary <terms-Vocabulary>`
+- See :ref:`Controlled Vocabulary <terms-Controlled-Vocabulary>`
+- See :ref:`Term <terms-Term>`
+- See :ref:`Taxonomy <terms-Taxonomy>`
+- See :ref:`Metadata <terms-Metadata>`
+- See :ref:`Thesaurus <terms-Thesaurus>`
+- See :ref:`Glossary <terms-Glossary>`
+- See :ref:`Encyclopedia <terms-Encyclopedia>`
+
+
+Words for specifying knowledge
+------------------------------
+
+- See :ref:`Syntax <terms-Syntax-1>`
+- See :ref:`Grammar <terms-Grammar-1>`
+- See :ref:`Language <terms-Language>`
+- See :ref:`Ontology <terms-Ontology-1>`
+
+
+Words for specifying relations
+------------------------------
+
+- See :ref:`IS-A relationship <terms-IS-A-relationship>`
+- See :ref:`HAS-A relationship <terms-HAS-A-relationship>`
+- See :ref:`Domain <terms-Domain>`
+- See :ref:`Range <terms-Range>`
+- See :ref:`Symmetric relationship <terms-Symmetric-Relationship>`
+
+
+Words for implementing an Ontology
+----------------------------------
+
+- See :ref:`Ontology <terms-Ontology-2>`
+- See :ref:`Faceted Classification <terms-Faceted-Classification>`
+- See :ref:`Facet and Facet Term <terms-Facet>`
+- See :ref:`Facet Tree <terms-Facet-Tree>`
+- See :ref:`Facet Map <terms-Facet-Map>`
+- See :ref:`Thing <terms-Thing>`
+- See :ref:`Subject <terms-Subject>`
+- See :ref:`Object <terms-Object>`
+- See :ref:`Predicate and Predicate Term <terms-Predicate>`
+- See :ref:`Item <terms-Item>`
+- See :ref:`Graph <terms-Graph>`
+- See :ref:`Relation <terms-Relation>`
+- See :ref:`Syntax <terms-Syntax-2>`
+- See :ref:`Grammar <terms-Grammar-2>`
+
+
+Visual Symbols
+**************
+
+Emoji
+-----
+
+|:arrow_forward:|
+|:asterisk:|
+|:atom:|
+|:ballot_box_with_check:|
+|:books:|
+|:bug:|
+|:date:|
+|:desktop:|
+|:fish:|
+|:gear:|
+|:hammer_and_wrench:|
+|:information_source:|
+|:loop:|
+|:negative_squared_cross_mark:|
+|:new:|
+|:ok:|
+|:x:|
+|:triangular_flag_on_post:|
+
+|:regional_indicator_a:|
+|:regional_indicator_b:|
+|:regional_indicator_c:|
+|:regional_indicator_d:|
+|:regional_indicator_e:|
+|:regional_indicator_f:|
+|:regional_indicator_g:|
+|:regional_indicator_h:|
+|:regional_indicator_i:|
+|:regional_indicator_j:|
+|:regional_indicator_k:|
+|:regional_indicator_l:|
+|:regional_indicator_m:|
+|:regional_indicator_n:|
+|:regional_indicator_o:|
+|:regional_indicator_p:|
+|:regional_indicator_q:|
+|:regional_indicator_r:|
+|:regional_indicator_s:|
+|:regional_indicator_t:|
+|:regional_indicator_u:|
+|:regional_indicator_v:|
+|:regional_indicator_w:|
+|:regional_indicator_x:|
+|:regional_indicator_y:|
+|:regional_indicator_z:|
+
+
+|:large_blue_circle:|
+
+|:small_blue_diamond:|
+|:large_blue_diamond:|
+
+|:small_orange_diamond:|
+|:large_orange_diamond:|
+
+|:yellow_circle:|
+|:yellow_square:|
+
+|:orange_circle:|
+|:orange_square:|
+
+|:purple_circle:|
+|:purple_square:|
+
+|:red_circle:|
+|:red_square:|
+
+
+|br|
