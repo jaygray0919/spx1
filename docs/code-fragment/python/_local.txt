@@ -1,4 +1,10 @@
 
+.. literalinclude:: collection.py
+   :linenos:
+   :caption: Nobel Prize
+   :emphasize-lines: 12,15-18
+
+
 .. code-block:: python
 
    # display name and photo of each Nobel Prize winner as the item.
@@ -54,4 +60,4 @@
            if link:
                listing = link(listing, query=query, index=index)
            return listing
-   
+

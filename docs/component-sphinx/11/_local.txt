@@ -1,0 +1,12 @@
+
+Directive |emd| ``Describe``
+****************************
+
+.. describe:: Vocabulary
+
+   Definition-1 of controlled vocabulary.
+
+   Definition-2 of controlled vocabulary.
+
+   **X** :class:`usedToMake` **Y**
+

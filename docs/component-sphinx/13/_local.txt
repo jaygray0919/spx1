@@ -1,0 +1,18 @@
+
+.. note::
+   * Each section opens with a sentence about using the page example. |br| In some cases there is a second sentence.
+
+.. attention::
+   * rST heading sequences in the Sphinx instance are incorrect; see new sequence for future Sphinx projects (23-09-02).
+
+.. tip::
+   * Advice specific to the page.
+
+.. warning::
+   * Alert about techniques that will cause problems and errors.
+
+.. seealso::
+   * `Holonymy/meronymy`_
+   * `Structured Product Labeling`_
+   * `Web Ontology Language`_
+

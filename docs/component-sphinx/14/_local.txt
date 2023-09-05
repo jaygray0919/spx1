@@ -1,0 +1,17 @@
+
+.. sidebar:: Sidebar Title
+   :subtitle: Optional Sidebar Subtitle
+
+   Subsequent indented lines comprise the body of the sidebar, and are interpreted as body elements.
+
+      1. Item 1 text.
+      
+         a) Item 1a.
+         b) Item 1b.
+      
+      2. Item 2 text.
+
+         a) Item 2a.
+         b) Item 2b.
+
+

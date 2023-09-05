@@ -1,0 +1,8 @@
+
+PowerShell command to convert a Windows file to a Unix file
+
+.. code-block:: powershell
+
+   ((Get-Content E:directory\31111100000000000061.rst)
+        -join "`n") + "`n" | 
+     Set-Content -NoNewline E:directory\31111100000000000061.rst;
