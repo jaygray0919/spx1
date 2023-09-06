@@ -238,9 +238,7 @@ html_js_files = [
 # These files are copied directly to the root of the documentation.
 #html_extra_path = ['_images']
 
-# If not '', a 'Last updated on:' time-stamp is inserted at every page bottom, using the given strftime format.
-
-html_last_updated_fmt = '%Y %B %d'
+html_last_updated_fmt = '%y %m %d'
 html_domain_indices = True
 html_use_index = True
 html_split_index = True
