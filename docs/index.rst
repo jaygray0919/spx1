@@ -53,14 +53,14 @@ Sphinx Catalogue
    :hidden:
    :caption: 💡 Math
 
-   math/index.rst
+   component-math/index.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: 💡 Visualization
 
-   visualization/index.rst
+   component-visualization/index.rst
 
 .. toctree::
    :maxdepth: 2
