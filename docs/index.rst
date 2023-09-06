@@ -51,7 +51,7 @@ Sphinx Catalogue
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: 💡 Math
+   :caption: 💡 Format Equations
 
    component-math/index.rst
 

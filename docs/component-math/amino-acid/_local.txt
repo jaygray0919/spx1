@@ -1,7 +1,6 @@
 
 Calculation - Amino Acids
-=========================
-
+-------------------------
 
 The UN FAO INFOODS tag for the calculation "amino acids, total essential" is AAE8. There are eight basic essential amino acids. AAE8 is represented as follows:
 
