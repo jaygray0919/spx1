@@ -1,8 +1,8 @@
 
-Sequence
-********
+.. rubric:: Sphinx headers
 
-   ```
+::
+
    ########################
    with overline, for parts
    ########################
@@ -38,6 +38,4 @@ Sequence
    """"""""""
    
    multiple within _local.txt
-   
-   ```
    
