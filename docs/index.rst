@@ -8,15 +8,15 @@
 |br|
 |br|
 
-################
+================
 Sphinx Catalogue
-################
+================
 
 :Project: `Sphinx Reference Catalogue <https://example.com/index.html>`_
 :Author: `Jay Gray <https://ontomatica.io>`_
 :Editor: `Randy Duodu <https://github.com/isolveit>`_
 :Organization: `Ontomatica <https://dailyfood.io>`_
-:Date: 02 September 2023
+:Date: |today|
 
 .. image:: _image/docs-latest.svg
    :align: left
@@ -76,7 +76,7 @@ Sphinx Catalogue
 |br|
 
 License
-^^^^^^^
+-------
 
 Copyright 2023 Ontomatica LLC. This work is licensed under a `Creative Commons Attribution 3.0 License <https://creativecommons.org/licenses/by/3.0/us/deed.en_US>`_.
 
